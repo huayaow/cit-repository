@@ -1,12 +1,14 @@
 from bs4 import BeautifulSoup
 
-def update_all_paper_list():
-  with open("components/list.html", "r") as f:
+def update_list(jsonfile):
+  """
+  Replace the table content of _pages/_list.html with data in jsonfile
+  The new HTML file will be saved as components/list.html
+  """
+  with open("_pages/_list.html", "r") as f:
     text = f.read()
 
   soup = BeautifulSoup(text, 'html.parser')
-  # print(soup.title)
-
   element = soup.find(id='paper-data-tbody')
   # print(element)
 
@@ -24,13 +26,12 @@ def update_all_paper_list():
   new_row.append(age_cell)
   new_row.append(doi_cell)
 
-
   element.append(new_row)
 
   print(element)
 
-  with open('components/updated_example.html', 'w') as file:
+  with open('components/list.html', 'w') as file:
     file.write(str(soup))
 
 if __name__ == '__main__':
-  update_all_paper_list()
+  update_list("")
