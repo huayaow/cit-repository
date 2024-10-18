@@ -1,0 +1,3 @@
+List-Decoding Separable Matrices for Non-Adaptive Combinatorial Group Testing
+Group Testing in Arbitrary Hypergraphs and Related Combinatorial Structures
+Efficient Combinatorial Group Testing: Bridging the Gap between Union-Free and Disjunctive Codes

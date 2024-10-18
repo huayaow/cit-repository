@@ -1,22 +1,32 @@
-import json
+import csv
+import pandas as pd
 from bs4 import BeautifulSoup
 from papers import Paper
 
-def update_list(jsonfile):
+csv_filename = 'data/list.csv'
+
+def csv_sort():
+  df = pd.read_csv(csv_filename, sep=',', header=0)
+  df1 = df.sort_values('year', ascending=False)
+  # print(df1)
+  df1.to_csv(csv_filename, sep=',', encoding='utf-8', index=False, header=True)
+
+def update_list():
   """
-  Replace the table content of _pages/_list.html with data in jsonfile
+  Replace the table content of pages/_list.html with data in jsonfile
   The new HTML file will be saved as components/list.html
   """
   # read data from the json file
   data = []
-  with open(jsonfile, 'r') as file:
-    for each in json.load(file):
+  with open(csv_filename, 'r') as file:
+    reader = csv.DictReader(file)
+    for each in reader:
       p = Paper(each)
       data.append(p)
-  print('[INFO] read {} papers from "{}"'.format(len(data), jsonfile))
+  print('[INFO] read {} papers from "{}"'.format(len(data), csv_filename))
 
   # read the template HTML file 
-  with open('_pages/_list.html', 'r') as file:
+  with open('pages/_list.html', 'r') as file:
     text = file.read()
 
   soup = BeautifulSoup(text, 'html.parser')
@@ -49,4 +59,5 @@ def update_list(jsonfile):
   print('[INFO] done')
 
 if __name__ == '__main__':
-  update_list('_data/list.json')
+  csv_sort()
+  update_list()
