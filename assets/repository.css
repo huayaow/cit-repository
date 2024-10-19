@@ -1,0 +1,14 @@
+.main-panel > .container { 
+  min-height: calc(100% - 54px);
+  margin-top: 0px;
+}
+
+.card-category {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.chart-container {
+  min-height: 420px;
+  position: relative; 
+}

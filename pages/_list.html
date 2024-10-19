@@ -20,12 +20,7 @@
       WebFont.load({
         google: { families: ["Public Sans:300,400,500,600,700"] },
         custom: {
-          families: [
-            "Font Awesome 5 Solid",
-            "Font Awesome 5 Regular",
-            "Font Awesome 5 Brands",
-            "simple-line-icons",
-          ],
+          families: ["Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"],
           urls: ["../assets/css/fonts.min.css"],
         },
         active: function () {
@@ -44,15 +39,6 @@
     <div class="wrapper">
       <!-- Sidebar -->
       <div class="sidebar" data-background-color="dark">
-        <div class="sidebar-logo">
-          <!-- Logo Header -->
-          <div class="logo-header" data-background-color="dark">
-            <a href="../index.html" class="logo">
-              <img src="../assets/img/logo.png" alt="navbar brand" class="navbar-brand" height="40"/>
-            </a>
-          </div>
-          <!-- End Logo Header -->
-        </div>
         <div class="sidebar-wrapper scrollbar scrollbar-inner">
           <div class="sidebar-content">
             <ul class="nav nav-secondary">
@@ -62,18 +48,24 @@
                 </span>
                 <h4 class="text-section">Papers</h4>
               </li>
+              <li class="nav-item">
+                <a href="../index.html">
+                  <i class="fas fa-home"></i>
+                  <p>Home</p>
+                </a>
+              </li>
               <li class="nav-item active">
                 <a href="#">
                   <i class="fas fa-layer-group"></i>
                   <p>All Papers</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!--li class="nav-item">
                 <a href="#">
                   <i class="fas fa-th-list"></i>
                   <p>Category</p>
                 </a>
-              </li>
+              </li-->
               <!-- li class="nav-item">
                 <a data-bs-toggle="collapse" href="#tables">
                   <i class="fas fa-table"></i>
@@ -99,7 +91,7 @@
                 <span class="sidebar-mini-icon">
                   <i class="fa fa-ellipsis-h"></i>
                 </span>
-                <h4 class="text-section">Statistics</h4>
+                <h4 class="text-section">Statistics (Under Construction)</h4>
               </li>
               <li class="nav-item">
                 <a href="#">
@@ -121,14 +113,15 @@
       <!-- End Sidebar -->
 
       <div class="main-panel">
-        <div class="main-header">
-        </div>
-
         <div class="container">
           <div class="page-inner">
-            <div class="page-header">
-              <h3 class="fw-bold mb-3">All Papers</h3>
+            <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pb-4">
+              <div>
+                <h2 class="fw-bold mb-1">All Papers</h2>
+                <h6 class="op-7 mb-2" id="replace-description">XX papers included</h6>
+              </div>
             </div>
+            
             <div class="row">
               <div class="col-md-12">
                 <div class="card">
@@ -145,7 +138,7 @@
                             <th>DOI</th>
                           </tr>
                         </thead>
-                        <tbody id="paper-data-tbody">
+                        <tbody id="replace-paper-data-tbody">
                           <tr>
                             <td>2023</td>
                             <td>
