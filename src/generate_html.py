@@ -4,25 +4,35 @@ from bs4 import BeautifulSoup
 from papers import Paper
 
 class Generator:
-  def __init__(self):
-    self.csv_filename = 'data/list.csv'
+  def __init__(self, sort_csv=False):
+    self.list_filename = 'data/list.csv'
+    self.scholar_filename = 'data/scholar.csv'
+
     # sort csv and get statistic data 
-    self.data = self.read_csv() 
+    self.data = self.read_csv(sort_csv) 
 
     # read all papers from the csv file
     self.papers = []
-    with open(self.csv_filename, 'r') as file:
-      reader = csv.DictReader(file)
-      for each in reader:
+    with open(self.list_filename, 'r') as file:
+      for each in csv.DictReader(file):
         p = Paper(each)
         self.papers.append(p)
-    print('[INFO] read {} papers from "{}"'.format(len(self.papers), self.csv_filename))
+    
+    # read all scholars from the csv file
+    self.scholars = []
+    with open(self.scholar_filename, 'r') as file:
+      for each in csv.DictReader(file):
+        self.scholars.append(each)
+    
+    print('[INFO] read {} papers from "{}"'.format(len(self.papers), self.list_filename))
+    print('       read {} scholars from "{}"'.format(len(self.scholars), self.scholar_filename))
 
-  def read_csv(self, need_write=False) -> dict:
+
+  def read_csv(self, sort_csv) -> dict:
     """
     Read csv file and calculate statistics for the basic BAR and PIE charts.
     """
-    df = pd.read_csv(self.csv_filename, sep=',', header=0)
+    df = pd.read_csv(self.list_filename, sep=',', header=0)
     df = df.sort_values('year', ascending=False)
     
     # cumulative number of publications
@@ -47,8 +57,8 @@ class Generator:
     data['fields'] = pie_data.index.values.tolist()
     data['count'] = pie_data['count'].values.tolist()
 
-    if need_write:
-      df.to_csv(self.csv_filename, sep=',', encoding='utf-8', index=False, header=True)
+    if sort_csv:
+      df.to_csv(self.list_filename, sep=',', encoding='utf-8', index=False, header=True)
 
     return data
 
@@ -73,6 +83,9 @@ class Generator:
     element = soup.find(id='replace-number-1')
     element.string = '{}'.format(len(self.papers))
 
+    element = soup.find(id='replace-number-2')
+    element.string = '{}'.format(len(self.scholars))
+
     element = soup.find(id='replace-bar-descrption')
     element.string = 'From 2000 to {}'.format(date.split()[-1])
   
@@ -84,8 +97,8 @@ class Generator:
     lines[6] = '    labels: [{}],\n'.format(', '.join(['"{}"'.format(e) for e in self.data['year']]))
     lines[12] = '        data: {}\n'.format(str(self.data['cumulative']))
     # pie chart
-    lines[36] = '        data: {},\n'.format(str(self.data['count']))
-    lines[40] = '    labels: [{}]\n'.format(', '.join(['"{}"'.format(e) for e in self.data['fields']]))
+    lines[46] = '        data: {},\n'.format(str(self.data['count']))
+    lines[50] = '    labels: [{}]\n'.format(', '.join(['"{}"'.format(e) for e in self.data['fields']]))
 
     with open('assets/index-chart.js', 'w') as f:
       for line in lines:
@@ -142,6 +155,6 @@ class Generator:
     print('[INFO] succesfully add {} rows into "components/list.html"'.format(len(self.papers)))
 
 if __name__ == '__main__':
-  g = Generator()
+  g = Generator(sort_csv=True)
   g.generate_index(date='Oct 2024')
-  # g.generate_list()
+  g.generate_list()

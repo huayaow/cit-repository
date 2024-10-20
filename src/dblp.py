@@ -18,14 +18,15 @@ class DBLP:
     self.venue_url = 'https://dblp.org/search/venue/api'
     self.scholar_url = 'https://dblp.org/search/author/api'
 
-  def search_paper(self, keywords=None, already_have=[], after_year=None) -> list:
+  def search_paper(self, keywords=None, already_have=[], excluded=[], after_year=None) -> list:
     """
     Search papers by keywords, and return papers (in formatted type) that are not included in 
     current already_have list (a list of paper titles). According to DBLP, the maximum number 
     returned will be 1000.
 
     @:param keyword: a list of searching keywords, default = ['combinatorial testing']
-    @:already_titles: a list of paper titles that have been included
+    @:already_have: a list of paper titles that have been included
+    @:excluded: a list of paper titles that shoud be excluded
     @:param after: only search papers published after the given year
     """
     if keywords is None:
@@ -36,10 +37,11 @@ class DBLP:
     for keywords in keywords:
       url = self.publ_url + '?q=' + '+'.join(keywords.split(' ')) + '&format=json&h=1000'
       req = requests.post(url)
+      print('\t' + url)
       data = json.loads(req.text)
 
       print('[dblp] seach "{}" -> hit {} papers'.format(keywords, int(data['result']['hits']['@total'])))
-      print('[dblp] converting format ...')
+      print('[dblp] filtering and converting format ...')
       for each in data['result']['hits']['hit']:
         info = each['info']
         # skip unwanted results
@@ -47,22 +49,28 @@ class DBLP:
           continue
         if (each['@id'] in paper_id):
           continue
-        if (info['title'] in already_have):
+        if ('venue' in info and info['venue'] == 'CoRR'):
+          continue
+        # there will be on period (.) symbol in the returned title field
+        # already have
+        if (info['title'][:-1] in already_have):
+          continue
+        # shuold be excluded
+        if (info['title'][:-1] in excluded):
           continue
 
-        # convert the format of each paper
+        # convert the format of each paper (will call DBLP APIs)
         paper = self.parse_paper_info(info)
         # print(paper)
-        # add a candidate paper
         paper_obtained.append(paper)
         paper_id.add(each['@id'])
     assert len(paper_id) == len(paper_obtained)
 
     # order by year
     paper_ordered = sorted(paper_obtained, key=lambda d: d['year'], reverse=True)
-    print('[dblp] find new {} papers (after year {})'.format(len(paper_ordered), after_year))
+    print('[dblp] find {} new papers (after year {})'.format(len(paper_ordered), after_year))
     return paper_obtained
-
+    
   def search_by_title(self, paper_title) -> dict:
     """
     Determine whether a given paper (title) is included in DBLP. If it is included, return the

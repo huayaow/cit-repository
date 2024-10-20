@@ -1,3 +1,23 @@
+Summary of &quot;An empirical comparison of combinatorial testing and search-based testing in the context of automated and autonomous driving systems&quot;
+Formalna analiza koncepata i kombinatorno testiranje za automatiziranu provjeru znanja u sustavima za e-učenje ; Formal concept analysis and combinatorial testing for automated assessment in e-learning systems
+Unified combinatorial interaction testing (Tümleşik kombinezon etkileşim sınama yöntemi)
 List-Decoding Separable Matrices for Non-Adaptive Combinatorial Group Testing
 Group Testing in Arbitrary Hypergraphs and Related Combinatorial Structures
 Efficient Combinatorial Group Testing: Bridging the Gap between Union-Free and Disjunctive Codes
+Combinatorial Group Testing with Selfish Agents
+From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization
+Property-Preserving Hash Functions and Combinatorial Group Testing
+Structure-Aware Combinatorial Group Testing: A New Method for Pandemic Screening
+Property-Preserving Hash Functions and Combinatorial Group Testing
+Strongly separable matrices for nonadaptive combinatorial group testing
+Smart elements in combinatorial group testing problems with more defectives
+Sparse Combinatorial Group Testing
+Stress-Testing Memcomputing on Hard Combinatorial Optimization Problems
+Combinatorial Group Testing and Sparse Recovery Schemes with Near-Optimal Decoding Time
+Combinatorial Quantitative Group Testing with Adversarially Perturbed Measurements
+Erasure combinatorial batch codes based on nonadaptive group testing
+Symmetric-Key Corruption Detection: When XOR-MACs Meet Combinatorial Group Testing
+Efficient Message Authentication Codes with Combinatorial Group Testing
+Symmetric-key Corruption Detection : When XOR-MACs Meet Combinatorial Group Testing
+Smart elements in combinatorial group testing problems
+Optimal Nested Test Plan for Combinatorial Quantitative Group Testing
