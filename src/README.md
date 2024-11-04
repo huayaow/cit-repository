@@ -8,7 +8,6 @@ The `librarian.py` script can be used for searching new papers and collecting sc
 
 * `search_new_papers()`: Search new papers from DBLP.
   * The new papers found will be written into an `add.csv` file.
-
   * After this, need do necessary manual processing to filter out irrelvant papers, and also determine filed for each paper.
 
 * `update_scholar()`: Update the scholar data file according to the current paper list data file.

@@ -1,6 +1,10 @@
 Summary of &quot;An empirical comparison of combinatorial testing and search-based testing in the context of automated and autonomous driving systems&quot;
 Formalna analiza koncepata i kombinatorno testiranje za automatiziranu provjeru znanja u sustavima za e-učenje ; Formal concept analysis and combinatorial testing for automated assessment in e-learning systems
 Unified combinatorial interaction testing (Tümleşik kombinezon etkileşim sınama yöntemi)
+Cost-aware combinatorial interaction testing (Maliyeti dikkate alan kombinatoryal etkileşim test yöntemleri)
+SAT-Based Combinatorial Testing
+Reducing Masking Effects in CombinatorialInteraction Testing: A Feedback DrivenAdaptive Approach
+A Mixed-way Combinatorial Testing for Concurrent Programs (S)
 List-Decoding Separable Matrices for Non-Adaptive Combinatorial Group Testing
 Group Testing in Arbitrary Hypergraphs and Related Combinatorial Structures
 Efficient Combinatorial Group Testing: Bridging the Gap between Union-Free and Disjunctive Codes
@@ -21,3 +25,38 @@ Efficient Message Authentication Codes with Combinatorial Group Testing
 Symmetric-key Corruption Detection : When XOR-MACs Meet Combinatorial Group Testing
 Smart elements in combinatorial group testing problems
 Optimal Nested Test Plan for Combinatorial Quantitative Group Testing
+Controller-Centric Combinatorial Wrap-Around Interaction Testing to Evaluate a Stateful PCE-Based Transport Network Architecture
+Tropical Combinatorial Nullstellensatz and Fewnomials Testing
+Improving the trust of end users in enterprise SOA using combinatorial group testing methods
+A combinatorial estimation approach for storage reliability with initial failures based on periodic testing data
+Testing the performance of teaching-learning based optimization (TLBO) algorithm on combinatorial problems: Flow shop and job shop scheduling cases
+Quantum algorithms for search with wildcards and combinatorial group testing
+Improved key integrity checking for high-speed quantum key distribution using combinatorial group testing with strongly selective family design
+Optimal hypothesis testing with combinatorial structure: Detecting random walks on graphs
+Combinatorial aspects of error correction and property testing
+An Efficient Algorithm for Combinatorial Group Testing
+Efficient Sensor Fault Detection Using Combinatorial Group Testing
+Combinatorial Pair Testing: Distinguishing Workers from Slackers
+Lower bounds and structural results in property testing of dense combinatorial structures
+Fast Dynamic Multiple-Set Membership Testing Using Combinatorial Bloom Filters
+Combinatorial Mutation Approach to Web Service Vulnerability Testing Based on SOAP Message Mutations
+Explicit Nonadaptive Combinatorial Group Testing Schemes
+Combinatorial Group Testing for Corruption Localizing Hashing
+Testing multiple gene interactions by the ordered combinatorial partitioning method in case-control studies
+Fast Multiset Membership Testing Using Combinatorial Bloom Filters
+Explicit Non-Adaptive Combinatorial Group Testing Schemes
+Property testing and combinatorial approximation
+New combinatorial structures with applications to efficient group testing with inhibitors
+Private combinatorial group testing
+Explicit Non-adaptive Combinatorial Group Testing Schemes
+Improved Combinatorial Group Testing Algorithms for Real-World Problem Sizes
+Lower bounds for testing forbidden induced substructures in bipartite-graph-like combinatorial objects
+Performance Evaluation of Two Allocation Schemes for Combinatorial Group Testing Fault Isolation
+Performance testing of combinatorial solvers with isomorph class instances
+Non-Adaptive Fault Diagnosis for All-Optical Networks via Combinatorial Group Testing on Graphs
+New and improved BIST diagnosis methods from combinatorial Group testing theory
+A combinatorial group testing method for FPGA fault location
+Improved Combinatorial Group Testing for Real-World Problem Sizes
+Utilisation des Structures Combinatoires pour le Test Statistique (Using Combinatorial Structures for Statistical Testing)
+Combinatorial group testing methods for the BIST diagnosis problem
+New results and applications of superimposed codes (and related combinatorial structures) to the design of efficient group testing procedures

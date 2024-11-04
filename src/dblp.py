@@ -51,12 +51,11 @@ class DBLP:
           continue
         if ('venue' in info and info['venue'] == 'CoRR'):
           continue
-        # there will be on period (.) symbol in the returned title field
-        # already have
-        if (info['title'][:-1] in already_have):
+        # there might be a period symbol (.) in the returned title field
+        tp_title = info['title'][:-1].lower() if info['title'].endswith('.') else info['title'].lower()
+        if (tp_title in already_have): # already have
           continue
-        # shuold be excluded
-        if (info['title'][:-1] in excluded):
+        if (tp_title in excluded): # shuold be excluded
           continue
 
         # convert the format of each paper (will call DBLP APIs)

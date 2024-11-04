@@ -34,18 +34,18 @@ class Librarian:
     that are irrelevant to CIT.
     """
     # these paper titles are already included in repository
-    paper_titles = [e['title'] for e in self.papers]
+    paper_titles = [e['title'].lower() for e in self.papers]
 
     # these paper titles should be excluded
     with open('data/excluded.txt', 'r') as f:
-      excluded_titles = [e.strip() for e in f.readlines()]
+      excluded_titles = [e.strip().lower() for e in f.readlines()]
 
     # search dblp for new papers
     new_papers = self.dblp.search_paper(already_have=paper_titles, 
                                         excluded=excluded_titles,
                                         after_year=year)
     
-    # write the new papers into the csv file
+    # write the new papers into the add.csv file
     with open(output_file, 'w', encoding='utf-8') as file:
       writer = csv.DictWriter(file, fieldnames=self.paper_list_fields)
       writer.writeheader()
@@ -105,5 +105,5 @@ class Librarian:
 
 if __name__ == '__main__':
   lib = Librarian()
-  # lib.search_new_papers(2018)
-  lib.update_scholar()
+  lib.search_new_papers(2000)
+  # lib.update_scholar()
