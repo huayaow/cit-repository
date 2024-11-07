@@ -4,12 +4,12 @@ from bs4 import BeautifulSoup
 from papers import Paper
 
 class Generator:
-  def __init__(self, sort_csv=False):
+  def __init__(self, sort=False):
     self.list_filename = 'data/list.csv'
     self.scholar_filename = 'data/scholar.csv'
 
     # sort csv and get statistic data 
-    self.data = self.read_csv(sort_csv) 
+    self.data = self.read_csv(sort) 
 
     # read all papers from the csv file
     self.papers = []
@@ -28,12 +28,12 @@ class Generator:
     print('       read {} scholars from "{}"'.format(len(self.scholars), self.scholar_filename))
 
 
-  def read_csv(self, sort_csv) -> dict:
+  def read_csv(self, sort) -> dict:
     """
     Read csv file and calculate statistics for the basic BAR and PIE charts.
     """
     df = pd.read_csv(self.list_filename, sep=',', header=0)
-    df = df.sort_values('year', ascending=False)
+    df = df.sort_values(['year', 'booktitle', 'title'], ascending=False)
     
     # cumulative number of publications
     bar_data = df.groupby('year').size().to_frame('number')
@@ -57,7 +57,7 @@ class Generator:
     data['fields'] = pie_data.index.values.tolist()
     data['count'] = pie_data['count'].values.tolist()
 
-    if sort_csv:
+    if sort:
       df.to_csv(self.list_filename, sep=',', encoding='utf-8', index=False, header=True)
 
     return data
@@ -155,6 +155,6 @@ class Generator:
     print('[INFO] succesfully add {} rows into "components/list.html"'.format(len(self.papers)))
 
 if __name__ == '__main__':
-  g = Generator(sort_csv=True)
+  g = Generator(sort=True)
   g.generate_index(date='Oct 2024')
   g.generate_list()
