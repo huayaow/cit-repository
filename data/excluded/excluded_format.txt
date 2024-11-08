@@ -6,3 +6,6 @@ SAT-Based Combinatorial Testing
 Reducing Masking Effects in CombinatorialInteraction Testing: A Feedback DrivenAdaptive Approach
 A Mixed-way Combinatorial Testing for Concurrent Programs (S)
 Utilisation des Structures Combinatoires pour le Test Statistique (Using Combinatorial Structures for Statistical Testing)
+Approche à contraintes pour la sélection de Covering Array (Covering Array generation using constraint programming)
+On de Bruijn Covering Sequences and Arrays
+On Covering Radius of Orthogonal Arrays

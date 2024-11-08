@@ -156,5 +156,5 @@ class Generator:
 
 if __name__ == '__main__':
   g = Generator(sort=True)
-  g.generate_index(date='Oct 2024')
+  g.generate_index(date='Nov 2024')
   g.generate_list()

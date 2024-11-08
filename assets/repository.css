@@ -1,6 +1,12 @@
-.main-panel > .container { 
-  min-height: calc(100% - 54px);
-  margin-top: 0px;
+@media screen and (min-width: 992px) {
+  .main-panel > .container { 
+    min-height: calc(100% - 54px);
+    margin-top: 0px;
+  }
+}
+
+.main-header {
+  min-height: 0px;
 }
 
 .card-category {

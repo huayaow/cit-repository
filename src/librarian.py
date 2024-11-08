@@ -26,7 +26,7 @@ class Librarian:
       reader = csv.DictReader(file)
       self.scholar = list(reader)
     print('[librarian] load {} papers from "{}"'.format(len(self.papers), self.paper_list_filename))
-    print('            load {} scholars from "{}"'.format(len(self.scholar), self.scholar_filename))
+    print('[librarian] load {} scholars from "{}"'.format(len(self.scholar), self.scholar_filename))
 
   def search_new_papers(self, year=None, output_file='data/add.csv'):
     """

@@ -3,13 +3,15 @@ import json
 import string
 import re
 import bibtexparser
+import time
 from html.parser import HTMLParser
 
 TYPE_MATCH = {
   'Journal Articles': 'article',
   'Conference and Workshop Papers': 'inproceedings',
   'Books and Theses': 'book',
-  'Informal and Other Publications': 'informal'
+  'Parts in Books or Collections': 'book',
+  'Informal and Other Publications': 'informal',
 }
 
 class DBLP:
@@ -30,20 +32,22 @@ class DBLP:
     @:param after: only search papers published after the given year
     """
     if keywords is None:
-      keywords = ['combinatorial testing']
+      keywords = ['covering array']
 
     paper_obtained = []   # list of all papers found
     paper_id = set()      # maintain id for duplication detection
     for keywords in keywords:
       url = self.publ_url + '?q=' + '+'.join(keywords.split(' ')) + '&format=json&h=1000'
-      req = requests.post(url)
-      print('\t' + url)
-      data = json.loads(req.text)
+      response = requests.post(url)
+      print('[dblp] ' + url)
+      data = json.loads(response.text)
 
       print('[dblp] seach "{}" -> hit {} papers'.format(keywords, int(data['result']['hits']['@total'])))
       print('[dblp] filtering and converting format ...')
       for each in data['result']['hits']['hit']:
+        # the paper info field
         info = each['info']
+
         # skip unwanted results
         if (after_year is not None and int(info['year']) < after_year):
           continue
@@ -57,7 +61,8 @@ class DBLP:
           continue
         if (tp_title in excluded): # shuold be excluded
           continue
-
+        
+        print('\t >> ' + info['title'])
         # convert the format of each paper (will call DBLP APIs)
         paper = self.parse_paper_info(info)
         # print(paper)
@@ -76,19 +81,19 @@ class DBLP:
     cit-repository format of this paper.
     """
     url = self.publ_url + '?q=' + '+'.join(paper_title.split(' ')) + '&format=json'
-    req = requests.post(url)
-    data = json.loads(req.text)
+    response = requests.post(url)
+    data = json.loads(response.text)
 
-    hit_num = int(data['result']['hits']['@total'])
-    if hit_num == 0:
+    if int(data['result']['hits']['@total']) == 0:
       return {'status': 'not included', 'data': {}}
     else:
-      info = data['result']['hits']['hit'][0]['info']
-      hit_first_title = info['title'].lower().replace('.', '')
-      if paper_title.lower() != hit_first_title.lower():
-        print('[DBLP] found similar paper title: ' + paper_title + ' vs. ' + hit_first_title)
-      
-      return {'status': 'included', 'data': self.parse_paper_info(info)}
+      for each in data['result']['hits']['hit']:
+        info = each['info']
+        hit_title = info['title'].lower().replace('.', '')
+        if paper_title.lower() != hit_title.lower():
+          print('[DBLP] found similar paper title: ' + hit_title)
+        else:
+          return {'status': 'included', 'data': self.parse_paper_info(info)}
   
   def parse_paper_info(self, info):
     """
@@ -161,9 +166,9 @@ class DBLP:
     Return the bibtex information of a particular paper (specified by the key of DBLP)
     """
     url = 'https://dblp.org/rec/{}.html?view=bibtex'.format(dblp_key)
-    req = requests.post(url)
+    response = requests.post(url)
     parser = self.BibHTMLParser()
-    parser.feed(req.text)
+    parser.feed(response.text)
 
     bib = bibtexparser.loads(parser.data[0])
     bib = bib.entries[0]
@@ -174,21 +179,26 @@ class DBLP:
         bib[each] = bib[each].replace(s, '')
     return bib
 
-  def extract_venue_text(self, text, key):
+  def extract_venue_text(self, text, abbr):
     """
     Use DBLP venue API to extract the full name of a publication venue. This works the best if a match can be found.
-    :param text: abbr of a venue
-    :param key: key of the venue
+    :param text: short name of a venue
+    :param abbr: abbr of the venue
     :return: full name (if found)
     """
+    time.sleep(1)
     url = self.venue_url + '?q=' + '+'.join(text.split(' ')) + '&format=json'
-    req = requests.post(url)
-    data = json.loads(req.text)
+    response = requests.post(url)
+    try:
+      data = json.loads(response.text)
+    except:
+      print(response.text)
+      exit(-1)
 
     if int(data['result']['hits']['@total']) > 0:
       for each in data['result']['hits']['hit']:
         ab = each['info']['url'].split('/')[-2]
-        if ab == key:
+        if ab == abbr:
           venue = each['info']['venue']
           venue = re.sub('[\(].*?[\)]', '', venue)
           return venue
@@ -196,5 +206,5 @@ class DBLP:
 
 if __name__ == '__main__':
   dblp = DBLP()
-  r = dblp.search_by_title('New upper bounds for sequence Covering Arrays using a 3-stage approach')
+  r = dblp.search_by_title('Covering arrays on graphs')
   print(r)

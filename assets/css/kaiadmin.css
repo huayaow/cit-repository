@@ -5742,6 +5742,7 @@ label.error {
     height: 1px !important; }
   .row-card-no-pd [class*=col-]:first-child .card:before {
     display: none !important; } }
+    
 @media screen and (min-width: 992px) {
   .main-header .main-header-logo {
     display: none; }
@@ -5776,6 +5777,7 @@ label.error {
   .sidebar[data-background-color]:before {
     background: rgba(255, 255, 255, 0.2) !important;
     z-index: 1000; } }
+    
 @media screen and (max-width: 991.5px) {
   .container, .container-full {
     max-width: 100% !important;

@@ -59,3 +59,19 @@ Combinatorial property testing (a survey)
 Combinatorial Property Testing (a survey)
 Testable Realizations of CMOS Combinatorial Circuits for Voltage and Current Testing
 Estimation of reject ratio in testing of combinatorial circuits
+A Power-Efficient CMOS Multi-Band Phased-Array Receiver Covering 24-71-GHz Utilizing Harmonic-Selection Technique With 36-dB Inter-Band Blocker Tolerance for 5G NR
+Laser Array Covering 155 nm Wide Spectral Band Achieved by Selective Area Growth on Silicon Wafer
+A 16-Element Phased-Array Transceiver in 130-nm SiGe BiCMOS for Fixed Wireless Access Covering the Full 57-71 GHz Band
+Wideband MIMO Antenna Array Covering 33-71 GHz for 5G Metal-Rimmed Smartphone Applications
+Tough, bendable and stretchable tactile sensors array for covering robot surfaces
+A new IDDT test approach and its efficiency in covering resistive opens in SRAM arrays
+Hamming-weight constrained coded arrays based on covering codes
+QC-LDPC Codes From Difference Matrices and Difference Covering Arrays
+A new IDDT test approach and its efficiency in covering resistive opens in SRAM arrays
+Wideband MIMO Antenna Array Covering 33-71 GHz for 5G Metal-Rimmed Smartphone Applications
+Stopping and Trapping Sets in Generalized Covering Arrays
+Cyclic Difference Packing and Covering Arrays
+Two dimensional string covering and parallel suffix array construction
+Array Covering: A Technique4 for Enabling Lloop Parallelization
+Minimum fault covering in reconfigurable arrays
+Reconfiguration of VLSI arrays by covering

@@ -10,7 +10,7 @@ var myBarChart = new Chart(barChart, {
         label: "# Publications",
         backgroundColor: "rgb(23, 125, 255)",
         borderColor: "rgb(23, 125, 255)",
-        data: [26, 31, 40, 52, 64, 78, 95, 117, 144, 186, 229, 273, 336, 401, 467, 535, 613, 676, 738, 795, 821, 848, 887, 912, 929]
+        data: [28, 33, 42, 56, 71, 86, 104, 126, 156, 203, 250, 296, 364, 430, 499, 571, 656, 723, 802, 867, 894, 924, 964, 996, 1016]
       },
     ],
   },
@@ -44,7 +44,7 @@ var myPieChart = new Chart(pieChart, {
   data: {
     datasets: [
       {
-        data: [359, 307, 82, 60, 48, 44, 28],
+        data: [435, 315, 83, 61, 48, 45, 28],
         borderWidth: 0,
       },
     ],
