@@ -12,7 +12,7 @@ class Librarian:
 
     self.paper_list_filename = 'data/list.csv'
     self.paper_list_fields = ['year', 'type', 'author', 'title', 'field', 'tag', 
-                        'booktitle', 'abbr', 'vol', 'no', 'pages', 'doi']  
+                              'booktitle', 'abbr', 'vol', 'no', 'pages', 'doi']  
     
     self.scholar_filename = 'data/scholar.csv'
     self.scholar_fields = ['id', 'name', 'institution', 'category', 'country', 'homepage']
@@ -28,7 +28,7 @@ class Librarian:
     print('[librarian] load {} papers from "{}"'.format(len(self.papers), self.paper_list_filename))
     print('            load {} scholars from "{}"'.format(len(self.scholar), self.scholar_filename))
 
-  def search_new_papers(self, year, output_file='data/add.csv'):
+  def search_new_papers(self, year=None, output_file='data/add.csv'):
     """
     Search DBLP and write new papers found into a file. Note that this often contain papers 
     that are irrelevant to CIT.
@@ -37,8 +37,10 @@ class Librarian:
     paper_titles = [e['title'].lower() for e in self.papers]
 
     # these paper titles should be excluded
-    with open('data/excluded.txt', 'r') as f:
-      excluded_titles = [e.strip().lower() for e in f.readlines()]
+    with open('data/excluded/excluded_format.txt', 'r') as file:
+      excluded_titles = [e.strip().lower() for e in file.readlines()]
+    with open('data/excluded/excluded_irrelevant.txt', 'r') as file:
+      excluded_titles += [e.strip().lower() for e in file.readlines()]
 
     # search dblp for new papers
     new_papers = self.dblp.search_paper(already_have=paper_titles, 
@@ -105,5 +107,5 @@ class Librarian:
 
 if __name__ == '__main__':
   lib = Librarian()
-  lib.search_new_papers(2000)
+  lib.search_new_papers()
   # lib.update_scholar()

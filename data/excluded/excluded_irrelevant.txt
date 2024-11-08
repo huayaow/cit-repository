@@ -1,10 +1,3 @@
-Summary of &quot;An empirical comparison of combinatorial testing and search-based testing in the context of automated and autonomous driving systems&quot;
-Formalna analiza koncepata i kombinatorno testiranje za automatiziranu provjeru znanja u sustavima za e-učenje ; Formal concept analysis and combinatorial testing for automated assessment in e-learning systems
-Unified combinatorial interaction testing (Tümleşik kombinezon etkileşim sınama yöntemi)
-Cost-aware combinatorial interaction testing (Maliyeti dikkate alan kombinatoryal etkileşim test yöntemleri)
-SAT-Based Combinatorial Testing
-Reducing Masking Effects in CombinatorialInteraction Testing: A Feedback DrivenAdaptive Approach
-A Mixed-way Combinatorial Testing for Concurrent Programs (S)
 List-Decoding Separable Matrices for Non-Adaptive Combinatorial Group Testing
 Group Testing in Arbitrary Hypergraphs and Related Combinatorial Structures
 Efficient Combinatorial Group Testing: Bridging the Gap between Union-Free and Disjunctive Codes
@@ -60,3 +53,9 @@ Improved Combinatorial Group Testing for Real-World Problem Sizes
 Utilisation des Structures Combinatoires pour le Test Statistique (Using Combinatorial Structures for Statistical Testing)
 Combinatorial group testing methods for the BIST diagnosis problem
 New results and applications of superimposed codes (and related combinatorial structures) to the design of efficient group testing procedures
+On the Cut-off Point for Combinatorial Group Testing
+A survey on combinatorial group testing algorithms with applications to DNA Library Screening
+Combinatorial property testing (a survey)
+Combinatorial Property Testing (a survey)
+Testable Realizations of CMOS Combinatorial Circuits for Voltage and Current Testing
+Estimation of reject ratio in testing of combinatorial circuits
