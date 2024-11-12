@@ -4,15 +4,8 @@ import string
 import re
 import bibtexparser
 import time
+from termcolor import cprint
 from html.parser import HTMLParser
-
-TYPE_MATCH = {
-  'Journal Articles': 'article',
-  'Conference and Workshop Papers': 'inproceedings',
-  'Books and Theses': 'book',
-  'Parts in Books or Collections': 'book',
-  'Informal and Other Publications': 'informal',
-}
 
 class DBLP:
   def __init__(self):
@@ -22,28 +15,27 @@ class DBLP:
 
   def search_paper(self, keywords=None, already_have=[], excluded=[], after_year=None) -> list:
     """
-    Search papers by keywords, and return papers (in formatted type) that are not included in 
-    current already_have list (a list of paper titles). According to DBLP, the maximum number 
-    returned will be 1000.
+    Search papers by keywords, and return a list of newly identified papers (in cit-repository format).
+    The papers that are already included in already_have[] and excluded[] lists will be ignored. According 
+    to DBLP, the maximum number returned will be 1000.
 
-    @:param keyword: a list of searching keywords, default = ['combinatorial testing']
-    @:already_have: a list of paper titles that have been included
+    @:param keyword: a list of searching keywords
+    @:already_have: a list of paper titles that have already been included
     @:excluded: a list of paper titles that shoud be excluded
     @:param after: only search papers published after the given year
     """
     if keywords is None:
-      keywords = ['covering array']
+      keywords = ['combinatorial testing', 'covering array', 'combinatorial test']
 
-    paper_obtained = []   # list of all papers found
+    paper_obtained = []   # a list of all papers found
     paper_id = set()      # maintain id for duplication detection
     for keywords in keywords:
       url = self.publ_url + '?q=' + '+'.join(keywords.split(' ')) + '&format=json&h=1000'
+      cprint('[dblp] ' + url, 'light_grey', 'on_light_green')
       response = requests.post(url)
-      print('[dblp] ' + url)
       data = json.loads(response.text)
-
-      print('[dblp] seach "{}" -> hit {} papers'.format(keywords, int(data['result']['hits']['@total'])))
-      print('[dblp] filtering and converting format ...')
+      cprint('* Seach "{}" -> hit {} papers'.format(keywords, int(data['result']['hits']['@total'])), 'green')
+      cprint('* Filtering and converting format ...', 'light_green')
       for each in data['result']['hits']['hit']:
         # the paper info field
         info = each['info']
@@ -61,18 +53,21 @@ class DBLP:
           continue
         if (tp_title in excluded): # shuold be excluded
           continue
+
+        # the dblp item has no author
+        if ('authors' not in info):
+          continue
         
-        print('\t >> ' + info['title'])
+        print('> find: ' + info['title'])
         # convert the format of each paper (will call DBLP APIs)
         paper = self.parse_paper_info(info)
-        # print(paper)
         paper_obtained.append(paper)
         paper_id.add(each['@id'])
     assert len(paper_id) == len(paper_obtained)
 
     # order by year
     paper_ordered = sorted(paper_obtained, key=lambda d: d['year'], reverse=True)
-    print('[dblp] find {} new papers (after year {})'.format(len(paper_ordered), after_year))
+    cprint('[dblp] Find {} new papers (after year {})'.format(len(paper_ordered), after_year), 'light_grey', 'on_light_green')
     return paper_obtained
     
   def search_by_title(self, paper_title) -> dict:
@@ -97,19 +92,12 @@ class DBLP:
   
   def parse_paper_info(self, info):
     """
-    Convert the DBLP search return data (of a paper) to the cit-repository format.
+    Convert the DBLP search return data (of a paper) to the cit-repository format. Here, the parimary goal
+    is to convert the publication venue abbr name into its corresponding full name.
     """
-    # the bibTex information of this paper
-    bib = self.get_bibtex(info['key'])
-
-    # handle authors
-    authors = info['authors']['author']
-    if type(authors) is not list:
-      author_str = authors['text'].rstrip(string.digits).strip()
-    else:
-      author_str = ', '.join([e['text'].rstrip(string.digits).strip() for e in authors])
-
     # handle publication venue
+    # based on the bibTex information of this paper
+    bib = self.get_bibtex(info['key'])
     venue, venue_abbr = '', ''
     # 1) for article publications, use DBLP venue API
     if bib['ENTRYTYPE'] == 'article':
@@ -117,15 +105,23 @@ class DBLP:
       venue = self.extract_venue_text(info['venue'], venue_abbr)
     # 2) else, find the venue from bibTex
     else:
-      if bib['ENTRYTYPE'] == 'inproceedings':
+      if bib['ENTRYTYPE'] == 'phdthesis':
+        venue = bib['school']
+      else:
+        # bib['ENTRYTYPE'] == 'inproceedings' or 'incollections', ...
         venue_abbr = info['key'].split('/')[1]
         venue = bib['booktitle']
-      elif bib['ENTRYTYPE'] == 'phdthesis':
-        venue = bib['school']
+
+    # handle authors (based on the info structure)
+    authors = info['authors']['author']
+    if type(authors) is not list:
+      author_str = authors['text'].rstrip(string.digits).strip()
+    else:
+      author_str = ', '.join([e['text'].rstrip(string.digits).strip() for e in authors])
 
     # final data
     paper = {
-      'type': TYPE_MATCH[info['type']],
+      'type': bib['ENTRYTYPE'],
       'title': info['title'].replace('.', ''),
       'author': author_str,
       'booktitle': venue,
@@ -192,7 +188,7 @@ class DBLP:
     try:
       data = json.loads(response.text)
     except:
-      print(response.text)
+      cprint(response.text, 'red')
       exit(-1)
 
     if int(data['result']['hits']['@total']) > 0:
@@ -206,5 +202,5 @@ class DBLP:
 
 if __name__ == '__main__':
   dblp = DBLP()
-  r = dblp.search_by_title('Covering arrays on graphs')
+  r = dblp.search_by_title('Combinatorial Test Problems and Problem Generators')
   print(r)

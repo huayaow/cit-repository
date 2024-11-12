@@ -75,3 +75,38 @@ Two dimensional string covering and parallel suffix array construction
 Array Covering: A Technique4 for Enabling Lloop Parallelization
 Minimum fault covering in reconfigurable arrays
 Reconfiguration of VLSI arrays by covering
+Wideband MIMO Antenna Array Covering 3.3-7.1 GHz for 5G Metal-Rimmed Smartphone Applications
+A Survey on Test Case Generation using UML diagrams and Feasibility Study to Generate Combinatorial Logic Oriented Test Cases
+Design-for-Testability for Path Delay Faults in Large Combinatorial Circuits Using Test-Points
+Extending Test-Time Augmentation with Metamorphic Relations for Combinatorial Problems
+Combinatorial-Probabilistic Trade-Off: P-Values of Community Property Test in the Stochastic Block Models
+Combinatorial-Probabilistic Trade-Off: P-Values of Community Properties Test in the Stochastic Block Models
+CAT PAW: Combinatorial Algorithm to Test all Possible Assortments of Weights
+Combinatorial primality test
+Automated generation of oracled test cases with regular expressions and combinatorial techniques
+Compiling a benchmarking test-suite for combinatorial black-box optimization: a position paper
+COMEDI: Combinatorial Election of Diagnostic Vectors From Detection Test Sets for Logic Circuits
+Construction of tests for providing elevated energy consumption for a combinatorial circuit of library elements
+A Stochastic Combinatorial Optimization Model for Test Sequence Optimization
+A Combinatorial Characterization of the Testable Graph Properties: It&apos;s All About Regularity
+Combinatorial Construction of Locally Testable Codes
+A mixed multi-unit combinatorial auctions test suite
+Combinatorial Test Problems and Problem Generators
+A test suite for the evaluation of mixed multi-unit combinatorial auctions
+Combinatorial QSAR Modeling of Chemical Toxicants Tested against Tetrahymena pyriformis
+Combinatorial construction of locally testable codes
+Assignment Testers: Towards a Combinatorial Proof of the PCP Theorem
+Abstract Combinatorial Programs and Efficient Property Testers
+&quot;In Silico&quot; Design of New Uranyl Extractants Based on Phosphoryl-Containing Podands: QSPR Studies, Generation and Screening of Virtual Combinatorial Library, and Experimental Tests
+Analysis of combinatorial user effect in international usability tests
+Assignment Testers: Towards a Combinatorial Proof of the PCP-Theorem
+Abstract Combinatorial Programs and Efficient Property Testers
+Towards a universal test suite for combinatorial auction algorithms
+Combinatorial Algorithms Test Sets [CATS]: The ACM/EATCS Platform for Experimental Research
+Combinatorial Analysis of Check Set Construction for Algorithm-Based Fault Tolerance Systems
+Test Pattern Generation for Combinatorial Multi-Valued Networks Based on Generalized D-Algorithm
+Avoiding Combinatorial Explosion in Automatic Test Generation: Reasoning about Measurements is the Key
+COMPACTEST: A Method to Generate Compact Test Sets for Combinatorial Circuits
+Minimal Test Sets for Combinatorial Circuits
+A realistic approach to detection test generation for combinatorial logic circuits
+Improving IEEE 802.15.4e LLDN performance by relaying and extension of combinatorial testing

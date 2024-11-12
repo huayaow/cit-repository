@@ -1,18 +1,1 @@
 year,type,author,title,field,tag,booktitle,abbr,vol,no,pages,doi
-2009,article,"Andreas H. Ronneseth, Charles J. Colbourn",Merging covering arrays and compressing multiple sequence alignments,Generation,,Discrete Applied Mathematics,,157,9,2177-2190,10.1016/J.DAM.2007.09.024
-2009,article,"Yang Li, Lijun Ji, Jianxing Yin",Covering arrays of strength 3 and 4 from holey difference matrices,Generation,,"Designs, Codes and Cryptography",DCC,50,3,339-350,10.1007/S10623-008-9235-1
-2009,article,"Conrado Martínez, Lucia Moura, Daniel Panario, Brett Stevens","Locating Errors Using ELAs, Covering Arrays, and Adaptive Testing Algorithms",Diagnosis,,SIAM Journal on Discrete Mathematics,,23,4,1776-1799,10.1137/080730706
-2009,inproceedings,"Charles J. Colbourn, Gerzson Kéri",Binary Covering Arrays and Existentially Closed Graphs,Generation,,"Coding and Cryptology, Second International Workshop, IWCC 2009, Zhangjiajie, China, June 1-5, 2009. Proceedings",,,,22-33,10.1007/978-3-642-01877-0_3
-2009,inproceedings,"Peyman Nayeri, Charles J. Colbourn, Goran Konjevod",Randomized Postoptimization of Covering Arrays,Optimization,,"Combinatorial Algorithms, 20th International Workshop, IWOCA 2009, Hradec nad Moravic'i, Czech Republic, June 28-July 2, 2009, Revised Selected Papers",,,,408-419,10.1007/978-3-642-10217-2_40
-2008,article,"Myra B. Cohen, Charles J. Colbourn, Alan C. H. Ling",Constructing strength three covering arrays with augmented annealing,Generation,,Discrete Mathematics,,308,13,2709-2722,10.1016/J.DISC.2006.06.036
-2008,article,Charles J. Colbourn,Strength two covering arrays: Existence tables and projection,Generation,,Discrete Mathematics,,308,5-6,772-786,10.1016/J.DISC.2007.07.050
-2008,article,George B. Sherwood,Optimal and near-optimal mixed covering arrays by column expansion,Generation,,Discrete Mathematics,,308,24,6022-6035,10.1016/J.DISC.2007.11.021
-2006,article,"Charles J. Colbourn, Sosina Martirosyan, Tran van Trung, Robert A. Walker",Roux-type constructions for covering arrays of strengths three and four,Generation,,"Designs, Codes and Cryptography",DCC,41,1,33-57,10.1007/S10623-006-0020-8
-2005,article,"Karen Meagher, Brett Stevens",Covering arrays on graphs,Generation,,"Journal of Combinatorial Theory, Series B",JCT,95,1,134-151,10.1016/J.JCTB.2005.03.005
-2004,article,Kari J. Nurmela,Upper bounds for covering arrays by tabu search,Generation,,Discrete Applied Mathematics,,138,1-2,143-152,10.1016/S0166-218X(03)00291-9
-2004,article,"Sosina Martirosyan, Tran van Trung",On t-Covering Arrays,Generation,,"Designs, Codes and Cryptography",DCC,32,1-3,323-339,10.1023/B:DESI.0000029232.40302.6D
-2004,inproceedings,"Jose Torres-Jimenez, Carlos de Alfonso, Vicente Hernández",Computation of Ternary Covering Arrays Using a Grid,Generation,,"Applied Computing, Second Asian Applied Computing Conference, AACC 2004, Kathmandu, Nepal, October 29-31, 2004. Proceedings",,,,240-246,10.1007/978-3-540-30176-9_31
-2003,book,Sosina Martirosyan,"Perfect hash families, identifiable parent property codes and covering arrays",Generation,,"University of Duisburg-Essen, Germany",,,,1-115,
-2003,article,Jianxing Yin,Constructions of difference covering arrays,Generation,,"Journal of Combinatorial Theory, Series A",JCT,104,2,327-339,10.1016/J.JCTA.2003.09.005
-1999,article,"M. A. Chateauneuf, Charles J. Colbourn, Donald L. Kreher",Covering Arrays of Strength Three,Generation,,"Designs, Codes and Cryptography",DCC,16,3,235-242,10.1023/A:1008379710317
-1996,article,"Anant P. Godbole, Daphne E. Skipper, Rachel A. Sunley",t-Covering Arrays: Upper Bounds and Poisson Approximations,Generation,,"Combinatorics, Probability &amp; Computing",,5,,105-117,10.1017/S0963548300001905

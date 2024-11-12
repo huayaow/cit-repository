@@ -6,6 +6,12 @@ SAT-Based Combinatorial Testing
 Reducing Masking Effects in CombinatorialInteraction Testing: A Feedback DrivenAdaptive Approach
 A Mixed-way Combinatorial Testing for Concurrent Programs (S)
 Utilisation des Structures Combinatoires pour le Test Statistique (Using Combinatorial Structures for Statistical Testing)
-Approche à contraintes pour la sélection de Covering Array (Covering Array generation using constraint programming)
+Approche à contraintes pour la sélection de Covering Array. (Covering Array generation using constraint programming)
 On de Bruijn Covering Sequences and Arrays
 On Covering Radius of Orthogonal Arrays
+Utilisation des Structures Combinatoires pour le Test Statistique. (Using Combinatorial Structures for Statistical Testing)
+基于动态调整简化粒子群优化的组合测试用例生成方法 (Combinatorial Test Case Generation Method Based on Simplified Particle Swarm Optimizationwith Dynamic Adjustment)
+Outils pour la synthèse de tests et la maîtrise de l&apos;explosion combinatoire. (Tools for the tests generation and the control of the combinatorial explosion)
+A Test Prioritization Algorithm That Cares for &quot;Don&apos;t Care&quot; Values and Higher Order Combinatorial Coverage
+TCA: An Efficient Two-Mode Meta-Heuristic Algorithm for Combinatorial Test Generation (T)
+Research on Multi-constraint Combinatorial Test Technology for High Confidence Embedded Software (S)

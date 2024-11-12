@@ -21,14 +21,14 @@ class Librarian:
     with open(self.paper_list_filename, 'r') as file:
       reader = csv.DictReader(file)
       self.papers = list(reader)
+    print('[librarian] load {} papers from "{}"'.format(len(self.papers), self.paper_list_filename))
     # get the list of current scholars
     with open(self.scholar_filename, 'r') as file:
       reader = csv.DictReader(file)
       self.scholar = list(reader)
-    print('[librarian] load {} papers from "{}"'.format(len(self.papers), self.paper_list_filename))
     print('[librarian] load {} scholars from "{}"'.format(len(self.scholar), self.scholar_filename))
-
-  def search_new_papers(self, year=None, output_file='data/add.csv'):
+  
+  def search_new_papers(self, keywords, year=None, output_file='data/add.csv'):
     """
     Search DBLP and write new papers found into a file. Note that this often contain papers 
     that are irrelevant to CIT.
@@ -43,7 +43,8 @@ class Librarian:
       excluded_titles += [e.strip().lower() for e in file.readlines()]
 
     # search dblp for new papers
-    new_papers = self.dblp.search_paper(already_have=paper_titles, 
+    new_papers = self.dblp.search_paper(keywords=keywords,
+                                        already_have=paper_titles, 
                                         excluded=excluded_titles,
                                         after_year=year)
     
@@ -54,8 +55,7 @@ class Librarian:
       for each in new_papers:
         writer.writerow(each)
 
-    print('[librarian] write {} papers to "{}" (might be irrelevant to CIT)'.format(
-      len(new_papers), output_file))
+    print('[librarian] write {} papers to "{}" (might be irrelevant to CIT)'.format(len(new_papers), output_file))
 
   def update_scholar(self):
     """
@@ -107,5 +107,5 @@ class Librarian:
 
 if __name__ == '__main__':
   lib = Librarian()
-  lib.search_new_papers()
+  lib.search_new_papers(keywords=['combinatorial test'])
   # lib.update_scholar()
