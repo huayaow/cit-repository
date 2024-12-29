@@ -2,8 +2,11 @@
 This script is used to manage the data files.
 * Search new papers from DBLP and add them into an add.csv file (need further manual process)
 * Update scholar.csv based on the current list.csv file 
+* Update statistics data
 """
 import csv
+import json
+import pandas as pd
 from dblp import DBLP
 
 class Librarian:
@@ -105,7 +108,57 @@ class Librarian:
       if result == 'no_match':
         print('[{}] {}'.format(result, paper_title))
 
+  def update_statistics(self, sort_original_list_file=False):
+    """
+    Read list.csv file and calculate statistics data
+    """
+    df = pd.read_csv(self.paper_list_filename, sep=',', header=0)
+    df = df.sort_values(['year', 'booktitle', 'title'], ascending=False)
+    
+    # number of publications
+    publication_data = df.groupby('year').size().to_frame('number')
+    publication_data['cumulative'] = publication_data['number'].cumsum()
+    print(publication_data)
+
+    # distribution of topics
+    distribution_data = df.groupby('field').size().to_frame('count')
+    distribution_data = distribution_data.sort_values('count', ascending=False)
+    print(distribution_data)
+
+    # final data
+    data = {
+      'cumulative': {}, 
+      'annual': {}, 
+      'distribution': {}
+    }
+    year = publication_data.index.values.tolist()
+    number = publication_data['number'].values.tolist()
+    cumulative = publication_data['cumulative'].values.tolist()
+
+    # cumulative data, from 2000 to now (bar chart)
+    index = year.index(2000)
+    data['cumulative']['year'] = year[index:]
+    data['cumulative']['value'] = cumulative[index:]
+
+    # annual data (line chart)
+    data['annual']['year'] = year
+    data['annual']['value'] = number
+
+    # distribution data (pie chart)
+    data['distribution']['fields'] = distribution_data.index.values.tolist()
+    data['distribution']['count'] = distribution_data['count'].values.tolist()
+
+    with open('data/statistics.json', 'w', encoding='utf-8') as f:
+      json.dump(data, f, ensure_ascii=False, indent=4)
+
+    # update the original list.csv file
+    if sort_original_list_file:
+      df.to_csv(self.list_filename, sep=',', encoding='utf-8', index=False, header=True)
+
+    print('[librarian] succesfully update the statistics data')
+
 if __name__ == '__main__':
   lib = Librarian()
-  lib.search_new_papers(keywords=['combinatorial test'])
-  # lib.update_scholar()
+  # lib.search_new_papers(keywords=None)
+  lib.update_scholar()
+  lib.update_statistics()

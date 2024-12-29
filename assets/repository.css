@@ -18,3 +18,8 @@
   min-height: 420px;
   position: relative; 
 }
+
+.chart-container-thin {
+  min-height: 280px;
+  position: relative; 
+}

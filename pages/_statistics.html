@@ -33,7 +33,7 @@
     <!-- CSS Files -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../assets/css/plugins.min.css" />
-    <link rel="stylesheet" href="../assets/css/kaiadmin.min.css" />
+    <link rel="stylesheet" href="../assets/css/kaiadmin.css" />
     <link rel="stylesheet" href="../assets/repository.css" />
   </head>
   <body>
@@ -44,9 +44,7 @@
           <div class="sidebar-content">
             <ul class="nav nav-secondary">
               <li class="nav-section">
-                <span class="sidebar-mini-icon">
-                  <i class="fa fa-ellipsis-h"></i>
-                </span>
+                <span class="sidebar-mini-icon"><i class="fa fa-ellipsis-h"></i></span>
                 <h4 class="text-section">Papers</h4>
               </li>
               <li class="nav-item">
@@ -55,8 +53,8 @@
                   <p>Home</p>
                 </a>
               </li>
-              <li class="nav-item active">
-                <a href="#">
+              <li class="nav-item">
+                <a href="../components/list.html">
                   <i class="fas fa-layer-group"></i>
                   <p>All Papers</p>
                 </a>
@@ -67,8 +65,8 @@
                 </span>
                 <h4 class="text-section">Statistics (Under Construction)</h4>
               </li>
-              <li class="nav-item">
-                <a href="statistics.html">
+              <li class="nav-item active">
+                <a href="#">
                   <i class="far fa-chart-area"></i>
                   <p>Charts</p>
                 </a>
@@ -79,6 +77,13 @@
                   <p>Active Scholars</p>
                 </a>
               </li>
+              <!--li class="nav-item">
+                <a href="#">
+                  <i class="fas fa-file"></i>
+                  <p>Documentation</p>
+                  <span class="badge badge-secondary">1</span>
+                </a>
+              </li-->
             </ul>
           </div>
         </div>
@@ -106,48 +111,34 @@
           <div class="page-inner">
             <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pb-4">
               <div>
-                <h2 class="fw-bold mb-1">All Papers</h2>
-                <h6 class="op-7 mb-2" id="replace-description">XX papers included</h6>
+                <h2 class="fw-bold mb-1">Charts (Under Construction)</h2>
+                <h6 class="op-7 mb-2">
+                  This page displays several statistic data of the status and developement of the combinatorial interaction testing research field.
+                </h6>
               </div>
             </div>
-            
+
+            <!-- Charts -->
             <div class="row">
               <div class="col-md-12">
-                <div class="card">
-                  <!--div class="card-header">
-                    <h4 class="card-title">Basic</h4>
-                  </div-->
+                <div class="card card-round">
+                  <div class="card-header">
+                    <div class="card-head-row">
+                      <div class="card-title">Annual Number of Publications</div>
+                    </div>
+                    <div class="card-category" id="replace-bar-descrption">From 1985 to 2024</div>
+                  </div>
                   <div class="card-body">
-                    <div class="table-responsive">
-                      <table id="basic-datatables" class="display table">
-                        <thead>
-                          <tr>
-                            <th>Year</th>
-                            <th>Publication</th>
-                            <th>DOI</th>
-                          </tr>
-                        </thead>
-                        <tbody id="replace-paper-data-tbody">
-                          <tr>
-                            <td>2023</td>
-                            <td>
-                              <p>Chuan Luo , Qiyuan Zhao , Shaowei Cai , Hongyu Zhang , Chunming Hu<br>
-                              <strong>SamplingCA: effective and efficient sampling-based pairwise testing for highly configurable software systems</strong><br>
-                              <em>ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), 2023: 1185-1197</em></p>
-                            </td>
-                            <td><a href="#" target="_blank">DOI</a></td>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <div class="chart-container-thin">
+                      <canvas id="annualLineChart"></canvas>
                     </div>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
-
+        
         <footer class="footer">
           <div class="container-fluid d-flex justify-content-between">
             <nav class="pull-left">
@@ -164,29 +155,40 @@
         </footer>
       </div>
     </div>
-    <!-- Core JS Files   -->
+    <!--   Core JS Files   -->
     <script src="../assets/js/core/jquery-3.7.1.min.js"></script>
     <script src="../assets/js/core/popper.min.js"></script>
     <script src="../assets/js/core/bootstrap.min.js"></script>
+
     <!-- jQuery Scrollbar -->
     <script src="../assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="../assets/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="../assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="../assets/js/plugin/chart-circle/circles.min.js"></script>
+
     <!-- Datatables -->
     <script src="../assets/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="../assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="../assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="../assets/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="../assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
     <!-- Kaiadmin JS -->
     <script src="../assets/js/kaiadmin.min.js"></script>
-   
-    <script>
-      $(document).ready(function () {
-        $("#basic-datatables").DataTable({
-          pageLength: 25,
-          order: [[0, 'desc']],
-          rowReorder: true,
-          columnDefs: [
-            { orderable: true, className: 'reorder', targets: 0 },
-            { orderable: false, targets: '_all' }
-          ]
-        });
-     });
-    </script>
+
+    <!-- Customised JS -->
+    <script src="../assets/statistics-chart.js"></script>
   </body>
 </html>
