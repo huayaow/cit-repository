@@ -18,5 +18,6 @@ Use `librarian.py` to search new papers and update data in the `data` directory.
 Use `generate_html.py` to generate the final static HTML pages for the repository. The primary functions include:
 
 * `generate_index()`: generate the `index.html` file.
-* `generate_list()`: generate the `components/list.html` file.
-* `generate_statistics()`: generate the `components/statistics.html` file.
+* `generate_papers_list()`: generate the `components/paper.html` file.
+* `generate_tools_list()`: generate the `components/tool.html` file.
+* `generate_statistics()`: generate the `components/statistic.html` file.

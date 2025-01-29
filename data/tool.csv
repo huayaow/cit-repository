@@ -1,31 +1,31 @@
 Name,Developer,Release,Language,Usage,Algorithm,Model,Constraint,Link
 Jenny,Jenkins,2003,C,CLI,Generation (Greedy),Manually,Forbidden Tuple,http://burtleburtle.net/bob/math/jenny.html
-PICT,Microsoft,2006,C++,CLI & LIB,Generation (Greedy),PICT Format,Logical formula,https://github.com/Microsoft/pict
-ACTS,NIST,2007,Java,GUI & CLI,Generation (IPOG),ACTS Format,Logical formula,https://csrc.nist.gov/projects/automated-combinatorial-testing-for-software
-CASA,Garvin et al.,2009,C++,CLI,Generation (Search Based),CASA Format,Boolean formula,https://cse.unl.edu/~citportal/citportal/loadTool?page=casa&id=1
+PICT,Microsoft,2006,C++,CLI & LIB,Generation (Greedy),PICT Format,Logical Formula,https://github.com/Microsoft/pict
+ACTS,NIST,2007,Java,GUI & CLI,Generation (IPOG),ACTS Format,Logical Formula,https://csrc.nist.gov/projects/automated-combinatorial-testing-for-software
+CASA,Garvin et al.,2009,C++,CLI,Generation (Search Based),CASA Format,Boolean Formula,https://cse.unl.edu/~citportal/citportal/loadTool?page=casa&id=1
 Nunit,Prouse et al.,2009,C#,LIB,Generation,Source Code,,https://nunit.org/
-Tcases,Cornutum,2010,Java,CLI,Generation,Customised,Value property and condition,https://github.com/Cornutum/tcases
+Tcases,Cornutum,2010,Java,CLI,Generation,Customised,Value Property and Condition,https://github.com/Cornutum/tcases
 NTestCaseBuilder,Murphy,2012,F#,LIB,Generation,Source Code,,https://www.nuget.org/packages/NTestCaseBuilder/
 JCUint,Ukai,2013,Java,LIB,Generation (IPOG),Source Code,Embedded Function,https://github.com/dakusui/jcunit
 BEN,Ghandehari et al.,2015,Java,GUI & CLI,Diagnosis,Customised,,http://barbie.uta.edu/~laleh/BEN.html
 Xunit.Combinatorial,Arnott,2015,C#,LIB,Generation,Source Code,,https://github.com/AArnott/Xunit.Combinatorial
-CCM,NIST,2016,Java,CLI,Evaluation,ACTS Format,Logical formula,https://github.com/usnistgov/combinatorial-testing-tools
-MEDICI,FOSELAB,2014,C++,CLI,Generation (MDD Based),CASA Format,Boolean formula,https://github.com/fmselab/ct-tools/
+CCM,NIST,2016,Java,CLI,Evaluation,ACTS Format,Logical Formula,https://github.com/usnistgov/combinatorial-testing-tools
+MEDICI,FOSELAB,2014,C++,CLI,Generation (MDD Based),CASA Format,Boolean Formula,https://github.com/fmselab/ct-tools/
 pairwise,Selin Gungor,2017,Python,CLI,Generation (Greedy),Customised,,https://github.com/SelinGungor/pairwise-testing
-CAmetrics,SBA Research,2018,Rust,Web & CLI,Evaluation,ACTS Format,Logical formula,https://matris.sba-research.org/tools/cametrics
+CAmetrics,SBA Research,2018,Rust,Web & CLI,Evaluation,ACTS Format,Logical Formula,https://matris.sba-research.org/tools/cametrics
 CSCM,Ratliff,2018,Haskell,CLI,Evaluation,Customised,,https://github.com/zachratliff22/CSCM-Tool
 Beanfiller,Kruse,2018,Java,LIB,Generation (Tcases),Source Code,,https://github.com/beanfiller/beanfiller-tcases
-CAGen,SBA Research,2018,Rust,Web & CLI,Generation (IPOG),ACTS Format,Logical formula,https://matris.sba-research.org/tools/cagen/#/workspaces
-CTWedge,FOSELAB,2018,Java,Web,Generation (ACTS & CASA),CitLab Format,Logical formula,https://github.com/fmselab/ct-tools/
+CAGen,SBA Research,2018,Rust,Web & CLI,Generation (IPOG),ACTS Format,Logical Formula,https://matris.sba-research.org/tools/cagen/#/workspaces
+CTWedge,FOSELAB,2018,Java,Web,Generation (ACTS & CASA),CitLab Format,Logical Formula,https://github.com/fmselab/ct-tools/
 KTK,Tsuchiya et al.,2018,C,CLI,Generation (Mathematical),Manually,,https://github.com/tatsuhirotsuchiya/KTK
-FastCA,Lin et al.,2019,C/C++,CLI,Generation (Search Based),CASA Format,Boolean formula,https://github.com/jkunlin/fastca
-coffee4j,Konrad Fogen,2019,Java,LIB,Generation (IPOG),Source Code,Forbidden tuple,https://github.com/coffee4j/coffee4j
-WCA,Fu et al.,2020,C++,CLI,Generation (Search Based),CASA Format,Boolean formula,https://github.com/superjessie/CIT-WCA
-APPTS,Wang et al.,2021,Java,CLI,Generation (Search Based),CASA Format,Boolean formula,https://github.com/GIST-NJU/APPTS
+FastCA,Lin et al.,2019,C/C++,CLI,Generation (Search Based),CASA Format,Boolean Formula,https://github.com/jkunlin/fastca
+coffee4j,Konrad Fogen,2019,Java,LIB,Generation (IPOG),Source Code,Forbidden Tuple,https://github.com/coffee4j/coffee4j
+WCA,Fu et al.,2020,C++,CLI,Generation (Search Based),CASA Format,Boolean Formula,https://github.com/superjessie/CIT-WCA
+APPTS,Wang et al.,2021,Java,CLI,Generation (Search Based),CASA Format,Boolean Formula,https://github.com/GIST-NJU/APPTS
 TestFlows,testflow.com,2020,Python,LIB,Generation,Source Code,,https://github.com/testflows/TestFlows
-LS-Sampling,Luo et al.,2021,C++,CLI,Generation (Sampling),CNF,Boolean formula,https://github.com/chuanluocs/LS-Sampling
-pMEDICI,FOSELAB,2022,Java,CLI,Generation,CASA Format,Boolean formula,https://github.com/fmselab/ct-tools/
-SamplingCA,Luo et al.,2022,C++,CLI,Generation (Search Based),CNF,Boolean formula,https://github.com/chuanluocs/SamplingCA
-CAcompator,Luo et al.,2023,C++,CLI,Reduction,CNF,Boolean formula,https://github.com/chuanluocs/CAmpactor
-ScalableCA,Luo et al.,2024,C++,CLI,Generation (Search Based),CNF,Boolean formula,https://github.com/chuanluocs/ScalableCA
-SampLNS,Krupke et al.,2025,Python,CLI & LIB,Generation (Sampling),CNF,Boolean formula,https://github.com/tubs-alg/SampLNS
+LS-Sampling,Luo et al.,2021,C++,CLI,Generation (Sampling),CNF,Boolean Formula,https://github.com/chuanluocs/LS-Sampling
+pMEDICI,FOSELAB,2022,Java,CLI,Generation,CASA Format,Boolean Formula,https://github.com/fmselab/ct-tools/
+SamplingCA,Luo et al.,2022,C++,CLI,Generation (Search Based),CNF,Boolean Formula,https://github.com/chuanluocs/SamplingCA
+CAcompator,Luo et al.,2023,C++,CLI,Reduction,CNF,Boolean Formula,https://github.com/chuanluocs/CAmpactor
+ScalableCA,Luo et al.,2024,C++,CLI,Generation (Search Based),CNF,Boolean Formula,https://github.com/chuanluocs/ScalableCA
+SampLNS,Krupke et al.,2025,Python,CLI & LIB,Generation (Sampling),CNF,Boolean Formula,https://github.com/tubs-alg/SampLNS

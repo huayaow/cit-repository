@@ -89,7 +89,7 @@ class Generator:
 
     with open(self.target_index_js, 'w') as f:
       f.writelines(lines)
-    print('[GenHTML] > updated {} and {}'.format(self.target_index, self.target_index_js))
+    print('[GenHTML] update {} and {}'.format(self.target_index, self.target_index_js))
 
   def generate_papers_list(self):
     """
@@ -127,16 +127,14 @@ class Generator:
 
     with open(self.target_paper, 'w') as file:
       file.write(str(soup))
-    print('[GenHTML] > added {} rows into {}'.format(len(self.papers), self.target_paper))
+    print('[GenHTML] add {} rows into {}'.format(len(self.papers), self.target_paper))
 
   def generate_statistics(self):
     """
     Generate the statistics page. Need to reaplce the followings:
-    * Chart line <- annual number of publications
-    * [TODO] Chart line <- annual number of publications of each field
-    * [TODO] Chart word cloud <- title
-    * [TODO] Chart pie <- distribution of scholars accross the world
-    """    
+    * Line chart <- annual number of publications
+    * Bar chart <- distribution of publications on different research topics
+    """
     # update the HTML file
     shutil.copyfile('pages/_statistic.html', self.target_statistic)
 
@@ -145,13 +143,20 @@ class Generator:
       lines = f.readlines()
 
     # annual number of publications
-    lines[5] = '    labels: [{}],\n'.format(', '.join(['"{}"'.format(e) for e in self.data['annual']['year']]))
-    lines[11] = '        data: {}\n'.format(str(self.data['annual']['value']))
+    lines[3] = '    labels: [{}],\n'.format(', '.join(['"{}"'.format(e) for e in self.data['annual']['year']]))
+    lines[9] = '        data: {}\n'.format(str(self.data['annual']['value']))
+
+    # distribution of publications 
+    lines[42] = '    labels: [{}],\n'.format(', '.join(['"{}"'.format(e) for e in self.data['annual']['year']]))
+    all_fields = ['Generation', 'Application', 'Evaluation', 'Optimization', 'Model', 'Diagnosis']
+    for i, index in enumerate([46, 50, 54, 58, 62, 66]):
+      field = all_fields[i]
+      lines[index] = '          data: {}\n'.format(str(self.data['topic'][field]))
 
     with open(self.target_statistic_js, 'w') as f:
       f.writelines(lines)
 
-    print('[GenHTML] > updated {} and {}'.format(self.target_statistic, self.target_statistic_js))
+    print('[GenHTML] update {} and {}'.format(self.target_statistic, self.target_statistic_js))
 
   def generate_tools_list(self):
     """
@@ -194,8 +199,7 @@ class Generator:
 
     with open(self.target_tool, 'w') as file:
       file.write(str(soup))
-    print('[GenHTML] > added {} rows into {}'.format(len(self.tools), self.target_tool))
-
+    print('[GenHTML] add {} rows into {}'.format(len(self.tools), self.target_tool))
 
 if __name__ == '__main__':
   g = Generator()

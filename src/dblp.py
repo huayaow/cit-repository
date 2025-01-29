@@ -15,17 +15,23 @@ class DBLP:
 
   def search_paper(self, keywords=None, already_have=[], excluded=[], after_year=None) -> list:
     """
-    Search papers by keywords, and return a list of newly identified papers (in cit-repository format).
-    The papers that are already included in already_have[] and excluded[] lists will be ignored. According 
-    to DBLP, the maximum number returned will be 1000.
+    Search papers by keywords, and return a list of newly identified papers 
+    (in cit-repository format). The papers that are already included in 
+    already_have[] and excluded[] lists will be ignored. According to DBLP, 
+    the maximum number returned will be 1000.
 
-    @:param keyword: a list of searching keywords
+    @:param keyword: a list of searching keywords (optional)
     @:already_have: a list of paper titles that have already been included
     @:excluded: a list of paper titles that shoud be excluded
-    @:param after: only search papers published after the given year
+    @:param after: only search papers that are published after the given year (optional)
     """
     if keywords is None:
-      keywords = ['combinatorial testing', 'covering array', 'combinatorial test']
+      keywords = [
+        'combinatorial testing', 
+        'covering array', 
+        'combinatorial test', 
+        't-wise coverage'
+      ]
 
     paper_obtained = []   # a list of all papers found
     paper_id = set()      # maintain id for duplication detection
@@ -92,8 +98,9 @@ class DBLP:
   
   def parse_paper_info(self, info):
     """
-    Convert the DBLP search return data (of a paper) to the cit-repository format. Here, the parimary goal
-    is to convert the publication venue abbr name into its corresponding full name.
+    Convert the DBLP search return data (of a paper) to the cit-repository format. 
+    Here, the parimary goal is to convert the publication venue abbr name into its 
+    corresponding full name.
     """
     # handle publication venue
     # based on the bibTex information of this paper
@@ -177,7 +184,8 @@ class DBLP:
 
   def extract_venue_text(self, text, abbr):
     """
-    Use DBLP venue API to extract the full name of a publication venue. This works the best if a match can be found.
+    Use DBLP venue API to extract the full name of a publication venue. 
+    This works the best if a match can be found.
     :param text: short name of a venue
     :param abbr: abbr of the venue
     :return: full name (if found)

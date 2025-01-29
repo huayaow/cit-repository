@@ -112,7 +112,7 @@
               </div>
             </div>
 
-            <!-- Charts -->
+            <!-- Chart 1: annual number of publications -->
             <div class="row">
               <div class="col-md-12">
                 <div class="card card-round">
@@ -120,11 +120,30 @@
                     <div class="card-head-row">
                       <div class="card-title">Annual Number of Publications</div>
                     </div>
-                    <div class="card-category" id="replace-bar-descrption">From 1985 to 2024</div>
+                    <div class="card-category" id="replace-bar-descrption">From 1985 to 2025</div>
                   </div>
                   <div class="card-body">
                     <div class="chart-container-thin">
-                      <canvas id="annualLineChart"></canvas>
+                      <canvas id="annualChart"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chart 2: annual distribution of publications -->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card card-round">
+                  <div class="card-header">
+                    <div class="card-head-row">
+                      <div class="card-title">Distribution of Publications on Different Research Topics</div>
+                    </div>
+                    <div class="card-category">Across the following main categories: Generation, Application, Evaluation, Optimization, Model, and Diagnosis</div>
+                  </div>
+                  <div class="card-body">
+                    <div class="chart-container">
+                      <canvas id="annualDistChart"></canvas>
                     </div>
                   </div>
                 </div>
@@ -159,6 +178,7 @@
 
     <!-- Chart JS -->
     <script src="../assets/js/plugin/chart.js/chart.min.js"></script>
+    <script src="../assets/js/plugin/chart.js/chart.stacked.min.js"></script>
 
     <!-- jQuery Sparkline -->
     <script src="../assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>

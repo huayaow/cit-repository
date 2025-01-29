@@ -110,3 +110,6 @@ COMPACTEST: A Method to Generate Compact Test Sets for Combinatorial Circuits
 Minimal Test Sets for Combinatorial Circuits
 A realistic approach to detection test generation for combinatorial logic circuits
 Improving IEEE 802.15.4e LLDN performance by relaying and extension of combinatorial testing
+Tight Running Time Lower Bounds for Strong Inapproximability of Maximum k-Coverage, Unique Set Cover and Related Problems (via t-Wise Agreement Testing Theorem)
+Case study of radio coverage in complex indoor environments for 5G communications
+Diversifying Tag Selection Result for Tag Clouds by Enhancing both Coverage and Dissimilarity
