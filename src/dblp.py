@@ -27,7 +27,7 @@ class DBLP:
     """
     if keywords is None:
       keywords = [
-        'combinatorial testing', 
+        'combinatorial testing',         
         'covering array', 
         'combinatorial test', 
         't-wise coverage'
@@ -78,9 +78,10 @@ class DBLP:
     
   def search_by_title(self, paper_title) -> dict:
     """
-    Determine whether a given paper (title) is included in DBLP. If it is included, return the
-    cit-repository format of this paper.
+    Determine whether a given paper (title) is included in DBLP. If it is included, return 
+    the cit-repository format of this paper.
     """
+    cprint('* getting infomation for "{}"'.format(paper_title), 'green')
     url = self.publ_url + '?q=' + '+'.join(paper_title.split(' ')) + '&format=json'
     response = requests.post(url)
     data = json.loads(response.text)
@@ -94,7 +95,7 @@ class DBLP:
         if paper_title.lower() != hit_title.lower():
           print('[DBLP] found similar paper title: ' + hit_title)
         else:
-          return {'status': 'included', 'data': self.parse_paper_info(info)}
+          return self.parse_paper_info(info)
   
   def parse_paper_info(self, info):
     """
@@ -190,7 +191,7 @@ class DBLP:
     :param abbr: abbr of the venue
     :return: full name (if found)
     """
-    time.sleep(1)
+    time.sleep(2)
     url = self.venue_url + '?q=' + '+'.join(text.split(' ')) + '&format=json'
     response = requests.post(url)
     try:
@@ -210,5 +211,5 @@ class DBLP:
 
 if __name__ == '__main__':
   dblp = DBLP()
-  r = dblp.search_by_title('Combinatorial Test Problems and Problem Generators')
+  r = dblp.search_by_title('Algorithmic Optimizations for Deriving Minimal Forbidden Tuples')
   print(r)

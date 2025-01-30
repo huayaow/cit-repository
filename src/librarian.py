@@ -60,7 +60,41 @@ class Librarian:
       for each in new_papers:
         writer.writerow(each)
 
-    print('[librarian] write {} papers to "{}" (might be irrelevant to CIT)'.format(len(new_papers), output_file))
+    print('[librarian] add {} papers to "{}" (might be irrelevant to CIT)'.format(len(new_papers), output_file))
+
+  def get_paper_information(self, title_file, output_file='data/add.csv'):
+    """
+    Get paper information for each paper title specificed in the title_file. 
+    """
+    # these paper titles are already included in repository
+    paper_titles = [e['title'].lower() for e in self.papers]
+
+    # these paper titles should be excluded
+    with open('data/excluded/excluded_format.txt', 'r') as file:
+      excluded_titles = [e.strip().lower() for e in file.readlines()]
+    with open('data/excluded/excluded_irrelevant.txt', 'r') as file:
+      excluded_titles += [e.strip().lower() for e in file.readlines()]
+    
+    # get the paper titles specificed 
+    with open(title_file, 'r') as file:
+      all_titles = file.readlines()
+    
+    all_papers = []
+    for title in all_titles:
+      title = title.strip()
+      if title in paper_titles or title in excluded_titles:
+        print('[librarian] --> paper already included or should be excluded: {}'.format(title))
+      paper = self.dblp.search_by_title(title.strip())
+      all_papers.append(paper)
+    
+    # write the new papers into the add.csv file
+    with open(output_file, 'w', encoding='utf-8') as file:
+      writer = csv.DictWriter(file, fieldnames=self.paper_list_fields)
+      writer.writeheader()
+      for each in all_papers:
+        writer.writerow(each)
+    
+    print('[librarian] add {} papers (specificed in {}) to "{}"'.format(len(all_papers), title_file, output_file))
 
   def update_scholar(self):
     """
@@ -129,6 +163,7 @@ class Librarian:
 if __name__ == '__main__':
   lib = Librarian()
   # lib.search_new_papers()
+  # lib.get_paper_information('data/temp.txt')
 
   lib.update_scholar()
   lib.update_paper()
