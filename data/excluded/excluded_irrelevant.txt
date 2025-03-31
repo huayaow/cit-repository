@@ -113,3 +113,7 @@ Improving IEEE 802.15.4e LLDN performance by relaying and extension of combinato
 Tight Running Time Lower Bounds for Strong Inapproximability of Maximum k-Coverage, Unique Set Cover and Related Problems (via t-Wise Agreement Testing Theorem)
 Case study of radio coverage in complex indoor environments for 5G communications
 Diversifying Tag Selection Result for Tag Clouds by Enhancing both Coverage and Dissimilarity
+Logic Synthesis Tools&apos; Testing via Configuration Diversification With Combinatorial Multiarmed Bandit
+Combinatorial Pen Testing (Or Consumer Surplus of Deferred-Acceptance Auctions)
+Fast T2T: Optimization Consistency Speeds Up Diffusion-Based Training-to-Testing Solving for Combinatorial Optimization
+Conformal Prediction for Class-wise Coverage via Augmented Label Rank Calibration

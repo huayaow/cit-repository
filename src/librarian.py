@@ -5,7 +5,6 @@ This script is used to manage the data files.
 * Update statistics data
 """
 import csv
-import json
 import subprocess
 import pandas as pd
 from dblp import DBLP
@@ -21,6 +20,13 @@ class Librarian:
     self.scholar_filename = 'data/scholar.csv'
     self.scholar_fields = ['id', 'name', 'institution', 'category', 'country', 'homepage']
 
+    self.keywords = [
+      'combinatorial testing',         
+      'covering array', 
+      'combinatorial test', 
+      't-wise coverage'
+    ]
+
     # get the list of current papers
     with open(self.paper_list_filename, 'r') as file:
       reader = csv.DictReader(file)
@@ -33,7 +39,7 @@ class Librarian:
       self.scholar = list(reader)
     print('[librarian] load {} scholars from "{}"'.format(len(self.scholar), self.scholar_filename))
   
-  def search_new_papers(self, keywords=None, year=None, output_file='data/add.csv'):
+  def search_new_papers(self, keywords=None, after_year=None, output_file='data/add.csv'):
     """
     Search DBLP and add new papers found into a file. Note that this often contain papers 
     that are irrelevant to CIT.
@@ -48,10 +54,11 @@ class Librarian:
       excluded_titles += [e.strip().lower() for e in file.readlines()]
 
     # search dblp for new papers
+    keywords = self.keywords if keywords == None else keywords
     new_papers = self.dblp.search_paper(keywords=keywords,
                                         already_have=paper_titles, 
                                         excluded=excluded_titles,
-                                        after_year=year)
+                                        after_year=after_year)
     
     # write the new papers into the add.csv file
     with open(output_file, 'w', encoding='utf-8') as file:
@@ -162,9 +169,9 @@ class Librarian:
 
 if __name__ == '__main__':
   lib = Librarian()
-  # lib.search_new_papers()
+  lib.search_new_papers()
   # lib.get_paper_information('data/temp.txt')
 
-  lib.update_scholar()
-  lib.update_paper()
-  lib.update_statistic()
+  # lib.update_scholar()
+  # lib.update_paper()
+  # lib.update_statistic()

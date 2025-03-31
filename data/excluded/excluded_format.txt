@@ -15,3 +15,4 @@ Outils pour la synthèse de tests et la maîtrise de l&apos;explosion combinatoi
 A Test Prioritization Algorithm That Cares for &quot;Don&apos;t Care&quot; Values and Higher Order Combinatorial Coverage
 TCA: An Efficient Two-Mode Meta-Heuristic Algorithm for Combinatorial Test Generation (T)
 Research on Multi-constraint Combinatorial Test Technology for High Confidence Embedded Software (S)
+A Scalable $t$t-Wise Coverage Estimator: Algorithms and Applications

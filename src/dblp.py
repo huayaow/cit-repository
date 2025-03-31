@@ -9,77 +9,80 @@ from html.parser import HTMLParser
 
 class DBLP:
   def __init__(self):
-    self.publ_url = 'http://dblp.org/search/publ/api'
+    self.publ_url = 'https://dblp.org/search/publ/api'
     self.venue_url = 'https://dblp.org/search/venue/api'
     self.scholar_url = 'https://dblp.org/search/author/api'
-
-  def search_paper(self, keywords=None, already_have=[], excluded=[], after_year=None) -> list:
+    self.bib_url = 'https://dblp.org/rec/{}.html?view=bibtex'
+    
+  def search_paper(self, keywords, already_have=[], excluded=[], after_year=None) -> list:
     """
-    Search papers by keywords, and return a list of newly identified papers 
-    (in cit-repository format). The papers that are already included in 
-    already_have[] and excluded[] lists will be ignored. According to DBLP, 
-    the maximum number returned will be 1000.
+    Search papers by keywords, and return a list of identified papers (in json format, with
+    'year', 'type', 'author', 'title', 'field', 'tag', 'booktitle', 'abbr', 'vol', 'no',
+    'pages', 'doi' fields). The paper titles that are already included in already_have[] and
+    excluded[] will be ignored. According to DBLP, the maximum number returned will be 1000.
 
-    @:param keyword: a list of searching keywords (optional)
+    @:param keyword: a list of searching keywords
     @:already_have: a list of paper titles that have already been included
     @:excluded: a list of paper titles that shoud be excluded
     @:param after: only search papers that are published after the given year (optional)
     """
-    if keywords is None:
-      keywords = [
-        'combinatorial testing',         
-        'covering array', 
-        'combinatorial test', 
-        't-wise coverage'
-      ]
-
     paper_obtained = []   # a list of all papers found
     paper_id = set()      # maintain id for duplication detection
-    for keywords in keywords:
-      url = self.publ_url + '?q=' + '+'.join(keywords.split(' ')) + '&format=json&h=1000'
+    for keyword in keywords:
+      url = self.publ_url + '?q=' + '+'.join(keyword.split(' ')) + '&format=json&h=1000'
       cprint('[dblp] ' + url, 'light_grey', 'on_light_green')
+      
       response = requests.post(url)
       data = json.loads(response.text)
-      cprint('* Seach "{}" -> hit {} papers'.format(keywords, int(data['result']['hits']['@total'])), 'green')
+      cprint('* Seach "{}" -> hit {} papers'.format(keyword, int(data['result']['hits']['@total'])), 'green')
+
       cprint('* Filtering and converting format ...', 'light_green')
+      if after_year:
+        print('* After year: {}'.format(after_year))
+
       for each in data['result']['hits']['hit']:
         # the paper info field
         info = each['info']
 
         # skip unwanted results
-        if (after_year is not None and int(info['year']) < after_year):
+        if (after_year and int(info['year']) < after_year):
           continue
         if (each['@id'] in paper_id):
           continue
         if ('venue' in info and info['venue'] == 'CoRR'):
           continue
+
         # there might be a period symbol (.) in the returned title field
         tp_title = info['title'][:-1].lower() if info['title'].endswith('.') else info['title'].lower()
-        if (tp_title in already_have): # already have
+
+        # skip already-have and exlcuded papers
+        if (tp_title in already_have):
           continue
-        if (tp_title in excluded): # shuold be excluded
+        if (tp_title in excluded):
           continue
 
-        # the dblp item has no author
+        # skip if the dblp item has no author
         if ('authors' not in info):
           continue
         
+        # convert the format of each newly found paper (via DBLP APIs)
         print('> find: ' + info['title'])
-        # convert the format of each paper (will call DBLP APIs)
         paper = self.parse_paper_info(info)
+        
         paper_obtained.append(paper)
         paper_id.add(each['@id'])
     assert len(paper_id) == len(paper_obtained)
 
-    # order by year
+    # order the final list by year
     paper_ordered = sorted(paper_obtained, key=lambda d: d['year'], reverse=True)
     cprint('[dblp] Find {} new papers (after year {})'.format(len(paper_ordered), after_year), 'light_grey', 'on_light_green')
+
     return paper_obtained
     
   def search_by_title(self, paper_title) -> dict:
     """
     Determine whether a given paper (title) is included in DBLP. If it is included, return 
-    the cit-repository format of this paper.
+    the information of this paper.
     """
     cprint('* getting infomation for "{}"'.format(paper_title), 'green')
     url = self.publ_url + '?q=' + '+'.join(paper_title.split(' ')) + '&format=json'
@@ -87,23 +90,21 @@ class DBLP:
     data = json.loads(response.text)
 
     if int(data['result']['hits']['@total']) == 0:
-      return {'status': 'not included', 'data': {}}
+      return {}
     else:
       for each in data['result']['hits']['hit']:
         info = each['info']
         hit_title = info['title'].lower().replace('.', '')
         if paper_title.lower() != hit_title.lower():
-          print('[DBLP] found similar paper title: ' + hit_title)
+          cprint('[DBLP] found similar paper title: ' + hit_title, 'yellow')
         else:
           return self.parse_paper_info(info)
   
   def parse_paper_info(self, info):
     """
-    Convert the DBLP search return data (of a paper) to the cit-repository format. 
-    Here, the parimary goal is to convert the publication venue abbr name into its 
-    corresponding full name.
+    Convert the DBLP search return data (of a paper) to the customised format. 
     """
-    # handle publication venue
+    # manage to convert the publication venue abbr name into its corresponding full name
     # based on the bibTex information of this paper
     bib = self.get_bibtex(info['key'])
     venue, venue_abbr = '', ''
@@ -169,7 +170,7 @@ class DBLP:
     """
     Return the bibtex information of a particular paper (specified by the key of DBLP)
     """
-    url = 'https://dblp.org/rec/{}.html?view=bibtex'.format(dblp_key)
+    url = self.bib_url.format(dblp_key)
     response = requests.post(url)
     parser = self.BibHTMLParser()
     parser.feed(response.text)
@@ -186,7 +187,6 @@ class DBLP:
   def extract_venue_text(self, text, abbr):
     """
     Use DBLP venue API to extract the full name of a publication venue. 
-    This works the best if a match can be found.
     :param text: short name of a venue
     :param abbr: abbr of the venue
     :return: full name (if found)
