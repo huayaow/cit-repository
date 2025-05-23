@@ -4,6 +4,7 @@ import string
 import re
 import bibtexparser
 import time
+import random
 from termcolor import cprint
 from html.parser import HTMLParser
 
@@ -13,7 +14,7 @@ class DBLP:
     self.venue_url = 'https://dblp.org/search/venue/api'
     self.scholar_url = 'https://dblp.org/search/author/api'
     self.bib_url = 'https://dblp.org/rec/{}.html?view=bibtex'
-    
+
   def search_paper(self, keywords, already_have=[], excluded=[], after_year=None) -> list:
     """
     Search papers by keywords, and return a list of identified papers (in json format, with
@@ -190,10 +191,21 @@ class DBLP:
     :param text: short name of a venue
     :param abbr: abbr of the venue
     :return: full name (if found)
-    """
-    time.sleep(2)
+    """ 
+    wait_time = random.uniform(1, 3)
+    time.sleep(wait_time)
+
+    # try five times
     url = self.venue_url + '?q=' + '+'.join(text.split(' ')) + '&format=json'
-    response = requests.post(url)
+    for i in range(5):
+      try:
+        response = requests.post(url)
+      except requests.exceptions.RequestException as e:
+        cprint('extract_venue_text: ' + e, 'red')
+        wait_time *= 2
+      time.sleep(wait_time)
+    
+    # try to parse the received data
     try:
       data = json.loads(response.text)
     except:

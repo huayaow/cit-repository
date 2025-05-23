@@ -117,3 +117,4 @@ Logic Synthesis Tools&apos; Testing via Configuration Diversification With Combi
 Combinatorial Pen Testing (Or Consumer Surplus of Deferred-Acceptance Auctions)
 Fast T2T: Optimization Consistency Speeds Up Diffusion-Based Training-to-Testing Solving for Combinatorial Optimization
 Conformal Prediction for Class-wise Coverage via Augmented Label Rank Calibration
+Making effective carbon-box testing technique using prioritised-selected test cases driven combinatorial approach

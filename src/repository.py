@@ -5,8 +5,8 @@ import argparse
 
 parser = argparse.ArgumentParser(description='repository management scripts')
 parser.add_argument('action', help='the operation to be performed')
-parser.add_argument("--after", help='search certain years only')
-parser.add_argument("--date", help='update date')
+parser.add_argument("--after", help='search certain years only', type=int, default=None)
+parser.add_argument("--date", help='update date', type=str)
 
 args = parser.parse_args()
 
