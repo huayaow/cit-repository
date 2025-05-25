@@ -4,13 +4,13 @@ var pieChart = document.getElementById("pieChart").getContext("2d");
 var myBarChart = new Chart(barChart, {
   type: "bar",
   data: {
-    labels: [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025],
+    labels: {{ chart.bar.labels }},
     datasets: [
       {
         label: "# Publications",
         backgroundColor: "rgb(23, 125, 255)",
         borderColor: "rgb(23, 125, 255)",
-        data: [28, 33, 42, 57, 72, 87, 105, 127, 157, 204, 251, 297, 365, 432, 503, 576, 661, 729, 811, 879, 912, 952, 1005, 1045, 1079, 1095]
+        data: {{ chart.bar.data }}
       },
     ],
   },
@@ -44,11 +44,11 @@ var myPieChart = new Chart(pieChart, {
   data: {
     datasets: [
       {
-        data: [465, 344, 88, 70, 52, 46, 28],
+        data: {{ chart.pie.data }},
         borderWidth: 0,
       },
     ],
-    labels: ['Generation', 'Application', 'Evaluation', 'Optimization', 'Model', 'Diagnosis', 'Other']
+    labels: {{ chart.pie.labels }}
   },
   options: {
     responsive: true,

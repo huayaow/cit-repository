@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <div class="page-inner">
+    <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pb-4">
+      <div>
+        <h2 class="fw-bold mb-1">Open Source / Free Use Tools</h2>
+        <h6 class="op-7 mb-2">{{ tool_number }} tools that are publicly available</h6>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table id="basic-datatables" class="display table">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Developer</th>
+                    <th>Release</th>
+                    <th>Language</th>
+                    <th>Algorithm</th>
+                    <th>Model</th>
+                    <th>Constraint</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for tool in tool_list %}
+                  <tr>
+                    <td><a href="{{ tool.link }}">{{ tool.name }}</a></td>
+                    <td>{{ tool.developer }}</td>
+                    <td>{{ tool.release }}</td>
+                    <td>{{ tool.language }}</td>
+                    <td>{{ tool.algorithm }}</td>
+                    <td>{{ tool.model }}</td>
+                    <td>{{ tool.constraint }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <p class="op-7">* In contrast to the systematic collection of research papers, we do not aim to present all the available CIT tools here. Our goal is to cover relatively mature, or highly competitive, tools that are public available, so that others can choose them for comparison, or base on them to build new testing techniques. This list is thus updated in a subjective manner.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock content %}

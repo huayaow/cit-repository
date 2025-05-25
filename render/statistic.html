@@ -9,6 +9,7 @@
       gtag('js', new Date());
       gtag('config', 'G-JW112TMNMR');
     </script>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Combinatorial Interaction Testing Repository</title>
     <meta name="description" content="Combinatorial interaction testing, or combinatorial testing is a potentially effective and widely adopted testing technique for revealing interaction related bugs. This website aims to provide a full coverage of publications in the literature of combinatorial interaction testing, and analyzes the status and developement of this research field.">
@@ -35,19 +36,19 @@
                 <span class="sidebar-mini-icon"><i class="fa fa-ellipsis-h"></i></span>
                 <h4 class="text-section">Repository</h4>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a href="../index.html">
                   <i class="fas fa-home"></i>
                   <p>Home</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a href="paper.html">
                   <i class="fas fa-layer-group"></i>
                   <p>Papers</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a href="tool.html">
                   <i class="fas fa-pencil-ruler"></i>
                   <p>Tools</p>
@@ -60,7 +61,7 @@
                 <h4 class="text-section">Statistics (Under Construction)</h4>
               </li>
               <li class="nav-item active">
-                <a href="#">
+                <a href="statistic.html">
                   <i class="far fa-chart-area"></i>
                   <p>Charts</p>
                 </a>
@@ -71,13 +72,6 @@
                   <p>Active Scholars</p>
                 </a>
               </li>
-              <!--li class="nav-item">
-                <a href="#">
-                  <i class="fas fa-file"></i>
-                  <p>Documentation</p>
-                  <span class="badge badge-secondary">1</span>
-                </a>
-              </li-->
             </ul>
           </div>
         </div>
@@ -101,56 +95,59 @@
           </div>
         </div>
         
-        <div class="container">
-          <div class="page-inner">
-            <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pb-4">
-              <div>
-                <h2 class="fw-bold mb-1">Charts (Under Construction)</h2>
-                <h6 class="op-7 mb-2">
-                  This page displays several statistic data of the status and developement of the combinatorial interaction testing research field.
-                </h6>
-              </div>
-            </div>
+        
+<div class="container">
+  <div class="page-inner">
+    <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pb-4">
+      <div>
+        <h2 class="fw-bold mb-1">Charts (Under Construction)</h2>
+        <h6 class="op-7 mb-2">
+          This page displays several statistic data of the status and developement of the combinatorial interaction testing research field.
+        </h6>
+      </div>
+    </div>
 
-            <!-- Chart 1: annual number of publications -->
-            <div class="row">
-              <div class="col-md-12">
-                <div class="card card-round">
-                  <div class="card-header">
-                    <div class="card-head-row">
-                      <div class="card-title">Annual Number of Publications</div>
-                    </div>
-                    <div class="card-category" id="replace-bar-descrption">From 1985 to 2025</div>
-                  </div>
-                  <div class="card-body">
-                    <div class="chart-container-thin">
-                      <canvas id="annualChart"></canvas>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <!-- Chart 1: annual number of publications -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card card-round">
+          <div class="card-header">
+            <div class="card-head-row">
+              <div class="card-title">Annual Number of Publications</div>
             </div>
-
-            <!-- Chart 2: annual distribution of publications -->
-            <div class="row">
-              <div class="col-md-12">
-                <div class="card card-round">
-                  <div class="card-header">
-                    <div class="card-head-row">
-                      <div class="card-title">Distribution of Publications on Different Research Topics</div>
-                    </div>
-                    <div class="card-category">Across the following main categories: Generation, Application, Evaluation, Optimization, Model, and Diagnosis</div>
-                  </div>
-                  <div class="card-body">
-                    <div class="chart-container">
-                      <canvas id="annualDistChart"></canvas>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="card-category">From 1985 to 2025</div>
+          </div>
+          <div class="card-body">
+            <div class="chart-container-thin">
+              <canvas id="annualChart"></canvas>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Chart 2: annual distribution of publications -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card card-round">
+          <div class="card-header">
+            <div class="card-head-row">
+              <div class="card-title">Distribution of Publications on Different Research Topics</div>
+            </div>
+            <div class="card-category">Across the following main categories: Generation, Application, Evaluation, Optimization, Model, and Diagnosis</div>
+          </div>
+          <div class="card-body">
+            <div class="chart-container">
+              <canvas id="annualDistChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- div class="container"></div> -->
         
         <footer class="footer">
           <div class="container-fluid d-flex justify-content-between">
@@ -168,7 +165,8 @@
         </footer>
       </div>
     </div>
-    <!--   Core JS Files   -->
+
+    <!-- Core JS Files   -->
     <script src="../assets/js/core/jquery-3.7.1.min.js"></script>
     <script src="../assets/js/core/popper.min.js"></script>
     <script src="../assets/js/core/bootstrap.min.js"></script>
@@ -178,7 +176,6 @@
 
     <!-- Chart JS -->
     <script src="../assets/js/plugin/chart.js/chart.min.js"></script>
-    <script src="../assets/js/plugin/chart.js/chart.stacked.min.js"></script>
 
     <!-- jQuery Sparkline -->
     <script src="../assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
@@ -203,6 +200,10 @@
     <script src="../assets/js/kaiadmin.min.js"></script>
 
     <!-- Customised JS -->
-    <script src="../assets/statistics-chart.js"></script>
+    
+    
+    <script src="../assets/js/plugin/chart.js/chart.stacked.min.js"></script>
+    <script src="../assets/statistic-chart.js"></script>
+    
   </body>
 </html>

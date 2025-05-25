@@ -12,8 +12,8 @@ The `data` directory contains primary data of this repository, including:
 
 ### Usage
 
-1. Run `python src/repository.py search [--after=year]` to search new papers (from DBLP). 
+1. Run `python core/repository.py search [--after=year]` to search new papers (from DBLP). 
 
    After this step, need to perform manual processing on the newly generated `add.csv` file to **filter out irrelvant papers**, and also **determine research field of each new paper**. Then, all new papers should be manually copied into the `paper.csv` file.
 
-2. Run `python src/repository.py update --date='current date'` to update repository data (based on the content in `paper.csv`), and also generate static HTML pages.
+2. Run `python core/repository.py update --date='current date'` to update repository data (based on the content in `paper.csv`), and also generate static HTML pages.

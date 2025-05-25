@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <div class="page-inner">
+    <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pb-4">
+      <div>
+        <h2 class="fw-bold mb-1">Combinatorial Interaction Testing Repository</h2>
+        <h6 class="op-7 mb-2" id="replace-description">
+          Collection of Research Papers and Tools of CIT (Last Update on {{ update_date }})
+        </h6>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="card card-stats card-round">
+          <div class="card-body">
+            <div class="row align-items-center">
+              <div class="col-icon">
+                <div class="icon-big text-center icon-primary bubble-shadow-small">
+                  <i class="fas fa-flag"></i>
+                </div>
+              </div>
+              <div class="col col-stats ms-3 ms-sm-0">
+                <div class="numbers">
+                  <p class="card-category">Number of Papers</p>
+                  <h4 class="card-title">{{ stat.papers }}</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card card-stats card-round">
+          <div class="card-body">
+            <div class="row align-items-center">
+              <div class="col-icon">
+                <div class="icon-big text-center icon-info bubble-shadow-small">
+                  <i class="fas fa-user-plus"></i>
+                </div>
+              </div>
+              <div class="col col-stats ms-3 ms-sm-0">
+                <div class="numbers">
+                  <p class="card-category">Number of Scholars</p>
+                  <h4 class="card-title">{{ stat.scholars }}</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card card-stats card-round">
+          <div class="card-body">
+            <div class="row align-items-center">
+              <div class="col-icon">
+                <div class="icon-big text-center icon-secondary bubble-shadow-small">
+                  <i class="fas fa-box"></i>
+                </div>
+              </div>
+              <div class="col col-stats ms-3 ms-sm-0">
+                <div class="numbers">
+                  <p class="card-category">Number of Tools *</p>
+                  <h4 class="card-title">{{ stat.tools }}</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Statistics -->
+    <div class="row">
+      <div class="col-md-7">
+        <div class="card card-round">
+          <div class="card-header">
+            <div class="card-head-row">
+              <div class="card-title">Cumulative Number of Publications</div>
+              <!--div class="card-tools">
+                <div class="p fw-bold float-end text-primary">+5% since last year</div>
+              </div-->
+            </div>
+            <div class="card-category">From 2000 to {{ final_year }}</div>
+          </div>
+          <div class="card-body">
+            <div class="chart-container">
+              <canvas id="barChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="card card-round">
+          <div class="card-header">
+            <div class="card-head-row">
+              <div class="card-title">Distribution of Research Topics</div>
+            </div>
+            <div class="card-category">Across six main categories</div>
+          </div>
+          <div class="card-body">
+            <div class="chart-container">
+              <canvas id="pieChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

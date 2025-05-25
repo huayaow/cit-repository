@@ -1,5 +1,5 @@
 from librarian import Librarian
-from generate_html import Generator
+from render import Render
 import argparse
 
 
@@ -28,11 +28,11 @@ elif args.action == 'update':
   lib.update_statistic()
   
   print('[*] Generate HTML pages ...')
-  g = Generator()
-  g.generate_index(date=args.date)
-  g.generate_papers_list()
-  g.generate_tools_list()
-  g.generate_statistics()
+  render = Render()
+  render.render_index(update_date=args.date)
+  render.render_paper()
+  render.render_tool()
+  render.render_statistic()
 
 else:
   print('Invalid arguments')

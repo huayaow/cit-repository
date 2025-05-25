@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <div class="page-inner">
+    <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pb-4">
+      <div>
+        <h2 class="fw-bold mb-1">Research Papers</h2>
+        <h6 class="op-7 mb-2">{{ paper_number }} papers included</h6>
+      </div>
+    </div>
+        
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <!--div class="card-header">
+            <h4 class="card-title">Basic</h4>
+          </div-->
+          <div class="card-body">
+            <div class="table-responsive">
+              <table id="basic-datatables" class="display table">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Publication</th>
+                    <th>DOI</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for paper in paper_list %}
+                  <tr>
+                    <td>{{ paper.year }}</td>
+                    <td>
+                      <p>
+                        {{ paper.author }}<br>
+                        <strong>{{ paper.title }}</strong><br>
+                        <em>{{ paper.venue_str() }}</em>
+                      </p>
+                    </td>
+                    <td>
+                      <a href="{{ paper.doi }}" target="_blank">DOI</a>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- end div row -->
+
+  </div>
+</div>
+{% endblock content %}
