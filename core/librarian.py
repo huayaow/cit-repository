@@ -71,7 +71,7 @@ class Librarian:
 
   def get_paper_information(self, title_file, output_file='data/add.csv'):
     """
-    Get paper information for each paper title specificed in the title_file. 
+    Get paper information for each paper title specified in the title_file. 
     """
     # these paper titles are already included in repository
     paper_titles = [e['title'].lower() for e in self.papers]
@@ -82,7 +82,7 @@ class Librarian:
     with open('data/excluded/excluded_irrelevant.txt', 'r') as file:
       excluded_titles += [e.strip().lower() for e in file.readlines()]
     
-    # get the paper titles specificed 
+    # get the paper titles specified 
     with open(title_file, 'r') as file:
       all_titles = file.readlines()
     
@@ -101,11 +101,11 @@ class Librarian:
       for each in all_papers:
         writer.writerow(each)
     
-    print('[librarian] add {} papers (specificed in {}) to "{}"'.format(len(all_papers), title_file, output_file))
+    print('[librarian] add {} papers (specified in {}) to "{}"'.format(len(all_papers), title_file, output_file))
 
   def update_scholar(self):
     """
-    Update scholar.csv accoridng to paper.csv
+    Update scholar.csv according to paper.csv
     """
     current_names = [e['name'] for e in self.scholar]
     paper_names = []
@@ -164,7 +164,7 @@ class Librarian:
     """
     Generate the statistic.json file for drawing figures
     """
-    subprocess.run('jupyter nbconvert --to notebook --inplace --execute src/analysis.ipynb', shell=True)
+    subprocess.run('jupyter nbconvert --to notebook --inplace --execute core/analysis.ipynb', shell=True)
     print('[librarian] generate the statistic.json file')
 
 if __name__ == '__main__':

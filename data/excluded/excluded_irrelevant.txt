@@ -118,3 +118,5 @@ Combinatorial Pen Testing (Or Consumer Surplus of Deferred-Acceptance Auctions)
 Fast T2T: Optimization Consistency Speeds Up Diffusion-Based Training-to-Testing Solving for Combinatorial Optimization
 Conformal Prediction for Class-wise Coverage via Augmented Label Rank Calibration
 Making effective carbon-box testing technique using prioritised-selected test cases driven combinatorial approach
+Bluetooth Low Energy Security Testing with Combinatorial Methods
+Guitar-TECHS: An Electric Guitar Dataset Covering Techniques, Musical Excerpts, Chords and Scales Using a Diverse Array of Hardware
