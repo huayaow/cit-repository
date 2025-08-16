@@ -23,8 +23,7 @@ elif args.action == 'update':
   
   print('[*] Update repository data ...')
   lib = Librarian()
-  lib.update_scholar()
-  lib.update_paper()
+  lib.update_table()
   lib.update_statistic()
   
   print('[*] Generate HTML pages ...')

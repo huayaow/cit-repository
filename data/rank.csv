@@ -1,0 +1,56 @@
+rank,id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,SANER,ISSRE,ICST,ICSTW,score
+1,521,Yu Lei,University of Texas at Arlington,United States,http://ranger.uta.edu/~ylei/,8,0,0,0,0,0,0,2,0,0,1,3,31,45
+1,271,Raghu N. Kacker,National Institute of Standards and Technology (NIST),United States,http://math.nist.gov/~RKacker/,2,0,2,0,0,0,0,1,0,0,1,3,36,45
+3,265,D. Richard Kuhn,National Institute of Standards and Technology (NIST),United States,http://csrc.nist.gov/staff/Kuhn/kuhn_rick.html,3,0,2,0,0,0,0,1,0,0,1,3,34,44
+4,479,Myra B. Cohen,University of Nebraska-Lincoln,United States,http://cse.unl.edu/~myra/,5,0,1,1,0,4,2,1,4,0,4,1,1,24
+5,328,Dimitris E. Simos,SBA Research,Austria,https://www.sba-research.org/team/key-researchers/dimitris-e-simos/,0,0,0,0,0,0,0,0,0,0,1,1,21,23
+6,238,Changhai Nie,Nanjing University,China,http://gist.nju.edu.cn/~changhai,5,1,0,0,3,1,0,0,0,0,1,0,5,16
+6,432,Angelo Gargantini,University of Bergamo,Italy,http://cs.unibg.it/gargantini/,0,0,0,1,0,0,0,0,0,0,0,1,14,16
+8,169,Rachel Tzoref-Brill,IBM Research - Haifa,Israel,http://researcher.watson.ibm.com/researcher/view.php?person=il-RACHELT,0,0,0,0,0,4,1,1,1,0,0,1,6,14
+9,240,Huayao Wu,Nanjing University,China,https://huayaow.github.io/,4,0,0,0,3,1,0,0,0,0,1,0,4,13
+9,319,Cemal Yilmaz,Sabanci University,Turkey,http://people.sabanciuniv.edu/cyilmaz/Cemal_Yilmaz/Home.html,5,0,0,1,0,0,0,0,1,0,1,0,5,13
+11,148,Franz Wotawa,Graz University of Technology,Austria,https://www.tugraz.at/institute/sai/research/group-wotawa/people/franz-wotawa,0,0,0,0,1,0,0,0,0,0,0,0,11,12
+12,250,Xintao Niu,Nanjing University,China,https://niuxintao.github.io/,5,0,0,0,2,1,0,0,0,0,1,0,2,11
+13,798,Manuel Leithner,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,9,9
+13,305,Chuan Luo,Beihang University,China,https://chuanluocs.github.io/,0,1,0,0,0,2,4,1,1,0,0,0,0,9
+13,17,Charles J. Colbourn,Arizona State University,United States,http://www.public.asu.edu/~ccolbou/,0,0,0,0,2,2,0,1,0,0,1,0,3,9
+16,89,Jian Zhang,Chinese Academy of Sciences,China,http://lcs.ios.ac.cn/~zj/,0,0,0,2,0,2,0,0,1,0,0,0,3,8
+16,53,Itai Segall,Bell Labs,Israel,https://www.bell-labs.com/researchers/1057/,0,0,0,0,0,2,0,0,1,0,0,0,5,8
+16,327,Bernhard Garn,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,8,8
+19,483,Renée C. Bryce,University of North Texas,United States,http://www.cse.unt.edu/~reneebryce/Renee_Bryce/Home.html,1,0,0,0,2,1,0,1,0,0,0,1,1,7
+19,514,Jaganmohan Chandrasekaran,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,7,7
+19,856,Hongyu Zhang,Chongqing University,China,https://sites.google.com/site/hongyujohn/,0,1,0,0,0,1,4,0,1,0,0,0,0,7
+19,851,Andrea Bombarda,University of Bergamo,Italy,,0,0,0,1,0,0,0,0,0,0,0,0,6,7
+19,459,Adam Porter,"University of Maryland, College Park",United States,,3,0,0,0,0,1,1,0,2,0,0,0,0,7
+24,302,Tatsuhiro Tsuchiya,Osaka University,Japan,,0,0,0,1,1,0,0,0,0,0,0,0,4,6
+24,426,Mark Harman,University College London,United Kingdom,http://www0.cs.ucl.ac.uk/staff/M.Harman/,2,0,0,1,0,2,1,0,0,0,0,0,0,6
+24,515,Laleh Sh. Ghandehari,University of Texas at Arlington,United States,http://barbie.uta.edu/laleh-shikhgholamhosseing/,0,0,0,0,0,0,0,0,0,0,1,1,4,6
+24,307,Jinkun Lin,Peking University,China,,0,0,0,0,0,2,3,1,0,0,0,0,0,6
+24,661,Hanefi Mercan,Sabanci University,Turkey,,2,0,0,1,0,0,0,0,0,0,1,0,2,6
+24,167,Eitan Farchi,IBM Research - Haifa,Israel,http://researcher.watson.ibm.com/researcher/view.php?person=il-FARCHI,1,0,0,0,0,0,0,0,1,0,0,0,4,6
+24,797,Axel Legay,UCLouvain,Belgium,,2,0,0,0,0,1,1,0,0,0,0,1,1,6
+31,450,Yves Le Traon,University of Luxembourg,Luxembourg,,1,0,0,0,0,0,0,0,0,0,0,3,1,5
+31,886,Xiaoyin Wang,University of Texas at San Antonio,United States,,5,0,0,0,0,0,0,0,0,0,0,0,0,5
+31,8,Xiao Qu,ABB Corporate Research,United States,http://cse.unl.edu/~xqu/,0,0,0,0,0,1,0,0,1,0,1,1,1,5
+31,91,Shaowei Cai,Chinese Academy of Sciences,China,,0,0,0,0,0,2,2,1,0,0,0,0,0,5
+31,516,Linbin Yu,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,2,3,5
+31,159,Hareton Leung,Hong Kong Polytechnic University,Hong Kong SAR,,2,1,0,0,1,0,0,0,0,0,0,0,1,5
+31,186,Benoit Baudry,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,1,0,0,0,1,0,1,2,0,5
+38,906,Yan Wang,Nanjing Xiaozhuang University,China,,2,0,0,0,1,0,0,0,0,0,0,0,1,4
+38,260,Takashi Kitamura,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,1,0,0,1,1,1,4
+38,124,Sergiy Vilkomir,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,4,4
+38,434,Paolo Vavassori,University of Bergamo,Italy,,0,0,0,0,0,0,0,0,0,0,0,1,3,4
+38,805,Michael Wagner,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,4,4
+38,478,Matthew B. Dwyer,University of Nebraska-Lincoln,United States,,1,0,1,0,0,0,0,0,1,0,1,0,0,4
+38,655,Ludwig Kampel,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,4,4
+38,905,Laura J. Freeman,National Security Institute,United States,,0,0,0,0,0,0,0,0,0,0,0,0,4,4
+38,1167,Konrad Fögen,RWTH Aachen University,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,4,4
+38,425,Justyna Petke,University College London,United Kingdom,,1,0,0,0,0,1,1,0,0,0,0,0,1,4
+38,90,Jun Yan,Chinese Academy of Sciences,China,,0,0,0,2,0,0,0,0,0,0,0,0,2,4
+38,907,Jiaxi Xu,Nanjing Xiaozhuang University,China,,2,0,0,0,1,0,0,0,0,0,0,0,1,4
+38,951,Horst Lichter,RWTH Aachen University,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,4,4
+38,513,Feng Duan,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,4,4
+38,258,Eun-Hye Choi,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,1,0,0,1,1,1,4
+38,903,Erin Lanus,Virginia Tech,United States,,0,0,0,0,0,0,0,0,0,0,0,0,4,4
+38,857,Chunming Hu,Beihang University,China,https://huchunming.github.io/,0,1,0,0,0,0,2,0,1,0,0,0,0,4
+38,164,Aviad Zlotnick,IBM Research - Haifa,Israel,,0,0,0,0,0,1,0,0,0,0,0,0,3,4

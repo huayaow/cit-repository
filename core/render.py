@@ -2,6 +2,7 @@ import csv
 import json
 from papers import Paper
 from tools import Tool
+from scholars import Scholar
 from jinja2 import Environment, FileSystemLoader
 
 class Data:
@@ -10,11 +11,13 @@ class Data:
     self.scholars = []       # list of all scholars
     self.tools = []          # list of all tools
     self.statistics = None   # statistics data (json)
+    self.rank = []           # list of ranked scholars
 
     paper_filename = 'data/paper.csv'
     scholar_filename = 'data/scholar.csv'
     tools_filename = 'data/tool.csv'
     statistics_filename = 'data/statistic.json'
+    rank_filename = 'data/rank.csv'
 
     with open(paper_filename, 'r') as file:
       for each in csv.DictReader(file):
@@ -23,7 +26,8 @@ class Data:
     
     with open(scholar_filename, 'r') as file:
       for each in csv.DictReader(file):
-        self.scholars.append(each)
+        p = Scholar(each)
+        self.scholars.append(p)
     
     with open(tools_filename, 'r') as file:
       for each in csv.DictReader(file):
@@ -33,6 +37,10 @@ class Data:
     with open(statistics_filename) as file:
       self.statistics = json.load(file)
 
+    with open(rank_filename, 'r') as file:
+      for each in csv.DictReader(file):
+        p = Scholar(each)
+        self.rank.append(p)
 
 class Render:
   def __init__(self):
@@ -40,10 +48,10 @@ class Render:
     self.data = Data()
     print('[Render] load data from files')
 
-  def render(self, template_name, context, outputfile_name):
+  def render(self, template_name, context, output_filename):
     template = self.env.get_template(template_name)
     html = template.render(context)
-    with open(outputfile_name, 'w') as f:
+    with open(output_filename, 'w') as f:
       f.write(html)
   
   def render_index(self, update_date):
@@ -75,7 +83,7 @@ class Render:
     }
     self.render('index.j2.html', context, 'index.html')
     self.render('index-chart.j2.js', context, 'assets/index-chart.js')
-    print('[Render] update index.html: {}'.format(update_date))
+    print('[Render] generate index.html: {}'.format(update_date))
 
   def render_paper(self):
     context = {
@@ -85,7 +93,7 @@ class Render:
       'paper_list': self.data.papers
     }
     self.render('paper.j2.html', context, 'render/paper.html')
-    print('[Render] update paper.html: {} papers'.format(context['paper_number']))
+    print('[Render] generate paper.html: {} papers'.format(context['paper_number']))
   
   def render_tool(self):
     context = {
@@ -95,7 +103,7 @@ class Render:
       'tool_list': self.data.tools
     }  
     self.render('tool.j2.html', context, 'render/tool.html')
-    print('[Render] update paper.html: {} tools'.format(context['tool_number']))
+    print('[Render] generate tool.html: {} tools'.format(context['tool_number']))
 
   def render_statistic(self):
     context = {
@@ -117,11 +125,21 @@ class Render:
     }
     self.render('statistic.j2.html', context, 'render/statistic.html')
     self.render('statistic-chart.j2.js', context, 'assets/statistic-chart.js')
-    print('[Render] update statistic.html')
+    print('[Render] generate statistic.html')
+
+  def render_rank(self):
+    context = {
+      'static_url': '../',
+      'active_page': 'rank',
+      'scholar_list': self.data.rank
+    }  
+    self.render('rank.j2.html', context, 'render/rank.html')
+    print('[Render] generate rank.html')
 
 if __name__ == '__main__':
   r = Render()
-  r.render_index('May 2025')
+  r.render_index('Aug 2025')
   r.render_paper()
   r.render_tool()
   r.render_statistic()
+  r.render_rank()

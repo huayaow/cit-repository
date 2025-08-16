@@ -66,8 +66,8 @@
                   <p>Charts</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="#">
+              <li class="nav-item {% if active_page == 'rank' %}active{% endif %}">
+                <a href="{% if active_page == 'home' %}render/rank.html{% else %}rank.html{% endif %}">
                   <i class="fa-solid fa-user-graduate"></i>
                   <p>Active Scholars</p>
                 </a>
@@ -153,9 +153,36 @@
     {% if active_page == 'home' %}
     <script src="{{ static_url }}assets/index-chart.js"></script>
     {% endif %}
+
+    {% if active_page == 'paper' %}
+    <script>
+      $(document).ready(function() {
+        $("#paper-table").DataTable({
+          pageLength: 25,
+          order: [[0, 'desc']],
+          rowReorder: true,
+          columnDefs: [
+            { orderable: true, className: 'reorder', targets: 0 },
+            { orderable: false, targets: '_all' }
+          ]
+        });
+     });
+    </script>
+    {% endif %}
+
     {% if active_page == 'statistic' %}
     <script src="{{ static_url }}assets/js/plugin/chart.js/chart.stacked.min.js"></script>
     <script src="{{ static_url }}assets/statistic-chart.js"></script>
+    {% endif %}
+
+    {% if active_page == 'rank' %}
+    <script>
+      $(document).ready(function() {
+        $("#rank-table").DataTable({
+          order: [[-1, 'desc']]
+        });
+      });
+    </script>
     {% endif %}
   </body>
 </html>

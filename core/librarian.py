@@ -1,8 +1,8 @@
 """
 This script is used to manage the data files.
-* Search new papers from DBLP and add them into an add.csv file (need further manual process)
-* Update scholar.csv based on the current list.csv file 
-* Update statistics data
+* Search new papers from DBLP and add them into an add.csv file.
+* Update scholar.csv and paper.csv based on the latest data.
+* Generate the statistics.json file (via jupyter notebook).
 """
 import csv
 import subprocess
@@ -13,12 +13,14 @@ class Librarian:
   def __init__(self):
     self.dblp = DBLP()
 
-    self.paper_list_filename = 'data/paper.csv'
-    self.paper_list_fields = ['year', 'type', 'author', 'title', 'field', 'tag', 
-                              'booktitle', 'abbr', 'vol', 'no', 'pages', 'doi']  
+    self.paper_filename = 'data/paper.csv'
+    self.paper_fields = ['year', 'type', 'author', 'title', 'field', 'tag', 
+                         'booktitle', 'abbr', 'vol', 'no', 'pages', 'doi']  
     
     self.scholar_filename = 'data/scholar.csv'
-    self.scholar_fields = ['id', 'name', 'institution', 'category', 'country', 'homepage']
+    self.scholar_fields = ['id', 'name', 'institution', 'country', 'homepage']
+    self.target_venues = ['TSE', 'TOSEM', 'EMSE', 'JSS', 'IST', 'ICSE', 'FSE', 'ASE', 
+                          'ISSTA', 'SANER', 'ISSRE', 'ICST', 'ICSTW']
 
     self.keywords = [
       'combinatorial testing',         
@@ -28,16 +30,12 @@ class Librarian:
     ]
 
     # get the list of current papers
-    with open(self.paper_list_filename, 'r') as file:
-      reader = csv.DictReader(file)
-      self.papers = list(reader)
-    print('[librarian] load {} papers from "{}"'.format(len(self.papers), self.paper_list_filename))
+    self.paper = pd.read_csv(self.paper_filename, sep=',', header=0)
+    print('[librarian] load {} papers from {}'.format(self.paper.shape, self.paper_filename))
 
     # get the list of current scholars
-    with open(self.scholar_filename, 'r') as file:
-      reader = csv.DictReader(file)
-      self.scholar = list(reader)
-    print('[librarian] load {} scholars from "{}"'.format(len(self.scholar), self.scholar_filename))
+    self.scholar = pd.read_csv(self.scholar_filename, sep=',', header=0)
+    print('[librarian] load {} scholars from {}'.format(self.scholar.shape, self.scholar_filename))
   
   def search_new_papers(self, keywords=None, after_year=None, output_file='data/add.csv'):
     """
@@ -45,7 +43,7 @@ class Librarian:
     that are irrelevant to CIT.
     """
     # these paper titles are already included in repository
-    paper_titles = [e['title'].lower() for e in self.papers]
+    included_titles = self.paper['title'].tolist()
 
     # these paper titles should be excluded
     with open('data/excluded/excluded_format.txt', 'r') as file:
@@ -56,7 +54,7 @@ class Librarian:
     # search dblp for new papers
     keywords = self.keywords if keywords == None else keywords
     new_papers = self.dblp.search_paper(keywords=keywords,
-                                        already_have=paper_titles, 
+                                        already_have=included_titles, 
                                         excluded=excluded_titles,
                                         after_year=after_year)
     
@@ -67,76 +65,75 @@ class Librarian:
       for each in new_papers:
         writer.writerow(each)
 
-    print('[librarian] add {} papers to "{}" (might be irrelevant to CIT)'.format(len(new_papers), output_file))
+    print('[librarian] add {} papers to {} (might be irrelevant to CIT)'.format(len(new_papers), output_file))
 
-  def get_paper_information(self, title_file, output_file='data/add.csv'):
+  def update_table(self):
     """
-    Get paper information for each paper title specified in the title_file. 
+    Update scholar.csv
+      1. if the name appears in paper.csv but not in scholar.csv, add it into scholar.csv
+      2. calculate the number of papers published in target venues for each scholar
+    Update paper.csv
+      1. sort by year, booktitle, and title
     """
-    # these paper titles are already included in repository
-    paper_titles = [e['title'].lower() for e in self.papers]
-
-    # these paper titles should be excluded
-    with open('data/excluded/excluded_format.txt', 'r') as file:
-      excluded_titles = [e.strip().lower() for e in file.readlines()]
-    with open('data/excluded/excluded_irrelevant.txt', 'r') as file:
-      excluded_titles += [e.strip().lower() for e in file.readlines()]
-    
-    # get the paper titles specified 
-    with open(title_file, 'r') as file:
-      all_titles = file.readlines()
-    
-    all_papers = []
-    for title in all_titles:
-      title = title.strip()
-      if title in paper_titles or title in excluded_titles:
-        print('[librarian] --> paper already included or should be excluded: {}'.format(title))
-      paper = self.dblp.search_by_title(title.strip())
-      all_papers.append(paper)
-    
-    # write the new papers into the add.csv file
-    with open(output_file, 'w', encoding='utf-8') as file:
-      writer = csv.DictWriter(file, fieldnames=self.paper_list_fields)
-      writer.writeheader()
-      for each in all_papers:
-        writer.writerow(each)
-    
-    print('[librarian] add {} papers (specified in {}) to "{}"'.format(len(all_papers), title_file, output_file))
-
-  def update_scholar(self):
-    """
-    Update scholar.csv according to paper.csv
-    """
-    current_names = [e['name'] for e in self.scholar]
-    paper_names = []
+    # names appear in paper table but not in scholar table
+    current_names = self.scholar['name'].tolist()
     new_names = []
 
-    # for each paper authors
-    for each in self.papers:
-      names = each['author'].split(', ')
+    # number of authored papers for each scholar, in the format of
+    # {'Yu Lei': {'ICSTW': 31, 'ASE': 2, 'TSE': 8, 'ISSRE': 1, 'ICST': 3}}
+    paper_count = {}
+
+    for row in self.paper.itertuples(index=False):
+      names = row.author.split(', ')
+      # check whether a new name appears
       for name in names:
-        paper_names.append(name)
         if name not in current_names:
           new_names.append(name)
+      # calculate number of authored papers (for target venues only)
+      if row.abbr in self.target_venues:
+        for name in names:
+          if name not in paper_count:
+            paper_count[name] = {}
+          elif row.abbr not in paper_count[name]:
+            paper_count[name][row.abbr] = 1
+          elif row.abbr in paper_count[name]:
+            paper_count[name][row.abbr] += 1
+          else:
+            print('[librarian] update scholar error: {}'.format(row))
+            return
+
+    # add new names into scholar.csv
+    last_id = self.scholar['id'].max()
+    for each in new_names:
+      last_id = last_id + 1
+      new_row = pd.DataFrame([{'id': last_id, 'name': each}])
+      self.scholar = pd.concat([self.scholar, new_row], ignore_index=True)
     print('[librarian] found {} new scholar names'.format(len(new_names)))
 
-    for each in current_names:
-      if each not in paper_names:
-        print('\tnot appear in paper list: ' + each)
+    # zero all paper numbers and update them
+    self.scholar.iloc[:, 5:5 + len(self.target_venues)] = 0
+    cols = self.scholar.columns[5:5 + len(self.target_venues)]
+    self.scholar[cols] = self.scholar[cols].astype('int64')
 
-    if len(new_names) > 0:
-      # add these names into scholar.csv
-      with open(self.scholar_filename, 'a') as file:
-        id = len(current_names) + 1
-        writer = csv.DictWriter(file, fieldnames=self.scholar_fields)
-        for each in new_names:
-          writer.writerow({'id': id, 'name': each, 
-                          'institution': '', 'category': '', 'country': '', 'homepage': ''})
-      print('[librarian] update the scholar.csv file')
+    for name in paper_count:
+      for abbr in paper_count[name]:
+        self.scholar.loc[self.scholar['name'] == name, abbr] = paper_count[name][abbr]
 
-  def check_paper_inclusion(self, filename, start=None, end=None):
+    # remove duplicate names
+    # self.df_scholar = self.df_scholar.drop_duplicates(subset=['name'])
+
+    # save the updated scholar.csv
+    self.scholar.to_csv(self.scholar_filename, sep=',', encoding='utf-8', index=False, header=True)
+    print('[librarian] update scholar.csv')
+
+    # sort paper.csv
+    self.paper = self.paper.sort_values(['year', 'booktitle', 'title'], ascending=False)
+    self.paper.to_csv(self.paper_filename, sep=',', encoding='utf-8', index=False, header=True)
+    print('[librarian] update paper.csv')
+
+  def check_paper(self, filename, start=None, end=None):
     """
-    Determine whether the papers (titles) listed in the file are included in DBLP.
+    Determine whether the paper titles listed in the file are included in DBLP.
     Each line in the file should be in the format of "index, title"
     """
     with open(filename, encoding='utf-8') as file:
@@ -151,27 +148,15 @@ class Librarian:
       if result == 'no_match':
         print('[{}] {}'.format(result, paper_title))
 
-  def update_paper(self):
-    """
-    Reorder the original paper.csv file
-    """
-    df = pd.read_csv(self.paper_list_filename, sep=',', header=0)
-    df = df.sort_values(['year', 'booktitle', 'title'], ascending=False)
-    df.to_csv(self.paper_list_filename, sep=',', encoding='utf-8', index=False, header=True)
-    print('[librarian] reorder the paper.csv file')
-
   def update_statistic(self):
     """
     Generate the statistic.json file for drawing figures
     """
     subprocess.run('jupyter nbconvert --to notebook --inplace --execute core/analysis.ipynb', shell=True)
-    print('[librarian] generate the statistic.json file')
+    print('[librarian] generate the "statistic.json" and "rank.csv" files')
 
 if __name__ == '__main__':
   lib = Librarian()
-  lib.search_new_papers()
-  # lib.get_paper_information('data/temp.txt')
-
-  # lib.update_scholar()
-  # lib.update_paper()
-  # lib.update_statistic()
+  # lib.search_new_papers()
+  lib.update_table()
+  lib.update_statistic()
