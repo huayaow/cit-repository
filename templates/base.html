@@ -169,10 +169,17 @@
      });
     </script>
     {% endif %}
-
-    {% if active_page == 'statistic' %}
-    <script src="{{ static_url }}assets/js/plugin/chart.js/chart.stacked.min.js"></script>
-    <script src="{{ static_url }}assets/statistic-chart.js"></script>
+    
+    {% if active_page == 'tool' %}
+    <script>
+      $(document).ready(function() {
+        $("#tool-table").DataTable({
+          pageLength: 50,
+          order: [[2, 'desc']],
+          rowReorder: true
+        });
+     });
+    </script>
     {% endif %}
 
     {% if active_page == 'rank' %}
@@ -183,6 +190,11 @@
         });
       });
     </script>
+    {% endif %}
+
+    {% if active_page == 'statistic' %}
+    <script src="{{ static_url }}assets/js/plugin/chart.js/chart.stacked.min.js"></script>
+    <script src="{{ static_url }}assets/statistic-chart.js"></script>
     {% endif %}
   </body>
 </html>

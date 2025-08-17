@@ -24,7 +24,7 @@ class DBLP:
 
     @:param keyword: a list of searching keywords
     @:already_have: a list of paper titles that have already been included
-    @:excluded: a list of paper titles that shoud be excluded
+    @:excluded: a list of paper titles that should be excluded
     @:param after: only search papers that are published after the given year (optional)
     """
     paper_obtained = []   # a list of all papers found
@@ -35,9 +35,9 @@ class DBLP:
       
       response = requests.post(url)
       data = json.loads(response.text)
-      cprint('* Seach "{}" -> hit {} papers'.format(keyword, int(data['result']['hits']['@total'])), 'green')
+      cprint('⏳ Searching "{}" -> hit {} papers'.format(keyword, int(data['result']['hits']['@total'])), 'green')
 
-      cprint('* Filtering and converting format ...', 'light_green')
+      cprint('⏳ Filtering and converting format ...', 'light_green')
       if after_year:
         print('* After year: {}'.format(after_year))
 
@@ -54,9 +54,12 @@ class DBLP:
           continue
 
         # there might be a period symbol (.) in the returned title field
-        tp_title = info['title'][:-1].lower() if info['title'].endswith('.') else info['title'].lower()
+        if info['title'].endswith('.'):
+          tp_title = info['title'][:-1].lower()
+        else:
+          tp_title = info['title'].lower()
 
-        # skip already-have and exlcuded papers
+        # skip already-have and excluded papers
         if (tp_title in already_have):
           continue
         if (tp_title in excluded):
@@ -67,7 +70,7 @@ class DBLP:
           continue
         
         # convert the format of each newly found paper (via DBLP APIs)
-        print('> find: ' + info['title'])
+        print('  📑 {} {}'.format(info['title'], info['year']))
         paper = self.parse_paper_info(info)
         
         paper_obtained.append(paper)
@@ -76,7 +79,7 @@ class DBLP:
 
     # order the final list by year
     paper_ordered = sorted(paper_obtained, key=lambda d: d['year'], reverse=True)
-    cprint('[dblp] Find {} new papers (after year {})'.format(len(paper_ordered), after_year), 'light_grey', 'on_light_green')
+    cprint('[dblp] Find {} new papers'.format(len(paper_ordered)), 'light_grey', 'on_light_yellow')
 
     return paper_obtained
     
@@ -85,7 +88,7 @@ class DBLP:
     Determine whether a given paper (title) is included in DBLP. If it is included, return 
     the information of this paper.
     """
-    cprint('* getting infomation for "{}"'.format(paper_title), 'green')
+    cprint('⏳ Getting information for "{}"'.format(paper_title), 'green')
     url = self.publ_url + '?q=' + '+'.join(paper_title.split(' ')) + '&format=json'
     response = requests.post(url)
     data = json.loads(response.text)
@@ -201,7 +204,7 @@ class DBLP:
       try:
         response = requests.post(url)
       except requests.exceptions.RequestException as e:
-        cprint('extract_venue_text: ' + e, 'red')
+        cprint('extract_venue_text: {}'.format(e), 'red')
         wait_time *= 2
       time.sleep(wait_time)
     
@@ -217,7 +220,7 @@ class DBLP:
         ab = each['info']['url'].split('/')[-2]
         if ab == abbr:
           venue = each['info']['venue']
-          venue = re.sub('[\(].*?[\)]', '', venue)
+          venue = re.sub(r'[\(].*?[\)]', '', venue)
           return venue
     return ''
 

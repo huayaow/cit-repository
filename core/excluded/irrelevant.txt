@@ -120,3 +120,4 @@ Conformal Prediction for Class-wise Coverage via Augmented Label Rank Calibratio
 Making effective carbon-box testing technique using prioritised-selected test cases driven combinatorial approach
 Bluetooth Low Energy Security Testing with Combinatorial Methods
 Guitar-TECHS: An Electric Guitar Dataset Covering Techniques, Musical Excerpts, Chords and Scales Using a Diverse Array of Hardware
+Combinatorial Multi-armed Bandits: Arm Selection via Group Testing

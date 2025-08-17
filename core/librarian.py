@@ -31,11 +31,11 @@ class Librarian:
 
     # get the list of current papers
     self.paper = pd.read_csv(self.paper_filename, sep=',', header=0)
-    print('[librarian] load {} papers from {}'.format(self.paper.shape, self.paper_filename))
+    print('🤖 load {} papers from {}'.format(self.paper.shape, self.paper_filename))
 
     # get the list of current scholars
     self.scholar = pd.read_csv(self.scholar_filename, sep=',', header=0)
-    print('[librarian] load {} scholars from {}'.format(self.scholar.shape, self.scholar_filename))
+    print('🤖 load {} scholars from {}'.format(self.scholar.shape, self.scholar_filename))
   
   def search_new_papers(self, keywords=None, after_year=None, output_file='data/add.csv'):
     """
@@ -43,12 +43,12 @@ class Librarian:
     that are irrelevant to CIT.
     """
     # these paper titles are already included in repository
-    included_titles = self.paper['title'].tolist()
+    included_titles = self.paper['title'].str.lower().tolist()
 
     # these paper titles should be excluded
-    with open('data/excluded/excluded_format.txt', 'r') as file:
+    with open('core/excluded/format.txt', 'r') as file:
       excluded_titles = [e.strip().lower() for e in file.readlines()]
-    with open('data/excluded/excluded_irrelevant.txt', 'r') as file:
+    with open('core/excluded/irrelevant.txt', 'r') as file:
       excluded_titles += [e.strip().lower() for e in file.readlines()]
 
     # search dblp for new papers
@@ -60,12 +60,12 @@ class Librarian:
     
     # write the new papers into the add.csv file
     with open(output_file, 'w', encoding='utf-8') as file:
-      writer = csv.DictWriter(file, fieldnames=self.paper_list_fields)
+      writer = csv.DictWriter(file, fieldnames=self.paper_fields)
       writer.writeheader()
       for each in new_papers:
         writer.writerow(each)
 
-    print('[librarian] add {} papers to {} (might be irrelevant to CIT)'.format(len(new_papers), output_file))
+    print('🤖 add {} papers to {} (might be irrelevant to CIT)'.format(len(new_papers), output_file))
 
   def update_table(self):
     """
@@ -99,7 +99,7 @@ class Librarian:
           elif row.abbr in paper_count[name]:
             paper_count[name][row.abbr] += 1
           else:
-            print('[librarian] update scholar error: {}'.format(row))
+            print('🤖 update scholar error: {}'.format(row))
             return
 
     # add new names into scholar.csv
@@ -108,7 +108,7 @@ class Librarian:
       last_id = last_id + 1
       new_row = pd.DataFrame([{'id': last_id, 'name': each}])
       self.scholar = pd.concat([self.scholar, new_row], ignore_index=True)
-    print('[librarian] found {} new scholar names'.format(len(new_names)))
+    print('🤖 found {} new scholar names: {}'.format(len(new_names), new_names))
 
     # zero all paper numbers and update them
     self.scholar.iloc[:, 5:5 + len(self.target_venues)] = 0
@@ -124,12 +124,12 @@ class Librarian:
 
     # save the updated scholar.csv
     self.scholar.to_csv(self.scholar_filename, sep=',', encoding='utf-8', index=False, header=True)
-    print('[librarian] update scholar.csv')
+    print('🤖 update scholar.csv')
 
     # sort paper.csv
     self.paper = self.paper.sort_values(['year', 'booktitle', 'title'], ascending=False)
     self.paper.to_csv(self.paper_filename, sep=',', encoding='utf-8', index=False, header=True)
-    print('[librarian] update paper.csv')
+    print('🤖 update paper.csv')
 
   def check_paper(self, filename, start=None, end=None):
     """
@@ -153,7 +153,7 @@ class Librarian:
     Generate the statistic.json file for drawing figures
     """
     subprocess.run('jupyter nbconvert --to notebook --inplace --execute core/analysis.ipynb', shell=True)
-    print('[librarian] generate the "statistic.json" and "rank.csv" files')
+    print('🤖 generate the "statistic.json" and "rank.csv" files')
 
 if __name__ == '__main__':
   lib = Librarian()

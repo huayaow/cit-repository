@@ -11,22 +11,22 @@ parser.add_argument("--date", help='update date', type=str)
 args = parser.parse_args()
 
 if args.action == 'search':
-  print('[*] Search new papers in DBLP ...')
+  print('Search new papers in DBLP ...')
   lib = Librarian()
   lib.search_new_papers(after_year=args.after)
-  print('[*] Please manually check add.csv and copy new paper items to paper.csv')
+  print('Please manually check add.csv and copy new paper items to paper.csv')
 
 elif args.action == 'update':
   if not args.date:
-    print('[*] Update date is required')
+    print('Error: Update date is required')
     exit(-1)
   
-  print('[*] Update repository data ...')
+  print('Update repository data ...')
   lib = Librarian()
   lib.update_table()
   lib.update_statistic()
   
-  print('[*] Generate HTML pages ...')
+  print('Generate HTML pages ...')
   render = Render()
   render.render_index(update_date=args.date)
   render.render_paper()

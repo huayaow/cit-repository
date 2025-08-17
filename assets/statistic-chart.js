@@ -7,7 +7,7 @@ var annualChart = new Chart(document.getElementById("annualChart").getContext("2
         label: "# Publications",
         backgroundColor: "rgb(23, 125, 255)",
         borderColor: "rgb(23, 125, 255)",
-        data: [1, 2, 1, 1, 1, 3, 1, 3, 2, 6, 3, 4, 5, 9, 15, 15, 15, 18, 22, 30, 47, 47, 46, 68, 67, 71, 73, 85, 68, 82, 68, 33, 40, 51, 40, 34, 22]
+        data: [1, 2, 1, 1, 1, 3, 1, 3, 2, 6, 3, 4, 5, 9, 15, 15, 15, 18, 22, 30, 47, 47, 46, 68, 67, 71, 73, 85, 68, 82, 68, 33, 40, 51, 40, 34, 23]
       },
     ],
   },
@@ -44,7 +44,7 @@ var annualDistChart = new Chart(document.getElementById("annualDistChart").getCo
     datasets: [
         {
           label: 'Generation',
-          data: [0, 0, 0, 0, 0, 2, 1, 3, 1, 2, 1, 3, 2, 7, 9, 9, 8, 10, 11, 20, 25, 30, 21, 34, 20, 22, 34, 29, 24, 37, 24, 11, 14, 23, 13, 10, 8]
+          data: [0, 0, 0, 0, 0, 2, 1, 3, 1, 2, 1, 3, 2, 7, 9, 9, 8, 10, 11, 20, 25, 30, 21, 34, 20, 22, 34, 29, 24, 37, 24, 11, 14, 23, 13, 10, 9]
         },
         {
           label: 'Application',
