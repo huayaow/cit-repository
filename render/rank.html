@@ -72,6 +72,12 @@
                   <p>Active Scholars</p>
                 </a>
               </li>
+              <li class="nav-item ">
+                <a href="network.html">
+                  <i class="fa-solid fa-circle-nodes"></i>
+                  <p>Co-authorship Network</p>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -100,8 +106,8 @@
   <div class="page-inner">
     <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pb-4">
       <div>
-        <h2 class="fw-bold mb-1">Active Scholars (Under Construction)</h2>
-        <p class="op-7">This page reports a bibliometric assessment of active scholars in the field of combinatorial testing. Currently, the score of each scholar is calculated as the total number of leading software engineering conference and journal papers in which the scholar is involved.</p>
+        <h2 class="fw-bold mb-1">Active Scholars</h2>
+        <p class="op-7">This page reports a bibliometric assessment of active scholars in the combinatorial interaction testing community. The score of each scholar is calculated as the total number of leading software engineering conference and journal papers in which the scholar is involved. The scholars with a score of four or higher are shown in the following table.</p>
       </div>
     </div>
     
@@ -113,8 +119,7 @@
               <table id="rank-table" class="display table">
                 <thead>
                   <tr>
-                    <th>#</th>
-                    <th>Scholar</th>
+                    <th>#</th><th>Scholar</th>
                     <th>TSE</th><th>TOSEM</th><th>EMSE</th><th>JSS</th><th>IST</th>
                     <th>ICSE</th><th>FSE</th><th>ASE</th><th>ISSTA</th><th>ISSRE</th>
                     <th>ICST</th><th>IWCT</th>
@@ -1073,6 +1078,101 @@
                     <td>4</td>
                   </tr>
                   
+                  <tr>
+                    <td>38</td>
+                    <td><a href="#" target="_blank">Feng Duan</a><br>
+                    University of Texas at Arlington, United States</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>4</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>38</td>
+                    <td><a href="#" target="_blank">Eun-Hye Choi</a><br>
+                    National Institute of Advanced Industrial Science and Technology (AIST), Japan</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>4</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>38</td>
+                    <td><a href="#" target="_blank">Erin Lanus</a><br>
+                    Virginia Tech, United States</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>4</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>38</td>
+                    <td><a href="https://huchunming.github.io/" target="_blank">Chunming Hu</a><br>
+                    Beihang University, China</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>4</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>38</td>
+                    <td><a href="#" target="_blank">Aviad Zlotnick</a><br>
+                    IBM Research - Haifa, Israel</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>4</td>
+                  </tr>
+                  
                 </tbody>
               </table>
             </div>
@@ -1140,6 +1240,8 @@
     
 
     
+    
+    
 
     
 
@@ -1147,10 +1249,16 @@
     <script>
       $(document).ready(function() {
         $("#rank-table").DataTable({
-          order: [[-1, 'desc']]
+          paging: false,
+          order: [[14, 'desc']],
+          columnDefs: [
+            { orderable: false, targets: '_all' }
+          ]
         });
       });
     </script>
     
+
+        
   </body>
 </html>

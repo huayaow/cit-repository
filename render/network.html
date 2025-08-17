@@ -14,16 +14,16 @@
     <title>Combinatorial Interaction Testing Repository</title>
     <meta name="description" content="Combinatorial interaction testing (CIT), or combinatorial testing (CT) is a potentially effective and widely adopted testing technique for revealing interaction related bugs. This website aims to provide a full coverage of publications in the literature of combinatorial interaction testing, and analyze the status and development of this research field. This website is maintained by Huayao Wu (吴化尧) from Nanjing University.">
     <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport"/>
-    <link rel="icon" href="{{ static_url }}assets/img/kaiadmin/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="../assets/img/kaiadmin/favicon.ico" type="image/x-icon"/>
 
     <!-- Fonts and icons -->
     <script src="https://kit.fontawesome.com/0abc90f91e.js" crossorigin="anonymous"></script>
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="{{ static_url }}assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="{{ static_url }}assets/css/plugins.min.css" />
-    <link rel="stylesheet" href="{{ static_url }}assets/css/kaiadmin.css" />
-    <link rel="stylesheet" href="{{ static_url }}assets/repository.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/plugins.min.css" />
+    <link rel="stylesheet" href="../assets/css/kaiadmin.css" />
+    <link rel="stylesheet" href="../assets/repository.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -36,20 +36,20 @@
                 <span class="sidebar-mini-icon"><i class="fa fa-ellipsis-h"></i></span>
                 <h4 class="text-section">Repository</h4>
               </li>
-              <li class="nav-item {% if active_page == 'home' %}active{% endif %}">
-                <a href="{% if active_page != 'home' %}../index.html{% else %}#{% endif %}">
+              <li class="nav-item ">
+                <a href="../index.html">
                   <i class="fas fa-home"></i>
                   <p>Home</p>
                 </a>
               </li>
-              <li class="nav-item {% if active_page == 'paper' %}active{% endif %}">
-                <a href="{% if active_page == 'home' %}render/paper.html{% else %}paper.html{% endif %}">
+              <li class="nav-item ">
+                <a href="paper.html">
                   <i class="fas fa-layer-group"></i>
                   <p>Papers</p>
                 </a>
               </li>
-              <li class="nav-item {% if active_page == 'tool' %}active{% endif %}">
-                <a href="{% if active_page == 'home' %}render/tool.html{% else %}tool.html{% endif %}">
+              <li class="nav-item ">
+                <a href="tool.html">
                   <i class="fas fa-pencil-ruler"></i>
                   <p>Tools</p>
                 </a>
@@ -60,20 +60,20 @@
                 </span>
                 <h4 class="text-section">Statistics (Under Construction)</h4>
               </li>
-              <li class="nav-item {% if active_page == 'statistic' %}active{% endif %}">
-                <a href="{% if active_page == 'home' %}render/statistic.html{% else %}statistic.html{% endif %}">
+              <li class="nav-item ">
+                <a href="statistic.html">
                   <i class="far fa-chart-area"></i>
                   <p>Charts</p>
                 </a>
               </li>
-              <li class="nav-item {% if active_page == 'rank' %}active{% endif %}">
-                <a href="{% if active_page == 'home' %}render/rank.html{% else %}rank.html{% endif %}">
+              <li class="nav-item ">
+                <a href="rank.html">
                   <i class="fa-solid fa-user-graduate"></i>
                   <p>Active Scholars</p>
                 </a>
               </li>
-              <li class="nav-item {% if active_page == 'network' %}active{% endif %}">
-                <a href="{% if active_page == 'home' %}render/network.html{% else %}network.html{% endif %}">
+              <li class="nav-item active">
+                <a href="network.html">
                   <i class="fa-solid fa-circle-nodes"></i>
                   <p>Co-authorship Network</p>
                 </a>
@@ -101,8 +101,45 @@
           </div>
         </div>
         
-        {% block content %}
-        {% endblock content %}
+        
+<div class="container">
+  <div class="page-inner">
+    <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pb-4">
+      <div>
+        <h2 class="fw-bold mb-1">Co-authorship Network</h2>
+        <p class="op-7">This page visualizes the co-authorship network for scholars in the combinatorial interaction testing community, and reports centrality metrics of the scholars.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card card-round">
+          <div class="card-header">
+            <div class="card-category d-flex justify-content-between align-items-center">
+              <div class="d-inline-flex align-items-center gap-2">
+                <span>Layout</span>
+                <button onclick="switchLayout('cose')">cose</button>
+                <button onclick="switchLayout('concentric')">concentric</button>
+                <button onclick="switchLayout('circle')">circle</button>
+              </div>
+              <div class="d-inline-flex align-items-center gap-2">
+                <span>Edge Threshold: </span>
+                0 <input id="edge-thr" type="range" min="0" max="20" step="1" value="0" oninput="setEdgeThreshold(this.value)"> 20
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="chart-container-thin">
+              <div id="cy" style="width:100%; height:800px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
         <!-- div class="container"></div> -->
         
         <footer class="footer">
@@ -123,93 +160,52 @@
     </div>
 
     <!-- Core JS Files   -->
-    <script src="{{ static_url }}assets/js/core/jquery-3.7.1.min.js"></script>
-    <script src="{{ static_url }}assets/js/core/popper.min.js"></script>
-    <script src="{{ static_url }}assets/js/core/bootstrap.min.js"></script>
+    <script src="../assets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="../assets/js/core/popper.min.js"></script>
+    <script src="../assets/js/core/bootstrap.min.js"></script>
 
     <!-- jQuery Scrollbar -->
-    <script src="{{ static_url }}assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="../assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
     <!-- Chart JS -->
-    <script src="{{ static_url }}assets/js/plugin/chart.js/chart.min.js"></script>
+    <script src="../assets/js/plugin/chart.js/chart.min.js"></script>
 
     <!-- jQuery Sparkline -->
-    <script src="{{ static_url }}assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+    <script src="../assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
 
     <!-- Chart Circle -->
-    <script src="{{ static_url }}assets/js/plugin/chart-circle/circles.min.js"></script>
+    <script src="../assets/js/plugin/chart-circle/circles.min.js"></script>
 
     <!-- Datatables -->
-    <script src="{{ static_url }}assets/js/plugin/datatables/datatables.min.js"></script>
+    <script src="../assets/js/plugin/datatables/datatables.min.js"></script>
 
     <!-- Bootstrap Notify -->
-    <script src="{{ static_url }}assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script src="../assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
 
     <!-- jQuery Vector Maps -->
-    <script src="{{ static_url }}assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
-    <script src="{{ static_url }}assets/js/plugin/jsvectormap/world.js"></script>
+    <script src="../assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="../assets/js/plugin/jsvectormap/world.js"></script>
 
     <!-- Sweet Alert -->
-    <script src="{{ static_url }}assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+    <script src="../assets/js/plugin/sweetalert/sweetalert.min.js"></script>
 
     <!-- Kaiadmin JS -->
-    <script src="{{ static_url }}assets/js/kaiadmin.min.js"></script>
+    <script src="../assets/js/kaiadmin.min.js"></script>
 
     <!-- Customised JS -->
-    {% if active_page == 'home' %}
-    <script src="{{ static_url }}assets/index-chart.js"></script>
-    {% endif %}
-
-    {% if active_page == 'paper' %}
-    <script>
-      $(document).ready(function() {
-        $("#paper-table").DataTable({
-          pageLength: 25,
-          order: [[0, 'desc']],
-          rowReorder: true,
-          columnDefs: [
-            { orderable: true, className: 'reorder', targets: 0 },
-            { orderable: false, targets: '_all' }
-          ]
-        });
-     });
-    </script>
-    {% endif %}
     
-    {% if active_page == 'tool' %}
-    <script>
-      $(document).ready(function() {
-        $("#tool-table").DataTable({
-          pageLength: 50,
-          order: [[2, 'desc']],
-          rowReorder: true
-        });
-     });
-    </script>
-    {% endif %}
 
-    {% if active_page == 'statistic' %}
-    <script src="{{ static_url }}assets/js/plugin/chart.js/chart.stacked.min.js"></script>
-    <script src="{{ static_url }}assets/statistic-chart.js"></script>
-    {% endif %}
+    
+    
+    
 
-    {% if active_page == 'rank' %}
-    <script>
-      $(document).ready(function() {
-        $("#rank-table").DataTable({
-          paging: false,
-          order: [[14, 'desc']],
-          columnDefs: [
-            { orderable: false, targets: '_all' }
-          ]
-        });
-      });
-    </script>
-    {% endif %}
+    
 
-    {% if active_page == 'network' %}
+    
+
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.33.1/cytoscape.min.js"></script>
-    <script src="{{ static_url }}assets/network-chart.js"></script>
-    {% endif %}    
+    <script src="../assets/network-chart.js"></script>
+        
   </body>
 </html>

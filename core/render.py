@@ -1,8 +1,9 @@
 import csv
 import json
-from papers import Paper
-from tools import Tool
-from scholars import Scholar
+from item.paper import Paper
+from item.tool import Tool
+from item.scholar import Scholar
+from item.edge import Edge
 from jinja2 import Environment, FileSystemLoader
 
 class Data:
@@ -18,29 +19,31 @@ class Data:
     tools_filename = 'data/tool.csv'
     statistics_filename = 'data/statistic.json'
     rank_filename = 'data/rank.csv'
+    # co-authorship network
+    node_filename = 'data/network/network_nodes.csv'
+    edge_filename = 'data/network/network_edges.csv'
+    centrality_filename = 'data/network/network_centrality.csv'
 
     with open(paper_filename, 'r') as file:
-      for each in csv.DictReader(file):
-        p = Paper(each)
-        self.papers.append(p)
+      self.papers = [Paper(each) for each in csv.DictReader(file)]
     
     with open(scholar_filename, 'r') as file:
-      for each in csv.DictReader(file):
-        p = Scholar(each)
-        self.scholars.append(p)
+      self.scholars = [Scholar(each) for each in csv.DictReader(file)]
     
     with open(tools_filename, 'r') as file:
-      for each in csv.DictReader(file):
-        p = Tool(each)
-        self.tools.append(p)
+      self.tools = [Tool(each) for each in csv.DictReader(file)]
 
     with open(statistics_filename) as file:
       self.statistics = json.load(file)
 
     with open(rank_filename, 'r') as file:
-      for each in csv.DictReader(file):
-        p = Scholar(each)
-        self.rank.append(p)
+      self.rank = [Scholar(each) for each in csv.DictReader(file)]
+    
+    with open(node_filename, 'r') as file:
+      self.network_nodes = [row for row in csv.DictReader(file)]
+
+    with open(edge_filename, 'r') as file:
+      self.network_edges = [Edge(row) for row in csv.DictReader(file)]
 
 class Render:
   def __init__(self):
@@ -54,6 +57,14 @@ class Render:
     with open(output_filename, 'w') as f:
       f.write(html)
   
+  def render_all(self, update_date):
+    self.render_index(update_date)
+    self.render_paper()
+    self.render_tool()
+    self.render_statistic()
+    self.render_rank()
+    self.render_network()
+
   def render_index(self, update_date):
     """
     * basic descriptions <- Last update date, final year of bar chart
@@ -83,7 +94,7 @@ class Render:
     }
     self.render('index.j2.html', context, 'index.html')
     self.render('index-chart.j2.js', context, 'assets/index-chart.js')
-    print('[Render] generate index.html: {}'.format(update_date))
+    print('[Render] generate index.html ({})'.format(update_date))
 
   def render_paper(self):
     context = {
@@ -93,7 +104,7 @@ class Render:
       'paper_list': self.data.papers
     }
     self.render('paper.j2.html', context, 'render/paper.html')
-    print('[Render] generate paper.html: {} papers'.format(context['paper_number']))
+    print('[Render] generate paper.html ({} papers)'.format(context['paper_number']))
   
   def render_tool(self):
     context = {
@@ -103,7 +114,7 @@ class Render:
       'tool_list': self.data.tools
     }  
     self.render('tool.j2.html', context, 'render/tool.html')
-    print('[Render] generate tool.html: {} tools'.format(context['tool_number']))
+    print('[Render] generate tool.html ({} tools)'.format(context['tool_number']))
 
   def render_statistic(self):
     context = {
@@ -132,14 +143,21 @@ class Render:
       'static_url': '../',
       'active_page': 'rank',
       'scholar_list': self.data.rank
-    }  
+    }
     self.render('rank.j2.html', context, 'render/rank.html')
     print('[Render] generate rank.html')
+  
+  def render_network(self):
+    context = {
+      'static_url': '../',
+      'active_page': 'network',
+      'network_nodes': self.data.network_nodes,
+      'network_edges': self.data.network_edges
+    }
+    self.render('network.j2.html', context, 'render/network.html')
+    self.render('network-chart.j2.js', context, 'assets/network-chart.js')
+    print('[Render] generate network.html')
 
 if __name__ == '__main__':
   r = Render()
-  r.render_index('Aug 2025')
-  r.render_paper()
-  r.render_tool()
-  r.render_statistic()
-  r.render_rank()
+  r.render_all('Aug 2025')

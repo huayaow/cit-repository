@@ -28,10 +28,7 @@ elif args.action == 'update':
   
   print('Generate HTML pages ...')
   render = Render()
-  render.render_index(update_date=args.date)
-  render.render_paper()
-  render.render_tool()
-  render.render_statistic()
+  render.render_all(update_date=args.date)
 
 else:
   print('Invalid arguments')

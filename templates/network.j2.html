@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <div class="page-inner">
+    <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pb-4">
+      <div>
+        <h2 class="fw-bold mb-1">Co-authorship Network</h2>
+        <p class="op-7">This page visualizes the co-authorship network for scholars in the combinatorial interaction testing community, and reports centrality metrics of the scholars.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card card-round">
+          <div class="card-header">
+            <div class="card-category d-flex justify-content-between align-items-center">
+              <div class="d-inline-flex align-items-center gap-2">
+                <span>Layout</span>
+                <button onclick="switchLayout('cose')">cose</button>
+                <button onclick="switchLayout('concentric')">concentric</button>
+                <button onclick="switchLayout('circle')">circle</button>
+              </div>
+              <div class="d-inline-flex align-items-center gap-2">
+                <span>Edge Threshold: </span>
+                0 <input id="edge-thr" type="range" min="0" max="20" step="1" value="0" oninput="setEdgeThreshold(this.value)"> 20
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="chart-container-thin">
+              <div id="cy" style="width:100%; height:800px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+{% endblock content %}
