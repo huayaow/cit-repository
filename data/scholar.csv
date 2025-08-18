@@ -423,7 +423,7 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 422,Syahrul A.C. Abdullah,Universiti Teknologi MARA ,Malaysia ,,0,0,0,0,0,0,0,0,0,0,0,0,0
 423,Barbara M. Smith,University College,Ireland,,0,0,0,0,0,0,0,0,0,0,0,0,0
 424,Steven D. Prestwich,University College,Ireland,,0,0,0,0,0,0,0,0,0,0,0,0,0
-425,Justyna Petke,University College London,United Kingdom,,1,0,0,0,0,1,1,0,0,0,0,0,1
+425,Justyna Petke,University College London,United Kingdom,,2,0,0,0,0,1,1,0,0,0,0,0,1
 426,Mark Harman,University College London,United Kingdom,http://www0.cs.ucl.ac.uk/staff/M.Harman/,2,0,0,1,0,2,1,0,0,0,0,0,0
 427,Shin Yoo,University College London,United Kingdom,,0,0,0,0,0,0,1,0,0,0,0,0,0
 428,Yue Jia,University College London,United Kingdom,http://www0.cs.ucl.ac.uk/staff/Y.Jia/,1,0,0,0,0,2,0,0,0,0,0,0,0
@@ -1074,7 +1074,6 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1076,Min Yu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1077,Feiyan She,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1078,Zhiqin Zhu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1079,Petke Justyna,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1080,Sven Dominka,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1081,Michael Mandl,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1082,Michael Dubner,,,,0,0,0,0,0,0,0,0,0,0,0,0,0

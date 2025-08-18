@@ -844,6 +844,8 @@ var pairs = [
   
   {source: 'Changhai Nie', target: 'Yu Lei', count: 8},
   
+  {source: 'Changhai Nie', target: 'Justyna Petke', count: 2},
+  
   {source: 'Changhai Nie', target: 'Mark Harman', count: 2},
   
   {source: 'Changhai Nie', target: 'Yue Jia', count: 2},
@@ -877,6 +879,8 @@ var pairs = [
   {source: 'Huayao Wu', target: 'Yan Wang', count: 3},
   
   {source: 'Huayao Wu', target: 'Yu Lei', count: 3},
+  
+  {source: 'Huayao Wu', target: 'Justyna Petke', count: 2},
   
   {source: 'Huayao Wu', target: 'Mark Harman', count: 2},
   
@@ -1780,9 +1784,9 @@ var pairs = [
   
   {source: 'Andrea Fornaia', target: 'Emiliano Tramontana', count: 3},
   
-  {source: 'Justyna Petke', target: 'Mark Harman', count: 4},
+  {source: 'Justyna Petke', target: 'Mark Harman', count: 5},
   
-  {source: 'Justyna Petke', target: 'Yue Jia', count: 2},
+  {source: 'Justyna Petke', target: 'Yue Jia', count: 3},
   
   {source: 'Justyna Petke', target: 'Marco Radavelli', count: 2},
   
