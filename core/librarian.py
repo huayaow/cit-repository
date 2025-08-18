@@ -152,8 +152,11 @@ class Librarian:
     """
     Generate the statistic.json file for drawing figures
     """
-    subprocess.run('jupyter nbconvert --to notebook --inplace --execute core/analysis.ipynb', shell=True)
+    subprocess.run('jupyter nbconvert --to notebook --inplace --execute core/analysis.ipynb', shell=True)    
     print('🤖 generate the "statistic.json" and "rank.csv" files')
+
+    subprocess.run('jupyter nbconvert --to notebook --inplace --execute core/analysis_network.ipynb', shell=True)
+    print('🤖 generate the "co-authorship network" related files')
 
 if __name__ == '__main__':
   lib = Librarian()

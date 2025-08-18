@@ -378,8 +378,6 @@ var authors = [
   
   {id: 'Dmitry Nurmuradov', name: 'Dmitry Nurmuradov'},
   
-  {id: 'Nie Changhai', name: 'Nie Changhai'},
-  
   {id: 'Kamer Kaya', name: 'Kamer Kaya'},
   
   {id: 'Guanqiu Qi', name: 'Guanqiu Qi'},
@@ -836,21 +834,21 @@ var pairs = [
   
   {source: 'Changhai Nie', target: 'Huayao Wu', count: 17},
   
-  {source: 'Changhai Nie', target: 'Jiaxi Xu', count: 4},
+  {source: 'Changhai Nie', target: 'Jiaxi Xu', count: 5},
   
-  {source: 'Changhai Nie', target: 'Xiaoyin Wang', count: 4},
+  {source: 'Changhai Nie', target: 'Xiaoyin Wang', count: 6},
   
-  {source: 'Changhai Nie', target: 'Xintao Niu', count: 10},
+  {source: 'Changhai Nie', target: 'Xintao Niu', count: 12},
   
-  {source: 'Changhai Nie', target: 'Yan Wang', count: 4},
+  {source: 'Changhai Nie', target: 'Yan Wang', count: 5},
   
-  {source: 'Changhai Nie', target: 'Yu Lei', count: 6},
+  {source: 'Changhai Nie', target: 'Yu Lei', count: 8},
   
   {source: 'Changhai Nie', target: 'Mark Harman', count: 2},
   
   {source: 'Changhai Nie', target: 'Yue Jia', count: 2},
   
-  {source: 'Changhai Nie', target: 'Hareton Leung', count: 9},
+  {source: 'Changhai Nie', target: 'Hareton Leung', count: 11},
   
   {source: 'Changhai Nie', target: 'Fei-Ching Kuo', count: 5},
   
@@ -908,15 +906,11 @@ var pairs = [
   
   {source: 'Xiaoyin Wang', target: 'Hareton Leung', count: 3},
   
-  {source: 'Xiaoyin Wang', target: 'Nie Changhai', count: 2},
-  
   {source: 'Xintao Niu', target: 'Yan Wang', count: 5},
   
   {source: 'Xintao Niu', target: 'Yu Lei', count: 7},
   
   {source: 'Xintao Niu', target: 'Hareton Leung', count: 4},
-  
-  {source: 'Xintao Niu', target: 'Nie Changhai', count: 2},
   
   {source: 'Yan Wang', target: 'Yu Lei', count: 3},
   
@@ -955,8 +949,6 @@ var pairs = [
   {source: 'Yu Lei', target: 'Josip Bozic', count: 3},
   
   {source: 'Yu Lei', target: 'Kristoffer Kleine', count: 3},
-  
-  {source: 'Yu Lei', target: 'Nie Changhai', count: 2},
   
   {source: 'Yu Lei', target: 'Linbin Yu', count: 8},
   
@@ -1845,8 +1837,6 @@ var pairs = [
   {source: 'Eun-Hye Choi', target: 'Armin Biere', count: 2},
   
   {source: 'Eun-Hye Choi', target: 'Yutaka Oiwa', count: 4},
-  
-  {source: 'Hareton Leung', target: 'Nie Changhai', count: 2},
   
   {source: 'Hareton Leung', target: 'Fei-Ching Kuo', count: 3},
   

@@ -4,8 +4,8 @@ rank,id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,IS
 3,265,D. Richard Kuhn,National Institute of Standards and Technology (NIST),United States,http://csrc.nist.gov/staff/Kuhn/kuhn_rick.html,3,0,2,0,0,0,0,1,0,0,1,3,34,44
 4,479,Myra B. Cohen,University of Nebraska-Lincoln,United States,http://cse.unl.edu/~myra/,5,0,1,1,0,4,2,1,4,0,4,1,1,24
 5,328,Dimitris E. Simos,SBA Research,Austria,https://www.sba-research.org/team/key-researchers/dimitris-e-simos/,0,0,0,0,0,0,0,0,0,0,1,1,21,23
-6,238,Changhai Nie,Nanjing University,China,http://gist.nju.edu.cn/~changhai,5,1,0,0,3,1,0,0,0,0,1,0,5,16
-6,432,Angelo Gargantini,University of Bergamo,Italy,http://cs.unibg.it/gargantini/,0,0,0,1,0,0,0,0,0,0,0,1,14,16
+6,238,Changhai Nie,Nanjing University,China,http://gist.nju.edu.cn/~changhai,7,1,0,0,3,1,0,0,0,0,1,0,5,18
+7,432,Angelo Gargantini,University of Bergamo,Italy,http://cs.unibg.it/gargantini/,0,0,0,1,0,0,0,0,0,0,0,1,14,16
 8,169,Rachel Tzoref-Brill,IBM Research - Haifa,Israel,http://researcher.watson.ibm.com/researcher/view.php?person=il-RACHELT,0,0,0,0,0,4,1,1,1,0,0,1,6,14
 9,240,Huayao Wu,Nanjing University,China,https://huayaow.github.io/,4,0,0,0,3,1,0,0,0,0,1,0,4,13
 9,319,Cemal Yilmaz,Sabanci University,Turkey,http://people.sabanciuniv.edu/cyilmaz/Cemal_Yilmaz/Home.html,5,0,0,1,0,0,0,0,1,0,1,0,5,13
