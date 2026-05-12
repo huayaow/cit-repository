@@ -1,4 +1,67 @@
 source,target,weight
+Bernhard Garn,Dimitris E. Simos,24
+Bernhard Garn,Manuel Leithner,9
+Bernhard Garn,Rick Kuhn,4
+Bernhard Garn,D. Richard Kuhn,3
+Bernhard Garn,Raghu N. Kacker,6
+Bernhard Garn,Dominik-Philip Schreiber,3
+Bernhard Garn,Jovan Zivanovic,4
+Bernhard Garn,Ludwig Kampel,6
+Bernhard Garn,Jeffrey M. Voas,2
+Bernhard Garn,Feng Duan,3
+Bernhard Garn,Franz Wotawa,5
+Bernhard Garn,Josip Bozic,5
+Bernhard Garn,Yu Lei,4
+Bernhard Garn,Kristoffer Kleine,3
+Bernhard Garn,Ioannis Kapsalis,2
+Bernhard Garn,Severin Winkler,2
+Dimitris E. Simos,Manuel Leithner,20
+Dimitris E. Simos,Rick Kuhn,6
+Dimitris E. Simos,Jovan Zivanovic,7
+Dimitris E. Simos,Reinhard Kugler,2
+Dimitris E. Simos,Michael Wagner,14
+Dimitris E. Simos,D. Richard Kuhn,13
+Dimitris E. Simos,Raghu N. Kacker,18
+Dimitris E. Simos,Christoph Wech,2
+Dimitris E. Simos,Irene Hiess,4
+Dimitris E. Simos,Ludwig Kampel,22
+Dimitris E. Simos,Yu Lei,10
+Dimitris E. Simos,Charles J. Colbourn,2
+Dimitris E. Simos,Kristoffer Kleine,10
+Dimitris E. Simos,Dominik-Philip Schreiber,3
+Dimitris E. Simos,Paris Kitsos,3
+Dimitris E. Simos,Jeffrey M. Voas,2
+Dimitris E. Simos,Franz Wotawa,7
+Dimitris E. Simos,Ilias S. Kotsireas,4
+Dimitris E. Simos,Feng Duan,3
+Dimitris E. Simos,Josip Bozic,6
+Dimitris E. Simos,Darryl C. Jarman,2
+Dimitris E. Simos,Riley Smith,2
+Dimitris E. Simos,Artemios G. Voyiatzis,3
+Dimitris E. Simos,Ioannis Kapsalis,2
+Dimitris E. Simos,Severin Winkler,2
+Manuel Leithner,Rick Kuhn,2
+Manuel Leithner,Jovan Zivanovic,7
+Manuel Leithner,Reinhard Kugler,2
+Manuel Leithner,Michael Wagner,3
+Manuel Leithner,D. Richard Kuhn,3
+Manuel Leithner,Raghu N. Kacker,4
+Manuel Leithner,Christoph Wech,2
+Manuel Leithner,Ludwig Kampel,4
+Manuel Leithner,Kristoffer Kleine,2
+Rick Kuhn,Dominik-Philip Schreiber,2
+Rick Kuhn,Jeffrey M. Voas,2
+Rick Kuhn,Raghu N. Kacker,6
+Franz Wotawa,Yavuz Köroglu,2
+Franz Wotawa,Florian Klück,2
+Franz Wotawa,Jianbo Tao,3
+Franz Wotawa,Yihao Li,5
+Franz Wotawa,Mihai Nica,4
+Franz Wotawa,Feng Duan,3
+Franz Wotawa,Josip Bozic,6
+Franz Wotawa,Yu Lei,3
+Franz Wotawa,Hermann Felbinger,3
+Franz Wotawa,Kristoffer Kleine,2
 Axel Legay,Eduard Baranov,5
 Axel Legay,Benoît Duhoux,4
 Axel Legay,Kim Mens,4
@@ -15,6 +78,9 @@ Angelo Gargantini,Andrea Calvagna,10
 Angelo Gargantini,Marco Radavelli,4
 Angelo Gargantini,Justyna Petke,2
 Angelo Gargantini,Paolo Vavassori,7
+Miroslav Bures,Bestoun S. Ahmed,6
+Miroslav Bures,Cleber R. Rosa Junior,2
+Miroslav Bures,Kamal Z. Zamli,3
 Benoît Duhoux,Kim Mens,4
 Benoît Duhoux,Pierre Martou,4
 Kim Mens,Pierre Martou,4
@@ -30,6 +96,11 @@ Ina Schaefer,Sebastian Krieter,2
 Ina Schaefer,Thomas Thüm,2
 Tobias Pett,Sebastian Krieter,3
 Tobias Pett,Thomas Thüm,3
+W. Eric Wong,D. Richard Kuhn,3
+W. Eric Wong,Linghuan Hu,4
+W. Eric Wong,Raghu N. Kacker,3
+W. Eric Wong,Dong Li,2
+W. Eric Wong,Ruizhi Gao,3
 Chuan Luo,Chunming Hu,6
 Chuan Luo,Hongyu Zhang,8
 Chuan Luo,Shuangyu Lyu,2
@@ -113,7 +184,6 @@ Yu Lei,D. Richard Kuhn,59
 Yu Lei,Raghu N. Kacker,62
 Yu Lei,Sunny Shree,3
 Yu Lei,Krishna Khadka,3
-Yu Lei,Dimitris E. Simos,10
 Yu Lei,Jaganmohan Chandrasekaran,7
 Yu Lei,Chang Rao,4
 Yu Lei,Jin Guo,4
@@ -121,9 +191,7 @@ Yu Lei,Yadong Zhang,3
 Yu Lei,Nan Li,4
 Yu Lei,Hareton Leung,3
 Yu Lei,Tao Xie,3
-Yu Lei,Bernhard Garn,4
 Yu Lei,Feng Duan,9
-Yu Lei,Franz Wotawa,3
 Yu Lei,Josip Bozic,3
 Yu Lei,Kristoffer Kleine,3
 Yu Lei,Linbin Yu,8
@@ -138,44 +206,8 @@ Yu Lei,Mehra N. Borazjany,4
 Yu Lei,Michael Forbes,2
 Yu Lei,Vadim Okun,2
 Yu Lei,Kuo-Chung Tai,2
-Dimitris E. Simos,Jovan Zivanovic,7
-Dimitris E. Simos,Manuel Leithner,19
-Dimitris E. Simos,Reinhard Kugler,2
-Dimitris E. Simos,Michael Wagner,14
-Dimitris E. Simos,Bernhard Garn,23
-Dimitris E. Simos,D. Richard Kuhn,13
-Dimitris E. Simos,Raghu N. Kacker,18
-Dimitris E. Simos,Christoph Wech,2
-Dimitris E. Simos,Irene Hiess,4
-Dimitris E. Simos,Ludwig Kampel,22
-Dimitris E. Simos,Charles J. Colbourn,2
-Dimitris E. Simos,Kristoffer Kleine,10
-Dimitris E. Simos,Dominik-Philip Schreiber,3
-Dimitris E. Simos,Paris Kitsos,3
-Dimitris E. Simos,Jeffrey M. Voas,2
-Dimitris E. Simos,Rick Kuhn,5
-Dimitris E. Simos,Franz Wotawa,7
-Dimitris E. Simos,Ilias S. Kotsireas,4
-Dimitris E. Simos,Feng Duan,3
-Dimitris E. Simos,Josip Bozic,6
-Dimitris E. Simos,Darryl C. Jarman,2
-Dimitris E. Simos,Riley Smith,2
-Dimitris E. Simos,Artemios G. Voyiatzis,3
-Dimitris E. Simos,Ioannis Kapsalis,2
-Dimitris E. Simos,Severin Winkler,2
-Jovan Zivanovic,Manuel Leithner,7
-Jovan Zivanovic,Bernhard Garn,4
-Manuel Leithner,Reinhard Kugler,2
-Manuel Leithner,Michael Wagner,3
-Manuel Leithner,Bernhard Garn,8
-Manuel Leithner,D. Richard Kuhn,3
-Manuel Leithner,Raghu N. Kacker,4
-Manuel Leithner,Christoph Wech,2
-Manuel Leithner,Ludwig Kampel,4
-Manuel Leithner,Kristoffer Kleine,2
 D. Richard Kuhn,Raghu N. Kacker,80
 D. Richard Kuhn,Sunny Shree,3
-D. Richard Kuhn,Bernhard Garn,3
 D. Richard Kuhn,Krishna Khadka,3
 D. Richard Kuhn,Jaganmohan Chandrasekaran,7
 D. Richard Kuhn,M. S. Raunak,3
@@ -183,7 +215,6 @@ D. Richard Kuhn,Chang Rao,2
 D. Richard Kuhn,Jin Guo,2
 D. Richard Kuhn,Nan Li,2
 D. Richard Kuhn,Linghuan Hu,3
-D. Richard Kuhn,W. Eric Wong,3
 D. Richard Kuhn,Ludwig Kampel,3
 D. Richard Kuhn,Tao Xie,5
 D. Richard Kuhn,Kristoffer Kleine,2
@@ -207,19 +238,16 @@ D. Richard Kuhn,Michael Forbes,2
 D. Richard Kuhn,Vadim Okun,3
 D. Richard Kuhn,Dolores R. Wallace,2
 Raghu N. Kacker,Sunny Shree,3
-Raghu N. Kacker,Bernhard Garn,6
 Raghu N. Kacker,Krishna Khadka,3
 Raghu N. Kacker,Jaganmohan Chandrasekaran,7
 Raghu N. Kacker,Dominik-Philip Schreiber,2
 Raghu N. Kacker,Jeffrey M. Voas,2
-Raghu N. Kacker,Rick Kuhn,6
 Raghu N. Kacker,M. S. Raunak,3
 Raghu N. Kacker,Chang Rao,2
 Raghu N. Kacker,Jin Guo,2
 Raghu N. Kacker,Nan Li,2
 Raghu N. Kacker,Michael Wagner,2
 Raghu N. Kacker,Linghuan Hu,3
-Raghu N. Kacker,W. Eric Wong,3
 Raghu N. Kacker,Ludwig Kampel,3
 Raghu N. Kacker,Tao Xie,3
 Raghu N. Kacker,Kristoffer Kleine,2
@@ -263,11 +291,15 @@ Malte Lochau,Jens Meinicke,2
 Malte Lochau,Mustafa Al-Hajjaji,3
 Malte Lochau,Thomas Thum,3
 Malte Lochau,Sebastian Oster,4
-Sebastian Krieter,Thomas Thüm,5
-Sebastian Krieter,Tim Jannik Schmidt,2
-Sebastian Krieter,Tobias Heß,2
-Thomas Thüm,Tim Jannik Schmidt,2
-Thomas Thüm,Tobias Heß,2
+Sebastian Krieter,Thomas Thüm,6
+Sebastian Krieter,Tim Jannik Schmidt,3
+Sebastian Krieter,Lukas Ostheimer,2
+Sebastian Krieter,Tobias Heß,3
+Thomas Thüm,Tim Jannik Schmidt,3
+Thomas Thüm,Lukas Ostheimer,2
+Thomas Thüm,Tobias Heß,3
+Tim Jannik Schmidt,Lukas Ostheimer,2
+Tim Jannik Schmidt,Tobias Heß,2
 Binqi Sun,Jinkun Lin,2
 Binqi Sun,Junjie Chen,2
 Jianping Song,Qiyuan Zhao,2
@@ -280,16 +312,7 @@ Jinkun Lin,Yingjie Fu,2
 Jinkun Lin,Bo Qiao,2
 Jinkun Lin,Dongmei Zhang,2
 Qiyuan Zhao,Shaowei Cai,3
-Franz Wotawa,Yavuz Köroglu,2
-Franz Wotawa,Florian Klück,2
-Franz Wotawa,Jianbo Tao,3
-Franz Wotawa,Yihao Li,5
-Franz Wotawa,Mihai Nica,4
-Franz Wotawa,Bernhard Garn,5
-Franz Wotawa,Feng Duan,3
-Franz Wotawa,Josip Bozic,6
-Franz Wotawa,Hermann Felbinger,3
-Franz Wotawa,Kristoffer Kleine,2
+Lukas Ostheimer,Tobias Heß,2
 Lin Chen,Baowen Xu,3
 Lin Chen,Ziyuan Wang,3
 Michael Wagner,Irene Hiess,4
@@ -312,15 +335,6 @@ Tatsuhiro Tsuchiya,Satoshi Fujimoto,2
 Florian Klück,Jianbo Tao,2
 Florian Klück,Yihao Li,2
 Jianbo Tao,Yihao Li,3
-Bernhard Garn,Dominik-Philip Schreiber,3
-Bernhard Garn,Ludwig Kampel,6
-Bernhard Garn,Jeffrey M. Voas,2
-Bernhard Garn,Rick Kuhn,3
-Bernhard Garn,Feng Duan,3
-Bernhard Garn,Josip Bozic,5
-Bernhard Garn,Kristoffer Kleine,3
-Bernhard Garn,Ioannis Kapsalis,2
-Bernhard Garn,Severin Winkler,2
 Matthew B. Dwyer,Brady J. Garvin,2
 Matthew B. Dwyer,Myra B. Cohen,6
 Matthew B. Dwyer,Jiangfan Shi,4
@@ -421,8 +435,6 @@ Shaowei Cai,Bing He,2
 Shaowei Cai,Qingwei Lin,3
 Shaowei Cai,Yingjie Fu,2
 Dominik-Philip Schreiber,Jeffrey M. Voas,2
-Dominik-Philip Schreiber,Rick Kuhn,2
-Jeffrey M. Voas,Rick Kuhn,2
 Cemal Yilmaz,Hanefi Mercan,10
 Cemal Yilmaz,Giray Coskun,2
 Cemal Yilmaz,Arsalan Javeed,2
@@ -452,7 +464,6 @@ Abdul Rahman A. Alsewari,Kamal Z. Zamli,2
 Kamal Z. Zamli,Bestoun S. Ahmed,16
 Kamal Z. Zamli,Wasif Afzal,3
 Kamal Z. Zamli,Fadhl Hujainah,2
-Kamal Z. Zamli,Miroslav Bures,3
 Kamal Z. Zamli,AbdulRahman A. Alsewari,3
 Kamal Z. Zamli,Fakhrud Din,4
 Kamal Z. Zamli,A.A. Alsewari,4
@@ -508,10 +519,7 @@ Jose Torres-Jimenez,Loreto Gonzalez-Hernandez,8
 Jose Torres-Jimenez,Nelson Rangel-Valdez,11
 Jose Torres-Jimenez,Vicente Hernández,6
 Jose Torres-Jimenez,Eduardo Rodriguez-Tello,5
-Linghuan Hu,W. Eric Wong,4
 Linghuan Hu,Ruizhi Gao,2
-W. Eric Wong,Dong Li,2
-W. Eric Wong,Ruizhi Gao,3
 Dave Towey,Rubing Huang,11
 Dave Towey,Tsong Yueh Chen,7
 Dave Towey,Yunan Zhou,6
@@ -559,7 +567,6 @@ Renée C. Bryce,Schuyler Manchester,2
 Renée C. Bryce,Atif M. Memon,2
 Shraddha Piparia,Dmitry Nurmuradov,2
 Bestoun S. Ahmed,Cleber R. Rosa Junior,2
-Bestoun S. Ahmed,Miroslav Bures,6
 Bestoun S. Ahmed,AbdulRahman A. Alsewari,2
 Bestoun S. Ahmed,Fakhrud Din,3
 Bestoun S. Ahmed,Luca M. Gambardella,2
@@ -578,7 +585,6 @@ Cyrille Artho,Akihisa Yamada,5
 Cyrille Artho,Osamu Mizuno,2
 Cyrille Artho,Armin Biere,2
 Cyrille Artho,Yutaka Oiwa,4
-Cleber R. Rosa Junior,Miroslav Bures,2
 Idelfonso Izquierdo-Marquez,Aldo Gonzalez-Gomez,2
 Feng Duan,Josip Bozic,3
 Feng Duan,Linbin Yu,4

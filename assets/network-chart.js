@@ -1,5 +1,15 @@
 var authors = [
   
+  {id: 'Bernhard Garn', name: 'Bernhard Garn'},
+  
+  {id: 'Dimitris E. Simos', name: 'Dimitris E. Simos'},
+  
+  {id: 'Manuel Leithner', name: 'Manuel Leithner'},
+  
+  {id: 'Rick Kuhn', name: 'Rick Kuhn'},
+  
+  {id: 'Franz Wotawa', name: 'Franz Wotawa'},
+  
   {id: 'Axel Legay', name: 'Axel Legay'},
   
   {id: 'Eduard Baranov', name: 'Eduard Baranov'},
@@ -7,6 +17,8 @@ var authors = [
   {id: 'Andrea Bombarda', name: 'Andrea Bombarda'},
   
   {id: 'Angelo Gargantini', name: 'Angelo Gargantini'},
+  
+  {id: 'Miroslav Bures', name: 'Miroslav Bures'},
   
   {id: 'Benoît Duhoux', name: 'Benoît Duhoux'},
   
@@ -19,6 +31,8 @@ var authors = [
   {id: 'Ina Schaefer', name: 'Ina Schaefer'},
   
   {id: 'Tobias Pett', name: 'Tobias Pett'},
+  
+  {id: 'W. Eric Wong', name: 'W. Eric Wong'},
   
   {id: 'Chuan Luo', name: 'Chuan Luo'},
   
@@ -44,11 +58,7 @@ var authors = [
   
   {id: 'Yu Lei', name: 'Yu Lei'},
   
-  {id: 'Dimitris E. Simos', name: 'Dimitris E. Simos'},
-  
   {id: 'Jovan Zivanovic', name: 'Jovan Zivanovic'},
-  
-  {id: 'Manuel Leithner', name: 'Manuel Leithner'},
   
   {id: 'Reinhard Kugler', name: 'Reinhard Kugler'},
   
@@ -94,9 +104,9 @@ var authors = [
   
   {id: 'Qiyuan Zhao', name: 'Qiyuan Zhao'},
   
-  {id: 'Franz Wotawa', name: 'Franz Wotawa'},
-  
   {id: 'Yavuz Köroglu', name: 'Yavuz Köroglu'},
+  
+  {id: 'Lukas Ostheimer', name: 'Lukas Ostheimer'},
   
   {id: 'Tobias Heß', name: 'Tobias Heß'},
   
@@ -115,8 +125,6 @@ var authors = [
   {id: 'Jianbo Tao', name: 'Jianbo Tao'},
   
   {id: 'Yihao Li', name: 'Yihao Li'},
-  
-  {id: 'Bernhard Garn', name: 'Bernhard Garn'},
   
   {id: 'Matthew B. Dwyer', name: 'Matthew B. Dwyer'},
   
@@ -182,8 +190,6 @@ var authors = [
   
   {id: 'Jeffrey M. Voas', name: 'Jeffrey M. Voas'},
   
-  {id: 'Rick Kuhn', name: 'Rick Kuhn'},
-  
   {id: 'Cemal Yilmaz', name: 'Cemal Yilmaz'},
   
   {id: 'Hanefi Mercan', name: 'Hanefi Mercan'},
@@ -243,8 +249,6 @@ var authors = [
   {id: 'Jose Torres-Jimenez', name: 'Jose Torres-Jimenez'},
   
   {id: 'Linghuan Hu', name: 'Linghuan Hu'},
-  
-  {id: 'W. Eric Wong', name: 'W. Eric Wong'},
   
   {id: 'Dave Towey', name: 'Dave Towey'},
   
@@ -311,8 +315,6 @@ var authors = [
   {id: 'Tomoji Kishi', name: 'Tomoji Kishi'},
   
   {id: 'Cleber R. Rosa Junior', name: 'Cleber R. Rosa Junior'},
-  
-  {id: 'Miroslav Bures', name: 'Miroslav Bures'},
   
   {id: 'Idelfonso Izquierdo-Marquez', name: 'Idelfonso Izquierdo-Marquez'},
   
@@ -700,6 +702,132 @@ var authors = [
 
 var pairs = [
   
+  {source: 'Bernhard Garn', target: 'Dimitris E. Simos', count: 24},
+  
+  {source: 'Bernhard Garn', target: 'Manuel Leithner', count: 9},
+  
+  {source: 'Bernhard Garn', target: 'Rick Kuhn', count: 4},
+  
+  {source: 'Bernhard Garn', target: 'D. Richard Kuhn', count: 3},
+  
+  {source: 'Bernhard Garn', target: 'Raghu N. Kacker', count: 6},
+  
+  {source: 'Bernhard Garn', target: 'Dominik-Philip Schreiber', count: 3},
+  
+  {source: 'Bernhard Garn', target: 'Jovan Zivanovic', count: 4},
+  
+  {source: 'Bernhard Garn', target: 'Ludwig Kampel', count: 6},
+  
+  {source: 'Bernhard Garn', target: 'Jeffrey M. Voas', count: 2},
+  
+  {source: 'Bernhard Garn', target: 'Feng Duan', count: 3},
+  
+  {source: 'Bernhard Garn', target: 'Franz Wotawa', count: 5},
+  
+  {source: 'Bernhard Garn', target: 'Josip Bozic', count: 5},
+  
+  {source: 'Bernhard Garn', target: 'Yu Lei', count: 4},
+  
+  {source: 'Bernhard Garn', target: 'Kristoffer Kleine', count: 3},
+  
+  {source: 'Bernhard Garn', target: 'Ioannis Kapsalis', count: 2},
+  
+  {source: 'Bernhard Garn', target: 'Severin Winkler', count: 2},
+  
+  {source: 'Dimitris E. Simos', target: 'Manuel Leithner', count: 20},
+  
+  {source: 'Dimitris E. Simos', target: 'Rick Kuhn', count: 6},
+  
+  {source: 'Dimitris E. Simos', target: 'Jovan Zivanovic', count: 7},
+  
+  {source: 'Dimitris E. Simos', target: 'Reinhard Kugler', count: 2},
+  
+  {source: 'Dimitris E. Simos', target: 'Michael Wagner', count: 14},
+  
+  {source: 'Dimitris E. Simos', target: 'D. Richard Kuhn', count: 13},
+  
+  {source: 'Dimitris E. Simos', target: 'Raghu N. Kacker', count: 18},
+  
+  {source: 'Dimitris E. Simos', target: 'Christoph Wech', count: 2},
+  
+  {source: 'Dimitris E. Simos', target: 'Irene Hiess', count: 4},
+  
+  {source: 'Dimitris E. Simos', target: 'Ludwig Kampel', count: 22},
+  
+  {source: 'Dimitris E. Simos', target: 'Yu Lei', count: 10},
+  
+  {source: 'Dimitris E. Simos', target: 'Charles J. Colbourn', count: 2},
+  
+  {source: 'Dimitris E. Simos', target: 'Kristoffer Kleine', count: 10},
+  
+  {source: 'Dimitris E. Simos', target: 'Dominik-Philip Schreiber', count: 3},
+  
+  {source: 'Dimitris E. Simos', target: 'Paris Kitsos', count: 3},
+  
+  {source: 'Dimitris E. Simos', target: 'Jeffrey M. Voas', count: 2},
+  
+  {source: 'Dimitris E. Simos', target: 'Franz Wotawa', count: 7},
+  
+  {source: 'Dimitris E. Simos', target: 'Ilias S. Kotsireas', count: 4},
+  
+  {source: 'Dimitris E. Simos', target: 'Feng Duan', count: 3},
+  
+  {source: 'Dimitris E. Simos', target: 'Josip Bozic', count: 6},
+  
+  {source: 'Dimitris E. Simos', target: 'Darryl C. Jarman', count: 2},
+  
+  {source: 'Dimitris E. Simos', target: 'Riley Smith', count: 2},
+  
+  {source: 'Dimitris E. Simos', target: 'Artemios G. Voyiatzis', count: 3},
+  
+  {source: 'Dimitris E. Simos', target: 'Ioannis Kapsalis', count: 2},
+  
+  {source: 'Dimitris E. Simos', target: 'Severin Winkler', count: 2},
+  
+  {source: 'Manuel Leithner', target: 'Rick Kuhn', count: 2},
+  
+  {source: 'Manuel Leithner', target: 'Jovan Zivanovic', count: 7},
+  
+  {source: 'Manuel Leithner', target: 'Reinhard Kugler', count: 2},
+  
+  {source: 'Manuel Leithner', target: 'Michael Wagner', count: 3},
+  
+  {source: 'Manuel Leithner', target: 'D. Richard Kuhn', count: 3},
+  
+  {source: 'Manuel Leithner', target: 'Raghu N. Kacker', count: 4},
+  
+  {source: 'Manuel Leithner', target: 'Christoph Wech', count: 2},
+  
+  {source: 'Manuel Leithner', target: 'Ludwig Kampel', count: 4},
+  
+  {source: 'Manuel Leithner', target: 'Kristoffer Kleine', count: 2},
+  
+  {source: 'Rick Kuhn', target: 'Dominik-Philip Schreiber', count: 2},
+  
+  {source: 'Rick Kuhn', target: 'Jeffrey M. Voas', count: 2},
+  
+  {source: 'Rick Kuhn', target: 'Raghu N. Kacker', count: 6},
+  
+  {source: 'Franz Wotawa', target: 'Yavuz Köroglu', count: 2},
+  
+  {source: 'Franz Wotawa', target: 'Florian Klück', count: 2},
+  
+  {source: 'Franz Wotawa', target: 'Jianbo Tao', count: 3},
+  
+  {source: 'Franz Wotawa', target: 'Yihao Li', count: 5},
+  
+  {source: 'Franz Wotawa', target: 'Mihai Nica', count: 4},
+  
+  {source: 'Franz Wotawa', target: 'Feng Duan', count: 3},
+  
+  {source: 'Franz Wotawa', target: 'Josip Bozic', count: 6},
+  
+  {source: 'Franz Wotawa', target: 'Yu Lei', count: 3},
+  
+  {source: 'Franz Wotawa', target: 'Hermann Felbinger', count: 3},
+  
+  {source: 'Franz Wotawa', target: 'Kristoffer Kleine', count: 2},
+  
   {source: 'Axel Legay', target: 'Eduard Baranov', count: 5},
   
   {source: 'Axel Legay', target: 'Benoît Duhoux', count: 4},
@@ -732,6 +860,12 @@ var pairs = [
   
   {source: 'Angelo Gargantini', target: 'Paolo Vavassori', count: 7},
   
+  {source: 'Miroslav Bures', target: 'Bestoun S. Ahmed', count: 6},
+  
+  {source: 'Miroslav Bures', target: 'Cleber R. Rosa Junior', count: 2},
+  
+  {source: 'Miroslav Bures', target: 'Kamal Z. Zamli', count: 3},
+  
   {source: 'Benoît Duhoux', target: 'Kim Mens', count: 4},
   
   {source: 'Benoît Duhoux', target: 'Pierre Martou', count: 4},
@@ -761,6 +895,16 @@ var pairs = [
   {source: 'Tobias Pett', target: 'Sebastian Krieter', count: 3},
   
   {source: 'Tobias Pett', target: 'Thomas Thüm', count: 3},
+  
+  {source: 'W. Eric Wong', target: 'D. Richard Kuhn', count: 3},
+  
+  {source: 'W. Eric Wong', target: 'Linghuan Hu', count: 4},
+  
+  {source: 'W. Eric Wong', target: 'Raghu N. Kacker', count: 3},
+  
+  {source: 'W. Eric Wong', target: 'Dong Li', count: 2},
+  
+  {source: 'W. Eric Wong', target: 'Ruizhi Gao', count: 3},
   
   {source: 'Chuan Luo', target: 'Chunming Hu', count: 6},
   
@@ -928,8 +1072,6 @@ var pairs = [
   
   {source: 'Yu Lei', target: 'Krishna Khadka', count: 3},
   
-  {source: 'Yu Lei', target: 'Dimitris E. Simos', count: 10},
-  
   {source: 'Yu Lei', target: 'Jaganmohan Chandrasekaran', count: 7},
   
   {source: 'Yu Lei', target: 'Chang Rao', count: 4},
@@ -944,11 +1086,7 @@ var pairs = [
   
   {source: 'Yu Lei', target: 'Tao Xie', count: 3},
   
-  {source: 'Yu Lei', target: 'Bernhard Garn', count: 4},
-  
   {source: 'Yu Lei', target: 'Feng Duan', count: 9},
-  
-  {source: 'Yu Lei', target: 'Franz Wotawa', count: 3},
   
   {source: 'Yu Lei', target: 'Josip Bozic', count: 3},
   
@@ -978,81 +1116,9 @@ var pairs = [
   
   {source: 'Yu Lei', target: 'Kuo-Chung Tai', count: 2},
   
-  {source: 'Dimitris E. Simos', target: 'Jovan Zivanovic', count: 7},
-  
-  {source: 'Dimitris E. Simos', target: 'Manuel Leithner', count: 19},
-  
-  {source: 'Dimitris E. Simos', target: 'Reinhard Kugler', count: 2},
-  
-  {source: 'Dimitris E. Simos', target: 'Michael Wagner', count: 14},
-  
-  {source: 'Dimitris E. Simos', target: 'Bernhard Garn', count: 23},
-  
-  {source: 'Dimitris E. Simos', target: 'D. Richard Kuhn', count: 13},
-  
-  {source: 'Dimitris E. Simos', target: 'Raghu N. Kacker', count: 18},
-  
-  {source: 'Dimitris E. Simos', target: 'Christoph Wech', count: 2},
-  
-  {source: 'Dimitris E. Simos', target: 'Irene Hiess', count: 4},
-  
-  {source: 'Dimitris E. Simos', target: 'Ludwig Kampel', count: 22},
-  
-  {source: 'Dimitris E. Simos', target: 'Charles J. Colbourn', count: 2},
-  
-  {source: 'Dimitris E. Simos', target: 'Kristoffer Kleine', count: 10},
-  
-  {source: 'Dimitris E. Simos', target: 'Dominik-Philip Schreiber', count: 3},
-  
-  {source: 'Dimitris E. Simos', target: 'Paris Kitsos', count: 3},
-  
-  {source: 'Dimitris E. Simos', target: 'Jeffrey M. Voas', count: 2},
-  
-  {source: 'Dimitris E. Simos', target: 'Rick Kuhn', count: 5},
-  
-  {source: 'Dimitris E. Simos', target: 'Franz Wotawa', count: 7},
-  
-  {source: 'Dimitris E. Simos', target: 'Ilias S. Kotsireas', count: 4},
-  
-  {source: 'Dimitris E. Simos', target: 'Feng Duan', count: 3},
-  
-  {source: 'Dimitris E. Simos', target: 'Josip Bozic', count: 6},
-  
-  {source: 'Dimitris E. Simos', target: 'Darryl C. Jarman', count: 2},
-  
-  {source: 'Dimitris E. Simos', target: 'Riley Smith', count: 2},
-  
-  {source: 'Dimitris E. Simos', target: 'Artemios G. Voyiatzis', count: 3},
-  
-  {source: 'Dimitris E. Simos', target: 'Ioannis Kapsalis', count: 2},
-  
-  {source: 'Dimitris E. Simos', target: 'Severin Winkler', count: 2},
-  
-  {source: 'Jovan Zivanovic', target: 'Manuel Leithner', count: 7},
-  
-  {source: 'Jovan Zivanovic', target: 'Bernhard Garn', count: 4},
-  
-  {source: 'Manuel Leithner', target: 'Reinhard Kugler', count: 2},
-  
-  {source: 'Manuel Leithner', target: 'Michael Wagner', count: 3},
-  
-  {source: 'Manuel Leithner', target: 'Bernhard Garn', count: 8},
-  
-  {source: 'Manuel Leithner', target: 'D. Richard Kuhn', count: 3},
-  
-  {source: 'Manuel Leithner', target: 'Raghu N. Kacker', count: 4},
-  
-  {source: 'Manuel Leithner', target: 'Christoph Wech', count: 2},
-  
-  {source: 'Manuel Leithner', target: 'Ludwig Kampel', count: 4},
-  
-  {source: 'Manuel Leithner', target: 'Kristoffer Kleine', count: 2},
-  
   {source: 'D. Richard Kuhn', target: 'Raghu N. Kacker', count: 80},
   
   {source: 'D. Richard Kuhn', target: 'Sunny Shree', count: 3},
-  
-  {source: 'D. Richard Kuhn', target: 'Bernhard Garn', count: 3},
   
   {source: 'D. Richard Kuhn', target: 'Krishna Khadka', count: 3},
   
@@ -1067,8 +1133,6 @@ var pairs = [
   {source: 'D. Richard Kuhn', target: 'Nan Li', count: 2},
   
   {source: 'D. Richard Kuhn', target: 'Linghuan Hu', count: 3},
-  
-  {source: 'D. Richard Kuhn', target: 'W. Eric Wong', count: 3},
   
   {source: 'D. Richard Kuhn', target: 'Ludwig Kampel', count: 3},
   
@@ -1116,8 +1180,6 @@ var pairs = [
   
   {source: 'Raghu N. Kacker', target: 'Sunny Shree', count: 3},
   
-  {source: 'Raghu N. Kacker', target: 'Bernhard Garn', count: 6},
-  
   {source: 'Raghu N. Kacker', target: 'Krishna Khadka', count: 3},
   
   {source: 'Raghu N. Kacker', target: 'Jaganmohan Chandrasekaran', count: 7},
@@ -1125,8 +1187,6 @@ var pairs = [
   {source: 'Raghu N. Kacker', target: 'Dominik-Philip Schreiber', count: 2},
   
   {source: 'Raghu N. Kacker', target: 'Jeffrey M. Voas', count: 2},
-  
-  {source: 'Raghu N. Kacker', target: 'Rick Kuhn', count: 6},
   
   {source: 'Raghu N. Kacker', target: 'M. S. Raunak', count: 3},
   
@@ -1139,8 +1199,6 @@ var pairs = [
   {source: 'Raghu N. Kacker', target: 'Michael Wagner', count: 2},
   
   {source: 'Raghu N. Kacker', target: 'Linghuan Hu', count: 3},
-  
-  {source: 'Raghu N. Kacker', target: 'W. Eric Wong', count: 3},
   
   {source: 'Raghu N. Kacker', target: 'Ludwig Kampel', count: 3},
   
@@ -1228,15 +1286,23 @@ var pairs = [
   
   {source: 'Malte Lochau', target: 'Sebastian Oster', count: 4},
   
-  {source: 'Sebastian Krieter', target: 'Thomas Thüm', count: 5},
+  {source: 'Sebastian Krieter', target: 'Thomas Thüm', count: 6},
   
-  {source: 'Sebastian Krieter', target: 'Tim Jannik Schmidt', count: 2},
+  {source: 'Sebastian Krieter', target: 'Tim Jannik Schmidt', count: 3},
   
-  {source: 'Sebastian Krieter', target: 'Tobias Heß', count: 2},
+  {source: 'Sebastian Krieter', target: 'Lukas Ostheimer', count: 2},
   
-  {source: 'Thomas Thüm', target: 'Tim Jannik Schmidt', count: 2},
+  {source: 'Sebastian Krieter', target: 'Tobias Heß', count: 3},
   
-  {source: 'Thomas Thüm', target: 'Tobias Heß', count: 2},
+  {source: 'Thomas Thüm', target: 'Tim Jannik Schmidt', count: 3},
+  
+  {source: 'Thomas Thüm', target: 'Lukas Ostheimer', count: 2},
+  
+  {source: 'Thomas Thüm', target: 'Tobias Heß', count: 3},
+  
+  {source: 'Tim Jannik Schmidt', target: 'Lukas Ostheimer', count: 2},
+  
+  {source: 'Tim Jannik Schmidt', target: 'Tobias Heß', count: 2},
   
   {source: 'Binqi Sun', target: 'Jinkun Lin', count: 2},
   
@@ -1262,25 +1328,7 @@ var pairs = [
   
   {source: 'Qiyuan Zhao', target: 'Shaowei Cai', count: 3},
   
-  {source: 'Franz Wotawa', target: 'Yavuz Köroglu', count: 2},
-  
-  {source: 'Franz Wotawa', target: 'Florian Klück', count: 2},
-  
-  {source: 'Franz Wotawa', target: 'Jianbo Tao', count: 3},
-  
-  {source: 'Franz Wotawa', target: 'Yihao Li', count: 5},
-  
-  {source: 'Franz Wotawa', target: 'Mihai Nica', count: 4},
-  
-  {source: 'Franz Wotawa', target: 'Bernhard Garn', count: 5},
-  
-  {source: 'Franz Wotawa', target: 'Feng Duan', count: 3},
-  
-  {source: 'Franz Wotawa', target: 'Josip Bozic', count: 6},
-  
-  {source: 'Franz Wotawa', target: 'Hermann Felbinger', count: 3},
-  
-  {source: 'Franz Wotawa', target: 'Kristoffer Kleine', count: 2},
+  {source: 'Lukas Ostheimer', target: 'Tobias Heß', count: 2},
   
   {source: 'Lin Chen', target: 'Baowen Xu', count: 3},
   
@@ -1325,24 +1373,6 @@ var pairs = [
   {source: 'Florian Klück', target: 'Yihao Li', count: 2},
   
   {source: 'Jianbo Tao', target: 'Yihao Li', count: 3},
-  
-  {source: 'Bernhard Garn', target: 'Dominik-Philip Schreiber', count: 3},
-  
-  {source: 'Bernhard Garn', target: 'Ludwig Kampel', count: 6},
-  
-  {source: 'Bernhard Garn', target: 'Jeffrey M. Voas', count: 2},
-  
-  {source: 'Bernhard Garn', target: 'Rick Kuhn', count: 3},
-  
-  {source: 'Bernhard Garn', target: 'Feng Duan', count: 3},
-  
-  {source: 'Bernhard Garn', target: 'Josip Bozic', count: 5},
-  
-  {source: 'Bernhard Garn', target: 'Kristoffer Kleine', count: 3},
-  
-  {source: 'Bernhard Garn', target: 'Ioannis Kapsalis', count: 2},
-  
-  {source: 'Bernhard Garn', target: 'Severin Winkler', count: 2},
   
   {source: 'Matthew B. Dwyer', target: 'Brady J. Garvin', count: 2},
   
@@ -1544,10 +1574,6 @@ var pairs = [
   
   {source: 'Dominik-Philip Schreiber', target: 'Jeffrey M. Voas', count: 2},
   
-  {source: 'Dominik-Philip Schreiber', target: 'Rick Kuhn', count: 2},
-  
-  {source: 'Jeffrey M. Voas', target: 'Rick Kuhn', count: 2},
-  
   {source: 'Cemal Yilmaz', target: 'Hanefi Mercan', count: 10},
   
   {source: 'Cemal Yilmaz', target: 'Giray Coskun', count: 2},
@@ -1605,8 +1631,6 @@ var pairs = [
   {source: 'Kamal Z. Zamli', target: 'Wasif Afzal', count: 3},
   
   {source: 'Kamal Z. Zamli', target: 'Fadhl Hujainah', count: 2},
-  
-  {source: 'Kamal Z. Zamli', target: 'Miroslav Bures', count: 3},
   
   {source: 'Kamal Z. Zamli', target: 'AbdulRahman A. Alsewari', count: 3},
   
@@ -1718,13 +1742,7 @@ var pairs = [
   
   {source: 'Jose Torres-Jimenez', target: 'Eduardo Rodriguez-Tello', count: 5},
   
-  {source: 'Linghuan Hu', target: 'W. Eric Wong', count: 4},
-  
   {source: 'Linghuan Hu', target: 'Ruizhi Gao', count: 2},
-  
-  {source: 'W. Eric Wong', target: 'Dong Li', count: 2},
-  
-  {source: 'W. Eric Wong', target: 'Ruizhi Gao', count: 3},
   
   {source: 'Dave Towey', target: 'Rubing Huang', count: 11},
   
@@ -1820,8 +1838,6 @@ var pairs = [
   
   {source: 'Bestoun S. Ahmed', target: 'Cleber R. Rosa Junior', count: 2},
   
-  {source: 'Bestoun S. Ahmed', target: 'Miroslav Bures', count: 6},
-  
   {source: 'Bestoun S. Ahmed', target: 'AbdulRahman A. Alsewari', count: 2},
   
   {source: 'Bestoun S. Ahmed', target: 'Fakhrud Din', count: 3},
@@ -1857,8 +1873,6 @@ var pairs = [
   {source: 'Cyrille Artho', target: 'Armin Biere', count: 2},
   
   {source: 'Cyrille Artho', target: 'Yutaka Oiwa', count: 4},
-  
-  {source: 'Cleber R. Rosa Junior', target: 'Miroslav Bures', count: 2},
   
   {source: 'Idelfonso Izquierdo-Marquez', target: 'Aldo Gonzalez-Gomez', count: 2},
   

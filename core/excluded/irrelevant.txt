@@ -121,3 +121,5 @@ Making effective carbon-box testing technique using prioritised-selected test ca
 Bluetooth Low Energy Security Testing with Combinatorial Methods
 Guitar-TECHS: An Electric Guitar Dataset Covering Techniques, Musical Excerpts, Chords and Scales Using a Diverse Array of Hardware
 Combinatorial Multi-armed Bandits: Arm Selection via Group Testing
+Joint Proceedings of the 23rd International Workshop on Satisfiability Modulo Theories and the 16th Pragmatics of SAT International Workshop co-located with the 31st International Conference on Principles and Practice of Constraint Programming, the 28th International Conference on Theory and Applications of Satisfiability Testing and the 18th International Symposium on Combinatorial Search (CP 2025 &amp; SAT 2025 &amp; SoCS 2025), Glasgow, UK, August 10-11, 2025
+Combinatorial Group Testing With Adversarial Deletions

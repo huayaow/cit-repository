@@ -120,10 +120,14 @@ class DBLP:
     else:
       if bib['ENTRYTYPE'] == 'phdthesis':
         venue = bib['school']
-      else:
-        # bib['ENTRYTYPE'] == 'inproceedings' or 'incollections', ...
+      elif bib['ENTRYTYPE'] == 'inproceedings' or bib['ENTRYTYPE'] == 'incollections':
         venue_abbr = info['key'].split('/')[1]
         venue = bib['booktitle']
+      elif bib['ENTRYTYPE'] == 'misc':
+        venue = bib['publisher']
+      else:
+        # types that are not handled yet
+        venue = ''
 
     # handle authors (based on the info structure)
     authors = info['authors']['author']
