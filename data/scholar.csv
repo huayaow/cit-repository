@@ -6,8 +6,8 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 5,Tormod Wien,ABB,Norway,,0,0,0,0,0,0,0,0,0,0,0,0,0
 6,Brian Robinson,ABB Corporate Research,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 7,Mithun Acharya,ABB Corporate Research,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-8,Xiao Qu,ABB Corporate Research,United States,http://cse.unl.edu/~xqu/,0,0,0,0,0,1,0,0,1,0,1,1,1
-9,Nuo Li,ABB Robotics,Switzerland,,0,0,0,0,0,0,0,0,0,0,0,0,0
+8,Xiao Qu,ABB Corporate Research,United States,http://cse.unl.edu/~xqu/,0,0,0,0,0,1,0,0,1,0,1,1,2
+9,Nuo Li,ABB Robotics,Switzerland,,0,0,0,0,0,0,0,0,0,0,0,0,1
 10,Wang Jiancheng,Academy of Equipment Command and Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 11,Robert Mandl,Analogic Corporation,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 12,Longshu Li,Anhui University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -15,9 +15,9 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 14,Yun Yang,Anhui University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 15,Sheng Yao,Anhui University ,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 16,Abraham N. Aldaco,Arizona State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-17,Charles J. Colbourn,Arizona State University,United States,http://www.public.asu.edu/~ccolbou/,0,0,0,0,2,2,0,1,0,0,1,0,3
+17,Charles J. Colbourn,Arizona State University,United States,http://www.public.asu.edu/~ccolbou/,0,0,0,0,2,2,0,1,0,0,1,0,4
 18,Dean S. Hoskins,Arizona State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-19,Douglas C. Montgomery,Arizona State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,Douglas C. Montgomery,Arizona State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
 20,Goran Konjevod,Arizona State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 21,Guanqiu Qi,Arizona State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 22,Peyman Nayeri,Arizona State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -25,10 +25,10 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 24,Renée C. Turnban,Arizona State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 25,Wei-Tek Tsai,Arizona State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 26,Yinong Chen,Arizona State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-27,Colin L. Mallows,AT&T,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-28,I.S. Dunietz,AT&T,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+27,Colin L. Mallows,AT&T,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
+28,I.S. Dunietz,AT&T,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
 29,Robert Brownlie,AT&T,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-30,W.K. Ehrlich,AT&T,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,W.K. Ehrlich,AT&T,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
 31,Hongji Yang,Bath Spa University,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
 32,Binglei Du,Beihang University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 33,Chao Jin,Beihang University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -36,7 +36,7 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 35,Jianghua Lv,Beihang University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 36,Jie Luo,Beihang University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 37,Kai Hu,Beihang University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-38,Kai-Yuan Cai,Beihang University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
+38,Kai-Yuan Cai,Beihang University,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
 39,Luo Jie,Beihang University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 40,Ma Shilong,Beihang University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 41,Shilong Ma,Beihang University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -50,24 +50,24 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 49,Hongli Yang,Beijing University of Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 50,Husheng Liao,Beijing University of Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 51,Kai Ma,Beijing University of Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-52,B.D. Szablak,Bell Labs,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-53,Itai Segall,Bell Labs,Israel,https://www.bell-labs.com/researchers/1057/,0,0,0,0,0,2,0,0,1,0,0,0,5
+52,B.D. Szablak,Bell Labs,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
+53,Itai Segall,Bell Labs,Israel,https://www.bell-labs.com/researchers/1057/,0,0,0,0,0,2,0,0,1,0,0,1,5
 54,J. Zevallos,Bell Labs,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 55,James Prowse,Bell Labs,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 56,Kirk Burroughs,Bell Labs,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 57,Madhav S. Phadke,Bell Labs,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 58,Robert L. Erickson,Bell Labs,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-59,A. Kajla,Bellcore,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-60,B.M. Horowitz,Bellcore,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-61,Gardner C. Patton,Bellcore,United States,,1,0,0,0,0,0,0,0,0,0,1,0,0
-62,J.M. Leaton,Bellcore,United States,,0,0,0,0,0,0,0,0,0,0,1,0,0
+59,A. Kajla,Bellcore,United States,,0,0,0,0,0,0,0,0,0,0,1,0,0
+60,B.M. Horowitz,Bellcore,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
+61,Gardner C. Patton,Bellcore,United States,,1,0,0,0,0,1,0,0,0,0,1,0,0
+62,J.M. Leaton,Bellcore,United States,,0,0,0,0,0,1,0,0,0,0,1,0,0
 63,Jesse Parelius,Bellcore,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-64,N. Karunanithi,Bellcore,United States,,0,0,0,0,0,0,0,0,0,0,1,0,0
-65,Elke Salecker,Berlin Institute of Technology,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,1
-66,Sabine Glesner,Berlin Institute of Technology,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,1
-67,Joachim Wegener,Berner & Mattner Systemtechnik,Germany,,0,0,0,0,0,0,0,0,0,0,0,1,0
-68,Jurgen Bauer,Berner & Mattner Systemtechnik,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
-69,Peter M. Kruse,Berner & Mattner Systemtechnik,Germany,,0,0,0,0,0,0,0,0,0,0,0,2,0
+64,N. Karunanithi,Bellcore,United States,,0,0,0,0,0,1,0,0,0,0,1,0,0
+65,Elke Salecker,Berlin Institute of Technology,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,2
+66,Sabine Glesner,Berlin Institute of Technology,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,2
+67,Joachim Wegener,Berner & Mattner Systemtechnik,Germany,,0,0,0,0,0,0,0,0,0,0,0,2,0
+68,Jurgen Bauer,Berner & Mattner Systemtechnik,Germany,,0,0,0,0,0,0,0,0,0,0,0,1,0
+69,Peter M. Kruse,Berner & Mattner Systemtechnik,Germany,,0,0,0,0,0,0,0,0,0,0,0,2,1
 70,Abdul Rauf EM,Bharathiar University,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 71,Abhinandan H. Patil,Birla Institute of Technology and Science,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 72,Neena Goveas,Birla Institute of Technology and Science,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -75,80 +75,80 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 74,Daniel Dvorak,California Institute of Technology,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 75,Wafa S. Aldiwan,California Institute of Technology,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 76,Yu-Wen Tung,California Institute of Technology,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-77,Ahmed M. Salem,California State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+77,Ahmed M. Salem,California State University,United States,,0,0,0,0,1,0,0,0,0,0,0,0,0
 78,Brett Stevens,Carleton University,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
 79,Daniel Panario,Carleton University,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
-80,Faezeh Rafsanjani Sadeghi,Carleton University,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
-81,Sunint Kaur Khalsa,Carleton University,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
-82,Yvan Labiche,Carleton University,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,1
-83,Macario Polo,Castilla-La Mancha University,Spain,,0,0,0,1,0,0,0,0,0,0,0,0,0
-84,Mario Piattini,Castilla-La Mancha University,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
-85,Itzel D. Mendoza,Centro Nacional de Metrologia,Mexico ,,0,0,0,0,0,0,0,0,0,0,0,0,0
+80,Faezeh Rafsanjani Sadeghi,Carleton University,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,1
+81,Sunint Kaur Khalsa,Carleton University,Canada,,0,0,0,0,0,0,0,0,0,0,1,0,0
+82,Yvan Labiche,Carleton University,Canada,,0,0,0,0,0,0,0,0,0,0,1,0,1
+83,Macario Polo,Castilla-La Mancha University,Spain,,0,0,0,1,0,0,0,0,0,0,0,0,1
+84,Mario Piattini,Castilla-La Mancha University,Spain,,0,0,0,1,0,0,0,0,0,0,0,0,0
+85,Itzel D. Mendoza,Centro Nacional de Metrologia,Mexico ,,0,0,0,0,0,0,0,0,0,0,0,0,1
 86,Bjorn Johansson,Chalmers University of Technology,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
-87,Baiqiang Chen,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-88,Feifei Ma,Chinese Academy of Sciences,China,http://castar.iscas.ac.cn/maff/feifei.html,0,0,0,0,0,0,0,0,0,0,0,0,0
-89,Jian Zhang,Chinese Academy of Sciences,China,http://lcs.ios.ac.cn/~zj/,0,0,0,2,0,2,0,0,1,0,0,0,3
-90,Jun Yan,Chinese Academy of Sciences,China,,0,0,0,2,0,0,0,0,0,0,0,0,2
-91,Shaowei Cai,Chinese Academy of Sciences,China,,0,0,0,0,0,2,2,1,0,0,0,0,0
-92,Xiaohua Li,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-93,Yong Zhao,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
-94,Zhao Dong,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-95,Zhiqiang Zhang,Chinese Academy of Sciences,China,http://lcs.ios.ac.cn/~zhangzq/,0,0,0,0,0,0,0,0,1,0,0,0,2
+87,Baiqiang Chen,Chinese Academy of Sciences,China,,0,0,0,0,0,1,0,0,0,0,0,0,0
+88,Feifei Ma,Chinese Academy of Sciences,China,http://castar.iscas.ac.cn/maff/feifei.html,0,0,0,0,0,1,0,0,0,0,0,0,0
+89,Jian Zhang,Chinese Academy of Sciences,China,http://lcs.ios.ac.cn/~zj/,0,0,0,3,0,2,0,0,1,0,0,0,3
+90,Jun Yan,Chinese Academy of Sciences,China,,0,0,0,3,0,0,0,0,0,0,0,0,2
+91,Shaowei Cai,Chinese Academy of Sciences,China,,0,0,0,0,0,2,3,1,0,0,0,0,0
+92,Xiaohua Li,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
+93,Yong Zhao,Chinese Academy of Sciences,China,,0,0,0,1,0,0,0,0,0,0,0,0,1
+94,Zhao Dong,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
+95,Zhiqiang Zhang,Chinese Academy of Sciences,China,http://lcs.ios.ac.cn/~zhangzq/,0,0,0,1,0,0,0,0,1,0,0,0,2
 96,Aldo Gonzalez-Gomez,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
 97,Daniel Lopez-Escogido,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
 98,Eduardo Rodriguez-Tello,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
 99,Idelfonso Izquierdo-Marquez,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
 100,Jorge Martinez-Pena,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
-101,Jose Torres-Jimenez,CINVESTAV-Tamaulipas,Mexico,http://www.tamps.cinvestav.mx/~jtj/,0,0,0,0,0,0,0,0,0,0,0,0,1
+101,Jose Torres-Jimenez,CINVESTAV-Tamaulipas,Mexico,http://www.tamps.cinvestav.mx/~jtj/,0,0,0,0,0,0,0,0,0,0,1,0,1
 102,Josue Bracho-Rios,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
-103,Loreto Gonzalez-Hernandez,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
+103,Loreto Gonzalez-Hernandez,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,1,0,0,0,0,0,0,0,0
 104,Oscar Carrizales-Turrubiates,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
 105,Pedro Quiz-Ramos,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
 106,George Spanoudakisb,City University London,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
 107,Li Yingmei,Communication University of China,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 108,Tian Pei,Communication University of China,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 109,Xi Xiaojing,Communication University of China,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-110,Siegmar Zufle,Daimler AG,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
-111,Venkataraman Krishnamoorthy,Daimler AG ,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
+110,Siegmar Zufle,Daimler AG,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,1
+111,Venkataraman Krishnamoorthy,Daimler AG ,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,1
 112,Michaela Steffens,Danfoss Power Electronics A/S,Denmark,,0,0,0,0,0,0,0,0,0,0,0,0,0
 113,Thomas Fogdal,Danfoss Power Electronics A/S,Denmark,,0,0,0,0,0,0,0,0,0,0,0,0,0
-114,Arinjita Paul,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
-115,K. Sheeba,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
-116,Krishnan Rangarajan,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,2
-117,Preeti Satish,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,2
+114,Arinjita Paul,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,1
+115,K. Sheeba,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,1
+116,Krishnan Rangarajan,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,3
+117,Preeti Satish,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,3
 118,Jingchao Chen,Donghua University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 119,Lixin Wang,Donghua University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 120,Renxia Wan,Donghua University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-121,Brandi Amstutz,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-122,David Anderson,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-123,Ranjan Bhambroo,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-124,Sergiy Vilkomir,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,4
-125,William Alton Ballance,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-126,William Jenkins,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-127,Oleksii Starov,East Carolina University ,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+121,Brandi Amstutz,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+122,David Anderson,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+123,Ranjan Bhambroo,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+124,Sergiy Vilkomir,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,5
+125,William Alton Ballance,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+126,William Jenkins,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+127,Oleksii Starov,East Carolina University ,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
 128,Thair Mahmoud,Edith Cowan University,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0
-129,Tomas Berling,Ericsson Microwave Systems A/B,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
-130,James A. Whittaker,Florida Institute of Technology,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-131,Kamel Rekab,Florida Institute of Technology,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-132,Alessandro Marchetto,Fondazione Bruno Kessler,Italy,,0,0,0,0,0,0,0,0,0,0,0,0,0
-133,Cu D. Nguyen,Fondazione Bruno Kessler,Italy,,0,0,0,0,0,0,0,0,1,0,0,0,0
-134,Paolo Tonella,Fondazione Bruno Kessler,Italy,,0,0,0,0,0,0,0,0,1,0,0,0,0
+129,Tomas Berling,Ericsson Microwave Systems A/B,Sweden,,1,0,0,0,0,0,0,0,0,0,0,0,0
+130,James A. Whittaker,Florida Institute of Technology,United States,,0,0,0,0,1,0,0,0,0,0,0,0,0
+131,Kamel Rekab,Florida Institute of Technology,United States,,0,0,0,0,1,0,0,0,0,0,0,0,0
+132,Alessandro Marchetto,Fondazione Bruno Kessler,Italy,,0,0,0,0,0,0,0,0,1,0,0,0,0
+133,Cu D. Nguyen,Fondazione Bruno Kessler,Italy,,0,0,0,0,0,0,0,1,1,0,0,0,0
+134,Paolo Tonella,Fondazione Bruno Kessler,Italy,,0,0,0,0,0,0,0,1,1,0,0,0,0
 135,Ina Schieferdecker,Fraunhofer FOKUS,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
 136,H. Shimokawa,Fujitsu,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 137,Keizo Tatsumi,Fujitsu,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 138,Nick Battle,Fujitsu,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
 139,S. Watanabe,Fujitsu,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 140,Y. Takeuchi,Fujitsu,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-141,James Lawrence,George Mason University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-142,Jeff Offutt,George Mason University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+141,James Lawrence,George Mason University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+142,Jeff Offutt,George Mason University,United States,,0,0,1,0,0,0,0,0,0,0,0,0,0
 143,Richard H. Carver,George Mason University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-144,Mary Jean Harrold,Georgia Institute of Technology,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+144,Mary Jean Harrold,Georgia Institute of Technology,United States,,0,0,0,1,0,0,0,0,0,0,0,0,0
 145,Kera Z. Watkins,Georgia Southern University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 146,G. Varvara,Gheorghe Asachi Technical University,Romania,,0,0,0,0,0,0,0,0,0,0,0,0,0
 147,V. Sandu,Gheorghe Asachi Technical University,Romania,,0,0,0,0,0,0,0,0,0,0,0,0,0
-148,Franz Wotawa,Graz University of Technology,Austria,https://www.tugraz.at/institute/sai/research/group-wotawa/people/franz-wotawa,0,0,0,0,1,0,0,0,0,0,0,0,11
-149,Josip Bozic,Graz University of Technology,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,1
-150,Kaile Su,Griffith University,Australia,http://www.kailesu.net/,0,0,0,0,0,0,0,0,0,0,0,0,0
+148,Franz Wotawa,Graz University of Technology,Austria,https://www.tugraz.at/institute/sai/research/group-wotawa/people/franz-wotawa,0,0,0,0,1,0,0,0,0,0,0,0,12
+149,Josip Bozic,Graz University of Technology,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,2
+150,Kaile Su,Griffith University,Australia,http://www.kailesu.net/,0,0,0,0,0,0,0,1,0,0,0,0,0
 151,Van Tang Nguyen,Hanoi University of Industry,Vietnam,,0,0,0,0,0,0,0,0,0,0,0,0,0
 152,Himer Avila-George,Haramara TIC-LAB,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
 153,Justin Hunter,Hexawise,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -156,53 +156,53 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 155,Rongzhi Qi,Hohai University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 156,Shuiyan Li,Hohai University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 157,Zhijian Wang,Hohai University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-158,Alvin T.S. Chan,Hong Kong Polytechnic University,Hong Kong SAR,,0,0,0,0,0,0,0,0,0,0,0,0,1
-159,Hareton Leung,Hong Kong Polytechnic University,Hong Kong SAR,,2,1,0,0,1,0,0,0,0,0,0,0,1
+158,Alvin T.S. Chan,Hong Kong Polytechnic University,Hong Kong SAR,,0,0,0,1,0,0,0,0,0,0,0,0,1
+159,Hareton Leung,Hong Kong Polytechnic University,Hong Kong SAR,,3,1,0,0,1,0,0,0,0,0,0,0,1
 160,Gadiel Seroussi,HP Laboratories,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 161,Xiaodong Xie,Huaqiao University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 162,Rongcun Wang,Huazhong University of Science and Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-163,Yansheng Lu,Huazhong University of Science and Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-164,Aviad Zlotnick,IBM Research - Haifa,Israel,,0,0,0,0,0,1,0,0,0,0,0,0,3
+163,Yansheng Lu,Huazhong University of Science and Technology,China,,0,0,0,1,0,0,0,0,0,0,0,0,0
+164,Aviad Zlotnick,IBM Research - Haifa,Israel,,0,0,0,0,0,1,0,0,0,0,0,0,4
 165,Bilha Mendelson,IBM Research - Haifa,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,0
 166,Daniel Citron,IBM Research - Haifa,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,0
-167,Eitan Farchi,IBM Research - Haifa,Israel,http://researcher.watson.ibm.com/researcher/view.php?person=il-FARCHI,1,0,0,0,0,0,0,0,1,0,0,0,4
-168,Oded Margalit,IBM Research - Haifa,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,1
-169,Rachel Tzoref-Brill,IBM Research - Haifa,Israel,http://researcher.watson.ibm.com/researcher/view.php?person=il-RACHELT,0,0,0,0,0,4,1,1,1,0,0,1,6
-170,Shmuel Ur,IBM Research - Haifa,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,0
+167,Eitan Farchi,IBM Research - Haifa,Israel,http://researcher.watson.ibm.com/researcher/view.php?person=il-FARCHI,1,0,0,0,0,0,0,0,1,0,0,0,5
+168,Oded Margalit,IBM Research - Haifa,Israel,,1,0,0,0,0,0,0,0,0,0,0,0,1
+169,Rachel Tzoref-Brill,IBM Research - Haifa,Israel,http://researcher.watson.ibm.com/researcher/view.php?person=il-RACHELT,0,0,0,0,0,4,1,1,1,0,0,2,6
+170,Shmuel Ur,IBM Research - Haifa,Israel,,0,0,0,0,0,1,0,0,0,0,0,0,0
 171,Yarden Nir Buchbinder,IBM Research - Haifa,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,0
-172,Hema Srikanth,IBM Software Group,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-173,Dale Blue,IBM Systems & Technology Group,United States,,0,0,0,0,0,2,0,0,0,0,0,0,0
-174,Paul Wojciak,IBM Systems & Technology Group,United States,,0,0,0,0,0,0,0,1,0,0,0,1,0
-175,David M. Cohen,IDA Center for Computing Sciences,United States,,0,0,0,0,0,0,0,0,0,0,1,0,0
-176,Manish Mehta,iGATE Corporation,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
-177,Roji Philip,iGATE Corporation,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
-178,Bogdan Korel,Illinois Institute of Technology,United States,,0,0,0,0,0,0,0,0,1,0,0,0,0
+172,Hema Srikanth,IBM Software Group,United States,,0,0,0,0,0,0,0,0,0,0,1,0,0
+173,Dale Blue,IBM Systems & Technology Group,United States,,0,0,0,0,0,2,0,0,0,0,0,0,1
+174,Paul Wojciak,IBM Systems & Technology Group,United States,,0,0,0,0,0,1,0,1,0,0,0,1,0
+175,David M. Cohen,IDA Center for Computing Sciences,United States,,1,0,0,0,0,0,0,0,0,0,1,0,0
+176,Manish Mehta,iGATE Corporation,India,,0,0,0,0,0,0,0,0,0,0,0,0,1
+177,Roji Philip,iGATE Corporation,India,,0,0,0,0,0,0,0,0,0,0,0,0,1
+178,Bogdan Korel,Illinois Institute of Technology,United States,,0,0,0,0,0,0,0,1,1,0,0,0,0
 179,Pierre Bontron,Images et Reseaux,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
 180,Olivier Maury,Images et Reseaux ,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-181,Douglas Hillmer,Independent Consultant ,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-182,Soumen Maity,Indian Institute of Technology,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
+181,Douglas Hillmer,Independent Consultant ,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+182,Soumen Maity,Indian Institute of Technology,India,,0,0,0,0,0,0,0,0,0,0,1,0,0
 183,Ajay Kattepur,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
 184,Albert Benveniste,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-185,Aymeric Hervieu,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,0,0,0,0,0,0,1,1,0
-186,Benoit Baudry,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,1,0,0,0,1,0,1,2,0
+185,Aymeric Hervieu,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,1,0,0,0,0,0,1,1,0
+186,Benoit Baudry,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,1,0,1,0,0,0,1,0,1,2,0
 187,Claude Jard,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
 188,Brahim Hnich,Izmir University of Economics,Turkey,,0,0,0,0,0,0,0,0,0,0,0,0,0
 189,Che Y. Yaakub,Jadara University,Jordan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 190,Mohammad F.J. Klaib,Jadara University,Jordan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Timothy Snell,Jaguar Land Rover,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
+191,Timothy Snell,Jaguar Land Rover,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,1
 192,Zhicheng Li,Jianghan University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 193,Huanhuan Wang,Jiangsu University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-194,Jinfu Chen,Jiangsu University,China,,0,0,0,1,0,1,0,0,0,0,0,0,0
+194,Jinfu Chen,Jiangsu University,China,,0,0,0,2,0,1,0,0,0,0,0,0,0
 195,Qing Li,Jiangsu University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-196,Rubing Huang,Jiangsu University,China,,0,0,0,1,0,1,0,0,0,0,0,0,0
+196,Rubing Huang,Jiangsu University,China,,0,0,0,2,0,1,0,0,0,0,0,0,0
 197,Yongzhao Zhan,Jiangsu University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 198,Chengying Mao,Jiangxi University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 199,Pu Yunming,Jimei university,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-200,Alexander Egyed,Johannes Kepler University Linz,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,0
-201,Armin Biere,Johannes Kepler University Linz,Austria,http://fmv.jku.at/biere/,0,0,0,0,0,0,0,0,0,0,0,1,0
+200,Alexander Egyed,Johannes Kepler University Linz,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,1
+201,Armin Biere,Johannes Kepler University Linz,Austria,http://fmv.jku.at/biere/,0,0,0,0,0,0,0,1,0,0,0,1,0
 202,Evelyn Nicole Haslinger,Johannes Kepler University Linz,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,0
-203,Roberto E. Lopez-Herrejon,Johannes Kepler University Linz,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,1
-204,Stefan Fischer,Johannes Kepler University Linz,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,0
+203,Roberto E. Lopez-Herrejon,Johannes Kepler University Linz,Austria,,0,0,0,1,0,0,0,0,0,0,0,0,1
+204,Stefan Fischer,Johannes Kepler University Linz,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,1
 205,Moataz A. Ahmed,King Fahd University of Petroleum & Minerals,Saudi Arabia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 206,Syed A. Ghazi,King Fahd University of Petroleum & Minerals,Saudi Arabia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 207,Haruki Matsunaka,Kobe University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -213,22 +213,22 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 212,Myungchul Kim,Korea Advanced Institute of Science and Technology,Korea,,0,0,0,0,0,0,0,0,0,0,0,0,0
 213,Sungwon Kang,Korea Advanced Institute of Science and Technology,Korea,,0,0,0,0,0,0,0,0,0,0,0,0,0
 214,Joel Greenyer,Leibniz Universitat Hannover,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
-215,Atlee M. Cunningham Jr,Lockheed Martin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-216,Jon Hagar,Lockheed Martin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
-217,Ryan J. Holman,Lockheed Martin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+215,Atlee M. Cunningham Jr,Lockheed Martin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+216,Jon Hagar,Lockheed Martin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,2
+217,Ryan J. Holman,Lockheed Martin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
 218,Thomas L. Wissink,Lockheed Martin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-219,Tom Wissink,Lockheed Martin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+219,Tom Wissink,Lockheed Martin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
 220,R.E. Kurt Stirewalt,LogicBlox,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 221,L.M. Moore,Los Alamos National Laboratory,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 222,Jan B. Pedersen,Lulea University of Technology,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
-223,Per Runeson,Lund University,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
+223,Per Runeson,Lund University,Sweden,,1,0,0,0,0,0,0,0,0,0,0,0,0
 224,E.Madhusudhana Reddy,Madanapalle Institute of Technology and Science,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 225,Laura K. Dillon,Michigan State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 226,Matthew J. McGill,Michigan State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 227,Nicolas Kicillof,Microsoft,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-228,Wolfgang Grieskamp,Microsoft,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+228,Wolfgang Grieskamp,Microsoft,United States,,0,0,0,1,0,0,0,0,0,0,0,0,0
 229,Xiangjun Wei,Microsoft,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-230,Jacek Czerwonka,Microsoft Research,United States,http://jacekcz.com,0,0,0,0,0,0,0,0,0,0,0,0,1
+230,Jacek Czerwonka,Microsoft Research,United States,http://jacekcz.com,0,0,0,0,0,0,0,0,0,0,0,0,2
 231,James D. McCaffrey,Microsoft Research,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 232,Yuri Gurevich,Microsoft Research,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 233,Valerio Panzica La Manna,MIT Media Lab,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -236,47 +236,47 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 235,S. Murali Krishna,Motorola Software Group,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 236,Ang Li,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 237,Baowen Xu,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-238,Changhai Nie,Nanjing University,China,http://gist.nju.edu.cn/~changhai,7,1,0,0,3,1,0,0,0,0,1,0,5
+238,Changhai Nie,Nanjing University,China,http://gist.nju.edu.cn/~changhai,7,1,0,0,4,1,0,0,0,0,1,0,5
 239,Daoxu Chen,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-240,Huayao Wu,Nanjing University,China,https://huayaow.github.io/,4,0,0,0,3,1,0,0,0,0,1,0,4
+240,Huayao Wu,Nanjing University,China,https://huayaow.github.io/,4,0,0,0,4,1,0,0,0,0,1,0,4
 241,Jie Li,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-242,Jing Jiang,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
+242,Jing Jiang,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
 243,Jingxian Qi,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 244,Lei Xu,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-245,Lin Chen,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
+245,Lin Chen,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,1,0,0
 246,Qing Gu,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 247,Xiang Chen,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 248,Xin Zhang,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 249,Xinping Wang,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-250,Xintao Niu,Nanjing University,China,https://niuxintao.github.io/,5,0,0,0,2,1,0,0,0,0,1,0,2
+250,Xintao Niu,Nanjing University,China,https://niuxintao.github.io/,5,0,0,0,3,1,0,0,0,0,1,0,2
 251,Yalan Liang,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 252,Yan Huang,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-253,Weifeng Zhang,Nanjing University of Posts and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-254,Ziyuan Wang,Nanjing University of Posts and Telecommunications,China,http://yjs.njupt.edu.cn/epstar/web/outer/dsfc_ny_.jsp?dsgh=20120077,0,0,0,0,0,0,0,0,0,0,0,0,2
-255,Dolores R. Wallace,NASA Goddard Space Flight Center,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-256,Akihisa Yamada,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,1,0,0,1,1,0
-257,Cyrille Artho,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,1,0,0,1,1,0
-258,Eun-Hye Choi,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,1,0,0,1,1,1
+253,Weifeng Zhang,Nanjing University of Posts and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
+254,Ziyuan Wang,Nanjing University of Posts and Telecommunications,China,http://yjs.njupt.edu.cn/epstar/web/outer/dsfc_ny_.jsp?dsgh=20120077,0,0,0,0,0,0,0,0,0,0,0,0,3
+255,Dolores R. Wallace,NASA Goddard Space Flight Center,United States,,1,0,0,0,0,0,0,0,0,0,0,0,0
+256,Akihisa Yamada,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,1,0,0,1,1,1
+257,Cyrille Artho,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,1,0,0,1,1,1
+258,Eun-Hye Choi,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,1,0,0,1,1,2
 259,Hitoshi Ohsaki,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-260,Takashi Kitamura,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,1,0,0,1,1,1
-261,Yutaka Oiwa,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
+260,Takashi Kitamura,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,1,0,0,1,1,2
+261,Yutaka Oiwa,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,0,0,0,0,1,0
 262,Katsumi Inoue,National Institute of Informatics,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 263,Carmelo Montanez,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 264,Charles McLean,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-265,D. Richard Kuhn,National Institute of Standards and Technology (NIST),United States,http://csrc.nist.gov/staff/Kuhn/kuhn_rick.html,3,0,2,0,0,0,0,1,0,0,1,3,34
+265,D. Richard Kuhn,National Institute of Standards and Technology (NIST),United States,http://csrc.nist.gov/staff/Kuhn/kuhn_rick.html,3,0,2,0,0,0,0,1,0,0,1,3,38
 266,Jenise Reyes,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 267,Mary Brady,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 268,Michael Forbes,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 269,Michael J. Reilly,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 270,Michael K. Powers,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-271,Raghu N. Kacker,National Institute of Standards and Technology (NIST),United States,http://math.nist.gov/~RKacker/,2,0,2,0,0,0,0,1,0,0,1,3,36
+271,Raghu N. Kacker,National Institute of Standards and Technology (NIST),United States,http://math.nist.gov/~RKacker/,2,0,2,0,0,0,0,1,0,0,1,3,39
 272,Ram Sriram,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 273,Richard M. Rivello,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 274,Ruediger Kessel,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 275,Vadim Okun,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-276,Vincent C. Hu,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+276,Vincent C. Hu,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
 277,Huowang Chen,National University of Defense Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-278,Satomi Yoshizawa,NEC Corporation,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
+278,Satomi Yoshizawa,NEC Corporation,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,1
 279,Manuj Aggarwal,Netaji Subhas Institute of Technology,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 280,Sangeeta Sabharwal,Netaji Subhas Institute of Technology,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 281,Wujie Zhou,Ningbo University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -285,84 +285,84 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 284,Bellanov S. Apilli,North Carolina State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 285,Jeehyun Hwang,North Carolina State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 286,Kera Z. Bell,North Carolina State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-287,Kiran Shakya,North Carolina State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-288,Kuo-Chung Tai,North Carolina State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+287,Kiran Shakya,North Carolina State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+288,Kuo-Chung Tai,North Carolina State University,United States,,1,0,0,0,0,0,0,0,0,0,0,0,0
 289,Mladen A. Vouk,North Carolina State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 290,Toshiaki Shiba,NTT Data Corporation,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 291,Goro Hatayama,Omron Social Solutions,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 292,Shinya Sakuragi,Omron Social Solutions,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 293,Darrel Ince,Open University,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
 294,Marian Petre,Open University,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
-295,Hideharu Kojima,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-296,Hiroyuki Nakagawa,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
+295,Hideharu Kojima,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,1
+296,Hiroyuki Nakagawa,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,1
 297,Kikuno Tohru,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 298,Noritaka Kobayashi,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 299,Satoshi Fujimoto,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 300,Shin Kimoto,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 301,Takahiro Nagamoto,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-302,Tatsuhiro Tsuchiya,Osaka University,Japan,,0,0,0,1,1,0,0,0,0,0,0,0,4
+302,Tatsuhiro Tsuchiya,Osaka University,Japan,,0,0,0,1,1,0,0,0,0,0,0,0,5
 303,Tohru Kikuno,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 304,Tsuchiya Tsuchiya,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-305,Chuan Luo,Beihang University,China,https://chuanluocs.github.io/,0,1,0,0,0,2,4,1,1,0,0,0,0
-306,Dan Hao,Peking University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-307,Jinkun Lin,Peking University,China,,0,0,0,0,0,2,3,1,0,0,0,0,0
+305,Chuan Luo,Beihang University,China,https://chuanluocs.github.io/,0,1,0,0,0,3,4,1,1,0,0,0,0
+306,Dan Hao,Peking University,China,,0,0,0,0,0,0,0,1,0,0,0,0,0
+307,Jinkun Lin,Peking University,China,,0,1,0,0,0,2,3,1,0,0,0,0,0
 308,Lian Yu,Peking University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-309,Lu Zhang,Peking University,China,http://sei.pku.edu.cn/~zhanglu/,0,0,0,0,0,0,0,0,0,0,0,0,0
+309,Lu Zhang,Peking University,China,http://sei.pku.edu.cn/~zhanglu/,0,0,0,0,0,0,0,1,0,0,0,0,0
 310,Michael Ellims,Pi Shurlok,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
-311,A. Iannino,Pipeline Associates,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+311,A. Iannino,Pipeline Associates,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
 312,Ngoc Thi Bich Do,Posts & Telecommunications Institute of Technology,Vietnam,,0,0,0,0,0,0,0,0,0,0,0,0,0
 313,Akhil R. Shah,Rand Corporation,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 314,Jerry Huller,Raytheon Company,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-315,Beatriz Pérez Lamancha,Republic University,Uruguay,,0,0,0,0,0,0,0,0,0,0,0,0,0
-316,Michael L. Fredman,Rutgers University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+315,Beatriz Pérez Lamancha,Republic University,Uruguay,,0,0,0,1,0,0,0,0,0,0,0,0,0
+316,Michael L. Fredman,Rutgers University,United States,,1,0,0,0,0,0,0,0,0,0,0,0,0
 317,Peter Danziger,Ryerson University,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
-318,Arsalan Javeed,Sabanci University,Turkey,,0,0,0,0,0,0,0,0,0,0,0,0,1
-319,Cemal Yilmaz,Sabanci University,Turkey,http://people.sabanciuniv.edu/cyilmaz/Cemal_Yilmaz/Home.html,5,0,0,1,0,0,0,0,1,0,1,0,5
-320,Emine Dumlu,Sabanci University,Turkey,,0,0,0,0,0,0,0,0,1,0,0,0,0
-321,Gulsen Demiroz,Sabanci University,Turkey,http://myweb.sabanciuniv.edu/gulsend/,0,0,0,0,0,0,0,0,1,0,0,0,0
-322,Ugur Koc,Sabanci University,Turkey,,0,0,0,0,0,0,0,0,0,0,0,0,0
-323,Moayad Y. Potrus,Salahaddin University-Hawler,Iraq,,0,0,0,0,0,0,0,0,0,0,0,0,0
+318,Arsalan Javeed,Sabanci University,Turkey,,1,0,0,0,0,0,0,0,0,0,0,0,1
+319,Cemal Yilmaz,Sabanci University,Turkey,http://people.sabanciuniv.edu/cyilmaz/Cemal_Yilmaz/Home.html,5,0,0,1,0,0,0,0,1,0,1,0,6
+320,Emine Dumlu,Sabanci University,Turkey,,1,0,0,0,0,0,0,0,1,0,0,0,0
+321,Gulsen Demiroz,Sabanci University,Turkey,http://myweb.sabanciuniv.edu/gulsend/,0,0,0,0,0,0,0,0,1,0,0,0,1
+322,Ugur Koc,Sabanci University,Turkey,,0,0,0,0,0,0,1,0,0,0,0,0,0
+323,Moayad Y. Potrus,Salahaddin University-Hawler,Iraq,,0,0,0,0,1,0,0,0,0,0,0,0,0
 324,Jerry Gao,San Jose State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 325,James Bach,Satisfice Incorporation,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-326,Artemios G. Voyiatzis,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,0
-327,Bernhard Garn,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,8
-328,Dimitris E. Simos,SBA Research,Austria,https://www.sba-research.org/team/key-researchers/dimitris-e-simos/,0,0,0,0,0,0,0,0,0,0,1,1,21
+326,Artemios G. Voyiatzis,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,1,0,0
+327,Bernhard Garn,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,10
+328,Dimitris E. Simos,SBA Research,Austria,https://www.sba-research.org/team/key-researchers/dimitris-e-simos/,0,0,0,0,0,0,0,0,0,0,1,1,23
 329,Ioannis Kapsalis,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,0
 330,Severin Winkler,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,0
 331,Gregory T. Daich,Science Applications Inteniational Corporation,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-332,Xiaojian Liu,Shandong Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
+332,Xiaojian Liu,Shandong Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
 333,Jianhua Gao,Shanghai Normal University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 334,Yuefeng Hu,Shanghai Normal University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-335,Andrea Arcuri,Simula Research Laboratory,Norway,http://folk.uio.no/arcuri/,0,0,0,0,0,0,0,0,0,0,0,0,0
+335,Andrea Arcuri,Simula Research Laboratory,Norway,http://folk.uio.no/arcuri/,1,0,0,0,0,0,0,0,0,0,0,0,0
 336,Arnab Sarkar,Simula Research Laboratory,Norway,,0,0,0,0,0,0,0,0,0,0,0,0,0
-337,Arnaud Gotlieb,Simula Research Laboratory,Norway,,0,0,0,0,0,0,0,0,0,0,1,1,0
-338,Dusica Marijan,Simula Research Laboratory,Norway,,0,0,0,0,0,0,0,0,0,0,0,0,0
-339,Sagar Sen,Simula Research Laboratory,Norway,,0,0,0,0,0,0,0,0,0,0,0,0,0
+337,Arnaud Gotlieb,Simula Research Laboratory,Norway,,0,0,0,0,1,0,0,0,0,0,1,1,0
+338,Dusica Marijan,Simula Research Laboratory,Norway,,0,0,0,0,1,0,0,0,0,0,0,0,0
+339,Sagar Sen,Simula Research Laboratory,Norway,,0,0,0,0,0,0,0,0,0,0,0,1,0
 340,Stefano Di Alesio,Simula Research Laboratory,Norway,,0,0,0,0,0,0,0,0,0,0,0,0,0
 341,Franck Fleurey,SINTEF ICT,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
 342,Oystein Haugen,SINTEF ICT,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
 343,Julien Botella,Smartesting,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
 344,Alessandra Bagnato,Softeam R&D Department,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
 345,Etienne Brosse,Softeam R&D Department,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-346,Rudolf Ramler,Software Competence Center Hagenberg,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,1
-347,Theodorich Kopetzky,Software Competence Center Hagenberg,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,0
+346,Rudolf Ramler,Software Competence Center Hagenberg,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,2
+347,Theodorich Kopetzky,Software Competence Center Hagenberg,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,1
 348,Lee Copeland,Software Quality Engineering,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 349,Guowei Dong,Southeast University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 350,Liang Shi,Southeast University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-351,Peng Wang,Southeast University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
+351,Peng Wang,Southeast University,China,,0,0,0,0,0,0,0,0,0,0,1,0,0
 352,Ting Guo,Southeast University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 353,Xiaofang Qi,Southeast University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-354,Saswat Anand,Stanford University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+354,Saswat Anand,Stanford University,United States,,0,0,0,1,0,0,0,0,0,0,0,0,0
 355,Ljubomir Lazic,State University of Novi Pazar,Serbia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 356,Elisa Puoskari,Sulake,Finland,,0,0,0,0,0,0,0,0,0,0,0,0,0
-357,Fei-Ching Kuo,Swinburne University of Technology,Australia,http://www.ict.swin.edu.au/personal/dkuo/,0,0,0,0,1,0,0,0,0,0,0,0,1
-358,Tsong Yueh Chen,Swinburne University of Technology,Australia,http://www.ict.swin.edu.au/personal/tychen/,0,0,0,1,0,0,0,0,0,0,0,0,0
+357,Fei-Ching Kuo,Swinburne University of Technology,Australia,http://www.ict.swin.edu.au/personal/dkuo/,0,0,0,0,2,0,0,0,0,0,0,0,1
+358,Tsong Yueh Chen,Swinburne University of Technology,Australia,http://www.ict.swin.edu.au/personal/tychen/,0,0,0,1,0,1,0,0,0,0,0,0,0
 359,Nader H. Bshouty,Tcchnion-Israel Institute of Technology,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,0
-360,Priya Gupta,TCS Innovation Labs,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
-361,Sachin Patel,TCS Innovation Labs,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
-362,Vipul Shah,TCS Innovation Labs,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
+360,Priya Gupta,TCS Innovation Labs,India,,0,0,0,0,0,0,0,0,0,0,0,0,1
+361,Sachin Patel,TCS Innovation Labs,India,,0,0,0,0,0,0,0,0,0,0,0,0,1
+362,Vipul Shah,TCS Innovation Labs,India,,0,0,0,0,0,0,0,0,0,0,0,0,1
 363,Nikos E. Mastorakis,Technical University of Sofia,Bulgaria,,0,0,0,0,0,0,0,0,0,0,0,0,0
-364,Malte Lochau,Technische Universität Braunschweig,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
+364,Malte Lochau,Technische Universität Braunschweig,Germany,,0,0,0,0,0,0,0,0,0,0,0,1,0
 365,Ursula Goltz,Technische Universität Braunschweig,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
 366,Andy Schurr,Technische Universität Darmstadt,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
 367,Florian Markert,Technische Universität Darmstadt,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -370,11 +370,11 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 369,Marius Zink,Technische Universität Darmstadt,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
 370,Philipp Ritter,Technische Universität Darmstadt,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
 371,Sebastian Oster,Technische Universität Darmstadt,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
-372,Paris Kitsos,Technological Educational Institute of Western Greece,Greece,,0,0,0,0,0,0,0,0,0,0,1,0,0
-373,Shahar Maoz,Tel Aviv University,Israel,,0,0,0,0,0,1,0,1,0,0,0,0,0
-374,Aridaman Jain,Telcordia Technologies,United States,,0,0,0,0,0,0,0,0,0,0,1,0,0
-375,C.M. Lott,Telcordia Technologies,United States,,0,0,0,0,0,0,0,0,0,0,1,0,0
-376,George Sherwood,Testcover.com,United States,https://www.linkedin.com/in/george-sherwood-61bb4b9,0,0,0,0,0,0,0,0,0,0,0,0,2
+372,Paris Kitsos,Technological Educational Institute of Western Greece,Greece,,0,0,0,0,0,0,0,0,0,0,1,0,1
+373,Shahar Maoz,Tel Aviv University,Israel,,0,0,0,0,0,1,1,1,0,0,0,0,0
+374,Aridaman Jain,Telcordia Technologies,United States,,0,0,0,0,0,1,0,0,0,0,1,0,0
+375,C.M. Lott,Telcordia Technologies,United States,,0,0,0,0,0,1,0,0,0,0,1,0,0
+376,George Sherwood,Testcover.com,United States,https://www.linkedin.com/in/george-sherwood-61bb4b9,0,0,0,0,0,0,0,0,0,0,0,0,3
 377,Joshua R. Maximoff,The Johns Hopkins University Applied Physics Laboratory,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 378,Michael D. Trela,The Johns Hopkins University Applied Physics Laboratory,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 379,Anne Grete Eldegard,Tomra Systems ASA,Norway,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -382,7 +382,7 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 381,Changjun Jiang,Tongji University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 382,Jianjun Yuan,Tongji University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 383,Zuowen Jiang,Tongji University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-384,Wolfgang Platz,TRICENTIS Technology & Consulting,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,0
+384,Wolfgang Platz,TRICENTIS Technology & Consulting,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,1
 385,Xiaoying Bai,Tsinghua University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 386,William C. Chu,Tunghai University,"Taiwan,China",,0,0,0,0,0,0,0,0,0,0,0,0,0
 387,Snezana Popovic,Union University of Beograd,Serbia,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -398,12 +398,12 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 397,Tanja E.J. Vos,Universitat Politècnica de València,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
 398,Vicente Hernández,Universitat Politècnica de València,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
 399,Faryel Alloutia,Université Joseph Fourier-Grenoble,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-400,Frederic Dadeau,Université Joseph Fourier-Grenoble,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-401,German Vega,Université Joseph Fourier-Grenoble,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-402,Lydie du Bousquet,Université Joseph Fourier-Grenoble,France,,0,0,0,0,0,0,0,2,0,0,0,0,0
-403,Taha Triki,Université Joseph Fourier-Grenoble,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-404,Yves Ledru,Université Joseph Fourier-Grenoble,France,http://membres-lig.imag.fr/ledru/YLVersionE.html,0,0,0,0,0,0,0,1,0,0,0,0,0
-405,Kamal Z. Zamli,Universiti Malaysia Pahang,Malaysia,,0,0,0,1,1,0,0,0,0,0,0,0,0
+400,Frederic Dadeau,Université Joseph Fourier-Grenoble,France,,0,0,0,0,0,0,0,1,0,0,0,0,0
+401,German Vega,Université Joseph Fourier-Grenoble,France,,0,0,0,0,0,0,0,1,0,0,0,0,0
+402,Lydie du Bousquet,Université Joseph Fourier-Grenoble,France,,0,0,0,0,0,0,0,2,0,0,0,0,1
+403,Taha Triki,Université Joseph Fourier-Grenoble,France,,0,0,0,0,0,0,0,1,0,0,0,0,0
+404,Yves Ledru,Université Joseph Fourier-Grenoble,France,http://membres-lig.imag.fr/ledru/YLVersionE.html,0,0,0,0,0,0,0,2,0,0,0,0,0
+405,Kamal Z. Zamli,Universiti Malaysia Pahang,Malaysia,,0,0,0,1,2,0,0,0,0,0,0,0,0
 406,Khandakar F. Rabbi,Universiti Malaysia Pahang,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 407,Mohammad M. Ahmed,Universiti Malaysia Pahang,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 408,Noraziah Ahmad,Universiti Malaysia Pahang,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -413,8 +413,8 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 412,Mohd Hazli Mohamed Zabil,Universiti Malaysia Perlis,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 413,Rozmie R. Othman,Universiti Malaysia Perlis,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 414,Rusli Abdullah,Universiti Putra Malaysia,Malaysia ,,0,0,0,0,0,0,0,0,0,0,0,0,0
-415,A.A. Alsewari,Universiti Sains Malaysia,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
-416,Bestoun S. Ahmed,Universiti Sains Malaysia,Malaysia,https://sites.google.com/site/bestounbsa/,0,0,0,1,2,0,0,0,0,0,0,0,0
+415,A.A. Alsewari,Universiti Sains Malaysia,Malaysia,,0,0,0,0,1,0,0,0,0,0,0,0,0
+416,Bestoun S. Ahmed,Universiti Sains Malaysia,Malaysia,https://sites.google.com/site/bestounbsa/,0,0,0,1,2,0,0,0,0,0,0,0,1
 417,Chee Peng Lim,Universiti Sains Malaysia,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 418,Mohammed I. Younis,Universiti Sains Malaysia,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 419,Noor S. Jusof,Universiti Sains Malaysia,Malaysia ,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -423,106 +423,106 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 422,Syahrul A.C. Abdullah,Universiti Teknologi MARA ,Malaysia ,,0,0,0,0,0,0,0,0,0,0,0,0,0
 423,Barbara M. Smith,University College,Ireland,,0,0,0,0,0,0,0,0,0,0,0,0,0
 424,Steven D. Prestwich,University College,Ireland,,0,0,0,0,0,0,0,0,0,0,0,0,0
-425,Justyna Petke,University College London,United Kingdom,,2,0,0,0,0,1,1,0,0,0,0,0,1
-426,Mark Harman,University College London,United Kingdom,http://www0.cs.ucl.ac.uk/staff/M.Harman/,2,0,0,1,0,2,1,0,0,0,0,0,0
-427,Shin Yoo,University College London,United Kingdom,,0,0,0,0,0,0,1,0,0,0,0,0,0
-428,Yue Jia,University College London,United Kingdom,http://www0.cs.ucl.ac.uk/staff/Y.Jia/,1,0,0,0,0,2,0,0,0,0,0,0,0
+425,Justyna Petke,University College London,United Kingdom,,3,0,0,0,0,1,1,0,0,0,0,0,1
+426,Mark Harman,University College London,United Kingdom,http://www0.cs.ucl.ac.uk/staff/M.Harman/,3,0,0,1,0,2,1,0,0,0,0,0,0
+427,Shin Yoo,University College London,United Kingdom,,1,0,0,0,0,0,1,0,0,0,0,0,0
+428,Yue Jia,University College London,United Kingdom,http://www0.cs.ucl.ac.uk/staff/Y.Jia/,2,0,0,0,0,2,0,0,0,0,0,0,0
 429,James S. Collofello,University of Auckland,New Zealand,,0,0,0,0,0,0,0,0,0,0,0,0,0
-430,Peter B. Gibbons,University of Auckland,New Zealand,,0,0,0,0,0,0,0,0,0,0,0,0,0
-431,Warwick B. Mugridge,University of Auckland,New Zealand,,0,0,0,0,0,0,0,0,0,0,0,0,0
-432,Angelo Gargantini,University of Bergamo,Italy,http://cs.unibg.it/gargantini/,0,0,0,1,0,0,0,0,0,0,0,1,14
-433,Paolo Arcaini,University of Bergamo,Italy,,0,0,0,0,0,0,0,0,0,0,0,0,2
-434,Paolo Vavassori,University of Bergamo,Italy,,0,0,0,0,0,0,0,0,0,0,0,1,3
+430,Peter B. Gibbons,University of Auckland,New Zealand,,0,0,0,0,0,1,0,0,0,0,0,0,0
+431,Warwick B. Mugridge,University of Auckland,New Zealand,,0,0,0,0,0,1,0,0,0,0,0,0,0
+432,Angelo Gargantini,University of Bergamo,Italy,http://cs.unibg.it/gargantini/,0,0,0,1,0,0,0,0,0,0,0,1,15
+433,Paolo Arcaini,University of Bergamo,Italy,,0,0,0,0,0,0,0,0,0,0,0,0,3
+434,Paolo Vavassori,University of Bergamo,Italy,,0,0,0,0,0,0,0,0,0,0,0,1,4
 435,D. Ylvisaker,University of California,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 436,Hongquan Xu,University of California,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-437,Andrea Calvagna,University of Catania,Italy,http://www.diit.unict.it/~acalva/Home/Home.html,0,0,0,0,0,0,0,0,0,0,0,1,2
-438,Andrea Fornaia,University of Catania,Italy,,0,0,0,0,0,0,0,0,0,0,0,0,0
-439,Emiliano Tramontana,University of Catania,Italy,,0,0,0,0,0,0,0,0,0,0,0,0,0
+437,Andrea Calvagna,University of Catania,Italy,http://www.diit.unict.it/~acalva/Home/Home.html,0,0,0,0,0,0,0,0,0,0,0,1,3
+438,Andrea Fornaia,University of Catania,Italy,,0,0,0,0,0,0,0,0,0,0,0,0,1
+439,Emiliano Tramontana,University of Catania,Italy,,0,0,0,0,0,0,0,0,0,0,0,0,1
 440,Giuseppe Pappalardo,University of Catania,Italy,,0,0,0,0,0,0,0,0,0,0,0,0,0
 441,M.E. Johnson,University of Central Florida,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-442,Yasuharu Nishi,University of Electro Communications,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-443,Anna Zamansky,University of Haifa,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,0
+442,Yasuharu Nishi,University of Electro Communications,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,1
+443,Anna Zamansky,University of Haifa,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,1
 444,Mark Grechanik,University of Illinois at Chicago,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-445,Tao Xie,University of Illinois at Urbana-Champaign,United States,http://taoxie.cs.illinois.edu/,0,0,0,0,0,0,0,0,0,0,0,1,1
-446,Christopher Henard,University of Luxembourg,Luxembourg,http://www.henard.net/,1,0,0,0,0,0,0,0,0,0,0,1,1
-447,Jacques Klein,University of Luxembourg,Luxembourg,,0,0,0,0,0,0,0,0,0,0,0,1,0
-448,Lionel Briand,University of Luxembourg,Luxembourg,http://wwwen.uni.lu/snt/people/lionel_briand,1,0,0,0,0,0,0,0,0,0,0,0,0
-449,Mike Papadakis,University of Luxembourg,Luxembourg,,1,0,0,0,0,0,0,0,0,0,0,1,1
-450,Yves Le Traon,University of Luxembourg,Luxembourg,,1,0,0,0,0,0,0,0,0,0,0,3,1
-451,Gunter Saake,University of Magdeburg,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
-452,Jens Meinicke,University of Magdeburg,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
+445,Tao Xie,University of Illinois at Urbana-Champaign,United States,http://taoxie.cs.illinois.edu/,1,0,0,0,0,0,0,0,0,0,0,1,1
+446,Christopher Henard,University of Luxembourg,Luxembourg,http://www.henard.net/,1,0,0,0,0,1,0,0,0,0,0,1,1
+447,Jacques Klein,University of Luxembourg,Luxembourg,,1,0,0,0,0,0,0,0,0,0,0,1,0
+448,Lionel Briand,University of Luxembourg,Luxembourg,http://wwwen.uni.lu/snt/people/lionel_briand,1,0,0,1,0,0,0,0,0,0,0,0,0
+449,Mike Papadakis,University of Luxembourg,Luxembourg,,1,0,0,0,0,1,0,0,0,0,0,1,1
+450,Yves Le Traon,University of Luxembourg,Luxembourg,,1,0,0,0,0,1,0,0,0,0,0,3,1
+451,Gunter Saake,University of Magdeburg,Germany,,0,0,0,0,0,0,0,1,0,0,0,0,0
+452,Jens Meinicke,University of Magdeburg,Germany,,0,0,0,0,0,0,0,1,0,0,0,0,0
 453,Mustafa Al-Hajjaji,University of Magdeburg,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
-454,Thomas Thum,University of Magdeburg,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
-455,A. Gunes Koru,"University of Maryland, Baltimore County",United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-456,Gokulanand Viswanath,"University of Maryland, Baltimore County",United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+454,Thomas Thum,University of Magdeburg,Germany,,0,0,0,0,0,0,0,1,0,0,0,0,0
+455,A. Gunes Koru,"University of Maryland, Baltimore County",United States,,0,0,0,0,0,0,0,0,0,0,0,1,0
+456,Gokulanand Viswanath,"University of Maryland, Baltimore County",United States,,0,0,0,0,0,0,0,0,0,0,0,1,0
 457,Sachin Jain,"University of Maryland, Baltimore County",United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-458,Sreedevi Sampath,"University of Maryland, Baltimore County",United States,http://userpages.umbc.edu/~sampath/,1,0,0,0,0,0,0,0,0,0,0,1,0
-459,Adam Porter,"University of Maryland, College Park",United States,,3,0,0,0,0,1,1,0,2,0,0,0,0
-460,Atif M. Memon,"University of Maryland, College Park",United States,https://www.cs.umd.edu/~atif/,1,0,0,0,0,0,0,1,0,0,0,1,0
-461,Charles Song,"University of Maryland, College Park",United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
-462,Jeffrey S. Foster,"University of Maryland, College Park",United States,,1,0,0,0,0,1,0,0,0,0,0,0,0
-463,Sandro Fouche,"University of Maryland, College Park",United States,,0,0,0,0,0,0,1,0,0,0,0,0,0
-464,Xun Yuan,"University of Maryland, College Park",United States,,0,0,0,0,0,0,0,1,0,0,0,0,0
+458,Sreedevi Sampath,"University of Maryland, Baltimore County",United States,http://userpages.umbc.edu/~sampath/,1,0,0,0,1,0,0,0,0,0,0,1,0
+459,Adam Porter,"University of Maryland, College Park",United States,,3,0,0,0,0,1,2,0,2,0,0,0,0
+460,Atif M. Memon,"University of Maryland, College Park",United States,https://www.cs.umd.edu/~atif/,2,0,0,0,0,0,0,1,0,0,0,1,0
+461,Charles Song,"University of Maryland, College Park",United States,,1,0,0,0,0,1,0,0,0,0,0,0,0
+462,Jeffrey S. Foster,"University of Maryland, College Park",United States,,1,0,0,0,0,1,1,0,0,0,0,0,0
+463,Sandro Fouche,"University of Maryland, College Park",United States,,0,0,0,0,0,0,1,0,1,0,0,0,0
+464,Xun Yuan,"University of Maryland, College Park",United States,,1,0,0,0,0,0,0,1,0,0,0,0,0
 465,Andreas Blass,University of Michigan,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 466,D.A. James,University of Michigan,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 467,V.N. Nair,University of Michigan,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 468,Ajitha Rajan,University of Minnesota,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 469,Mats P.E. Heimdahl,University of Minnesota,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-470,Tetsuro Katayama,University of Miyazaki,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-471,Gilles Perrouin,University of Namur,Germany,,1,0,0,0,0,0,0,0,0,0,0,1,0
-472,Patrick Heymans,University of Namur,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
-473,Brady J. Garvin,University of Nebraska-Lincoln,United States,,0,0,1,0,0,0,0,0,0,0,1,0,0
-474,Gregg Rothermel,University of Nebraska-Lincoln,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-475,Jiangfan Shi,University of Nebraska-Lincoln,China,,0,0,0,0,0,0,0,0,1,0,0,0,0
+470,Tetsuro Katayama,University of Miyazaki,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,1
+471,Gilles Perrouin,University of Namur,Germany,,1,0,1,0,0,0,0,0,0,0,0,1,0
+472,Patrick Heymans,University of Namur,Germany,,1,0,0,0,0,0,0,0,0,0,0,0,0
+473,Brady J. Garvin,University of Nebraska-Lincoln,United States,,0,0,1,0,0,0,0,0,0,0,2,0,0
+474,Gregg Rothermel,University of Nebraska-Lincoln,United States,,0,0,0,0,0,0,0,0,1,0,0,0,0
+475,Jiangfan Shi,University of Nebraska-Lincoln,China,,1,0,0,0,0,0,0,0,1,0,0,0,0
 476,Joshua Snyder,University of Nebraska-Lincoln,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 477,Katherine M. Woolf,University of Nebraska-Lincoln,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-478,Matthew B. Dwyer,University of Nebraska-Lincoln,United States,,1,0,1,0,0,0,0,0,1,0,1,0,0
-479,Myra B. Cohen,University of Nebraska-Lincoln,United States,http://cse.unl.edu/~myra/,5,0,1,1,0,4,2,1,4,0,4,1,1
-480,Si Huang,University of Nebraska-Lincoln,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-481,Vani Kandimalla,University of Nevada Las Vegas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-482,Quentin Mayo,University of North Texas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-483,Renée C. Bryce,University of North Texas,United States,http://www.cse.unt.edu/~reneebryce/Renee_Bryce/Home.html,1,0,0,0,2,1,0,1,0,0,0,1,1
-484,Ryan Michaels,University of North Texas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-485,Dave Towey,University of Nottingham Ningbo China,China,,0,0,0,1,0,1,0,0,0,0,0,0,0
+478,Matthew B. Dwyer,University of Nebraska-Lincoln,United States,,1,0,1,0,0,1,0,0,1,0,1,0,0
+479,Myra B. Cohen,University of Nebraska-Lincoln,United States,http://cse.unl.edu/~myra/,5,0,1,1,0,4,3,1,4,0,4,1,1
+480,Si Huang,University of Nebraska-Lincoln,United States,,0,0,0,0,0,0,0,0,0,0,0,1,0
+481,Vani Kandimalla,University of Nevada Las Vegas,United States,,0,0,0,0,0,0,0,0,0,0,0,1,0
+482,Quentin Mayo,University of North Texas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+483,Renée C. Bryce,University of North Texas,United States,http://www.cse.unt.edu/~reneebryce/Renee_Bryce/Home.html,1,0,0,0,3,1,0,1,0,0,0,1,1
+484,Ryan Michaels,University of North Texas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+485,Dave Towey,University of Nottingham Ningbo China,China,,0,0,0,2,0,1,0,0,0,0,0,0,0
 486,David Kelk,University of Ontario Institute of Technology,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
-487,Jeremy S. Bradbury,University of Ontario Institute of Technology,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
+487,Jeremy S. Bradbury,University of Ontario Institute of Technology,Canada,,0,0,0,0,0,0,0,0,0,0,0,1,0
 488,Kevin Jalbert,University of Ontario Institute of Technology,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
 489,Martin F. Johansen,University of Oslo,Norway,,0,0,0,0,0,0,0,0,0,0,0,0,0
-490,Alan W. Williams,University of Ottawa,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
-491,Amiya Nayak,University of Ottawa,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
+490,Alan W. Williams,University of Ottawa,Canada,,0,0,0,0,0,0,0,0,0,0,1,0,0
+491,Amiya Nayak,University of Ottawa,Canada,,0,0,0,0,0,0,0,0,0,0,1,0,0
 492,Elizabeth Maltais,University of Ottawa,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
 493,Latifa Zekaoui,University of Ottawa,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
 494,Lucia Moura,University of Ottawa,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
-495,Robert L. Probert,University of Ottawa,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
+495,Robert L. Probert,University of Ottawa,Canada,,0,0,0,0,0,0,0,0,0,0,1,0,0
 496,Javier Tuyaa,University of Oviedo,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
 497,Jose Garcia-Fanjula,University of Oviedo,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
 498,Marcos Palaciosa,University of Oviedo,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
 499,Conrado Martínez,University of Politècnica Catalunya,Spain,http://www.cs.upc.edu/~conrado/,0,0,0,0,0,0,0,0,0,0,0,0,0
 500,Jun He,University of Science and Technology of China,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 501,Tao Zhang,University of Seoul,Korea,,0,0,0,0,0,0,0,0,0,0,0,0,0
-502,Phil McMinn,University of Sheffield,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
-503,Birgitta Lindström,University of Skovde,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
+502,Phil McMinn,University of Sheffield,United Kingdom,,0,0,0,1,0,0,0,0,0,0,0,0,0
+503,Birgitta Lindström,University of Skovde,Sweden,,0,0,1,0,0,0,0,0,0,0,0,0,0
 504,Jonas Mellin,University of Skovde,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
-505,Mats Grindal,University of Skovde,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
-506,Sten F. Andler,University of Skovde,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
-507,Edmund K. Burke,University of Stirling,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
-508,Taib Sh. Abdulsamad,University of Sulaimani,Iraq,,0,0,0,0,0,0,0,0,0,0,0,0,0
+505,Mats Grindal,University of Skovde,Sweden,,0,0,1,0,0,0,0,0,0,0,0,0,0
+506,Sten F. Andler,University of Skovde,Sweden,,0,0,1,0,0,0,0,0,0,0,0,0,0
+507,Edmund K. Burke,University of Stirling,United Kingdom,,0,0,0,1,0,0,0,0,0,0,0,0,0
+508,Taib Sh. Abdulsamad,University of Sulaimani,Iraq,,0,0,0,0,1,0,0,0,0,0,0,0,0
 509,Jesse H. Poore,University of Tennessee,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 510,W. Thomas Swain,University of Tennessee,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 511,Christoph Csallner,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-512,David Kung,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-513,Feng Duan,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,4
-514,Jaganmohan Chandrasekaran,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,7
-515,Laleh Sh. Ghandehari,University of Texas at Arlington,United States,http://barbie.uta.edu/laleh-shikhgholamhosseing/,0,0,0,0,0,0,0,0,0,0,1,1,4
-516,Linbin Yu,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,2,3
-517,Mehra N. Borazjany,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,3
+512,David Kung,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,1,0,0
+513,Feng Duan,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,5
+514,Jaganmohan Chandrasekaran,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,9
+515,Laleh Sh. Ghandehari,University of Texas at Arlington,United States,http://barbie.uta.edu/laleh-shikhgholamhosseing/,0,0,0,0,0,0,0,0,0,0,1,1,5
+516,Linbin Yu,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,2,4
+517,Mehra N. Borazjany,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,1,3
 518,P.W.M. John,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-519,Soheil Shafiee,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+519,Soheil Shafiee,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
 520,Wenhua Wang,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-521,Yu Lei,University of Texas at Arlington,United States,http://ranger.uta.edu/~ylei/,8,0,0,0,0,0,0,2,0,0,1,3,31
+521,Yu Lei,University of Texas at Arlington,United States,http://ranger.uta.edu/~ylei/,8,0,0,0,1,0,0,2,0,0,1,3,31
 522,Dazhi Zhang,University of Texas at Arlington ,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 523,Donggang Liu,University of Texas at Arlington ,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-524,Sarfraz Khurshid,University of Texas at Austin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+524,Sarfraz Khurshid,University of Texas at Austin,United States,,0,0,0,0,0,0,1,0,0,0,0,0,0
 525,Amit Lopes,University of Texas at El Paso,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 526,Francisco Zapata,University of Texas at El Paso,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 527,Hoong Yan See Tao,University of Texas at El Paso,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -533,22 +533,22 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 532,Salamah Salamah,University of Texas at El Paso ,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 533,Yadira Jacquez,University of Texas at El Paso ,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 534,Eric Mendelsohn,University of Toronto,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
-535,Alan C.H. Ling,University of Vermont,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+535,Alan C.H. Ling,University of Vermont,United States,,0,0,0,0,0,0,0,0,0,0,1,0,0
 536,Jeff H. Dinitz,University of Vermont,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-537,Gunwant Dhadyalla,University of Warwick,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,1
-538,Neelu Kumari,University of Warwick,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
+537,Gunwant Dhadyalla,University of Warwick,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,2
+538,Neelu Kumari,University of Warwick,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,1
 539,D.R. Stinson,University of Waterloo,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
 540,Paul C. van Oorschot,University of Waterloo,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
 541,Adrian Dumitrescu,University of Wisconsin-Milwaukee,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 542,Christine T. Cheng,University of Wisconsin-Milwaukee,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 543,Pankaj Bolaki,University of Wisconsin-Milwaukee,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-544,Pat Faherty,University of Wisconsin-Milwaukee,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-545,Patrick J. Schroeder,University of Wisconsin-Milwaukee,United States,,0,0,0,0,0,0,0,0,1,0,0,0,0
+544,Pat Faherty,University of Wisconsin-Milwaukee,United States,,0,0,0,0,0,0,0,1,0,0,0,0,0
+545,Patrick J. Schroeder,University of Wisconsin-Milwaukee,United States,,0,0,0,0,0,0,0,1,1,0,0,0,0
 546,Vijayram Gopu,University of Wisconsin-Milwaukee,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-547,John Clark,University of York,United Kingdom,,0,0,0,0,0,0,0,0,0,0,0,0,0
+547,John Clark,University of York,United Kingdom,,0,0,0,1,0,0,0,0,0,0,0,0,0
 548,Damir Kalpic,University of Zagreb,Croatia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 549,Mario Brcic,University of Zagreb,Croatia,,0,0,0,0,0,0,0,0,0,0,0,0,0
-550,James M. Higdon,US Air Force,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+550,James M. Higdon,US Air Force,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
 551,Schuyler Manchester,Utah State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 552,Alexander Elyasov,Utrecht University,Netherlands,,0,0,0,0,0,0,0,0,0,0,0,0,0
 553,Jurriaan Hage,Utrecht University,Netherlands,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -558,12 +558,12 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 557,Huanguo Zhang,Wuhan University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 558,Jian Yang,Wuhan University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 559,Jianmin Fu,Wuhan University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-560,Siddhartha R. Dalal,Xerox Corporation,United States,,1,0,0,0,0,0,0,0,0,0,2,0,0
+560,Siddhartha R. Dalal,Xerox Corporation,United States,,1,0,0,0,0,1,0,0,0,0,2,0,0
 561,Hao Chen,Xi’an University of Post and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 562,Shuyan Wang,Xi’an University of Post and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 563,Xiaoying Pan,Xi’an University of Post and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 564,Vesela Angelova,Institute of Mathematics and Informatics,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-565,Zhenyu Chen,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
+565,Zhenyu Chen,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
 566,Penghui Fan,Xi’an University of Post and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 567,Jiaze Sun,Xi’an University of Post and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 568,J. Jenny Li,Avaya Labs Research,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -574,53 +574,53 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 573,Basem Y. Alkazemi,Umm Al-Qura University,Saudi Arabia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 574,Graham Kendall,University of Nottingham Malaysia,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 575,Mohammed F.J. Klaib,Universiti Sains Malaysia,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
-576,Nan Li,Medidata Solutions,United States,,0,0,0,0,0,0,0,1,0,0,0,0,2
-577,Haider Riaz Khan,Medidata Solutions,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-578,Jingshu Liu,Medidata Solutions,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-579,Yun Guo,George Mason University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+576,Nan Li,Medidata Solutions,United States,,1,0,0,0,0,0,0,1,0,0,0,0,2
+577,Haider Riaz Khan,Medidata Solutions,United States,,0,0,0,0,0,0,0,1,0,0,0,0,0
+578,Jingshu Liu,Medidata Solutions,United States,,0,0,0,0,0,0,0,1,0,0,0,0,0
+579,Yun Guo,George Mason University,United States,,0,0,0,0,0,0,0,1,0,0,0,0,0
 580,Siyang Chen,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 581,Haixiao He,Nanjing University of Posts and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-582,Hua Zhong,University of Texas at Austin,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-583,Lingming Zhang,University of Texas at Dallas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+582,Hua Zhong,University of Texas at Austin,United States,,0,0,0,0,0,0,1,0,0,0,0,0,0
+583,Lingming Zhang,University of Texas at Dallas,United States,,0,0,0,0,0,0,1,0,0,0,0,0,0
 584,Weiwen Zong,Jiangsu Unicersity,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-585,Yunan Zhou,Jiangsu Unicersity,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-586,Chu-Pan Wong,Carnegie Mellon University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-587,Christian Kastner,Carnegie Mellon University,United States,,0,0,0,0,0,0,0,1,0,0,0,0,0
+585,Yunan Zhou,Jiangsu Unicersity,China,,0,0,0,0,0,1,0,0,0,0,0,0,0
+586,Chu-Pan Wong,Carnegie Mellon University,United States,,0,0,0,0,0,0,0,1,0,0,0,0,0
+587,Christian Kastner,Carnegie Mellon University,United States,,0,0,0,0,0,1,0,1,0,0,0,0,0
 588,Deng Chen,Wuhan Institution of Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 589,Priyanka,Amity University,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 590,Ajay Rana,Amity University,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 591,Inderveer Chana,Thapar University,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
-592,Chiya Xu,Nanjing University of Posts and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-593,Yuanchao Qi,Nanjing University of Posts and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
+592,Chiya Xu,Nanjing University of Posts and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
+593,Yuanchao Qi,Nanjing University of Posts and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
 594,Rajendra S. Sisodia,Philips Healthcare,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 595,Vijaykumar Channakeshava,Philips Healthcare,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
-596,Robert Reicherdt,Berlin Institute of Technology,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
-597,A. Pavan,Iowa State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-598,N.V. Vinodchandran,University of Nebraska-Lincoln,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-599,Flavio Medeiros,Federal University of Campina Grande,Brazil,,0,0,0,0,0,0,0,0,0,0,0,0,0
-600,Marcio Ribeiro,Federal University of Alagoas,Brazil,,0,0,0,0,0,0,0,0,0,0,0,0,0
-601,Rohit Gheyi,Federal University of Campina Grande,Brazil,,0,0,0,0,0,0,0,0,0,0,0,0,0
-602,Sven Apel,Universität Passau,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,0
-603,Nariman Mirzaei,George Mason University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-604,Joshua Garcia,University of California,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-605,Hamid Bagheri,University of California,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-606,Alireza Sadeghi,University of California,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-607,Sam Malek,University of California,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-608,Koji Tsumura,Waseda University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-609,Hironori Washizaki,Waseda University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,2
-610,Yoshiaki Fukazawa,Waseda University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,2
-611,Ryota Mibe,Waseda University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-612,Keishi Oshima,Hitachi,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-613,Mickael Delahaye,Université Grenoble Alpes,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-614,Catherine Oriat,Université Grenoble Alpes,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-615,David Ferraiolo,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-616,Anwar Sherif,Coppell,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-617,Galen Pennell,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+596,Robert Reicherdt,Berlin Institute of Technology,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,1
+597,A. Pavan,Iowa State University,United States,,0,0,0,0,0,0,1,0,0,0,0,0,0
+598,N.V. Vinodchandran,University of Nebraska-Lincoln,United States,,0,0,0,0,0,0,1,0,0,0,0,0,0
+599,Flavio Medeiros,Federal University of Campina Grande,Brazil,,0,0,0,0,0,1,0,0,0,0,0,0,0
+600,Marcio Ribeiro,Federal University of Alagoas,Brazil,,0,0,0,0,0,1,0,0,0,0,0,0,0
+601,Rohit Gheyi,Federal University of Campina Grande,Brazil,,0,0,0,0,0,1,0,0,0,0,0,0,0
+602,Sven Apel,Universität Passau,Germany,,0,0,0,0,0,1,0,0,0,0,0,0,0
+603,Nariman Mirzaei,George Mason University,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
+604,Joshua Garcia,University of California,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
+605,Hamid Bagheri,University of California,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
+606,Alireza Sadeghi,University of California,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
+607,Sam Malek,University of California,United States,,0,0,0,0,0,1,0,0,0,0,0,0,0
+608,Koji Tsumura,Waseda University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,1
+609,Hironori Washizaki,Waseda University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,3
+610,Yoshiaki Fukazawa,Waseda University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,3
+611,Ryota Mibe,Waseda University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,1
+612,Keishi Oshima,Hitachi,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,1
+613,Mickael Delahaye,Université Grenoble Alpes,France,,0,0,0,0,0,0,0,0,0,0,0,0,1
+614,Catherine Oriat,Université Grenoble Alpes,France,,0,0,0,0,0,0,0,0,0,0,0,0,1
+615,David Ferraiolo,National Institute of Standards and Technology (NIST),United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+616,Anwar Sherif,Coppell,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+617,Galen Pennell,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
 618,Norazlina Khamis,Universiti Malaysia of Sabah,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
-619,David Benavides,University of Seville,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
-620,Mathieu Acher,University of Rennes,France,,0,0,0,0,0,0,0,0,1,0,0,0,0
-621,Mauricio Alferez,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-622,Jose A. Galindo,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
+619,David Benavides,University of Seville,Spain,,0,0,0,0,0,0,0,0,1,0,0,0,0
+620,Mathieu Acher,University of Rennes,France,,0,0,1,0,0,0,0,0,1,0,0,0,0
+621,Mauricio Alferez,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,0,0,0,0,1,0,0,0,0
+622,Jose A. Galindo,Institut de Recherche en Informatique et Systemes Aleatoires,France,,0,0,0,0,0,0,0,0,1,0,0,0,0
 623,Yasuhiro Hirasaki,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 624,Sakshi Koul,Ambedkar Institute of Technology,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 625,Aakanksha Sabharwal,Ambedkar Institute of Technology,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -628,96 +628,96 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 627,Priti Bansal,Netaji Subhas Institute of Technology,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 628,Rafiqul Islam,Charles Sturt University,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 629,Quazi Mamun,Charles Sturt University,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0
-630,Antonio Ruiz-Cortes,University of Seville,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
-631,Sergio Segura,University of Seville,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
-632,Ana B. Sanchez,University of Seville,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
+630,Antonio Ruiz-Cortes,University of Seville,Spain,,0,0,0,0,0,0,0,0,0,0,0,1,0
+631,Sergio Segura,University of Seville,Spain,,0,0,0,0,0,0,0,0,0,0,0,1,0
+632,Ana B. Sanchez,University of Seville,Spain,,0,0,0,0,0,0,0,0,0,0,0,1,0
 633,Ali Darvish,Iowa State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 634,Carl K. Chang,Iowa State University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 635,Abul H. Beg,Universiti Malaysia Pahang,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 636,Tutut Herawan,Universiti Malaysia Pahang,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 637,Abdullah B. Nasser,Universiti Malaysia Pahang,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
-638,Osamu Mizuno,Kyoto Institute of Technology,Japan,,0,0,0,0,0,0,0,0,0,0,1,0,0
+638,Osamu Mizuno,Kyoto Institute of Technology,Japan,,0,0,0,0,0,0,0,0,0,0,1,0,1
 639,Fakhrud Din,Universiti Malaysia Pahang,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 640,Salmi Baharom,Universiti Putra Malaysia,Malaysia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 641,Huiyan Wang,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 642,Chang Xu,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 643,Jun Sui,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 644,Jian Lu,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-645,ThanhVu Nguyen,"University of Maryland, College Park",United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-646,Javran Cheng,"University of Maryland, College Park",United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+645,ThanhVu Nguyen,"University of Maryland, College Park",United States,,0,0,0,0,0,0,1,0,0,0,0,0,0
+646,Javran Cheng,"University of Maryland, College Park",United States,,0,0,0,0,0,0,1,0,0,0,0,0,0
 647,Carlo Ieva,Simula Research Laboratory,Norway,,0,0,0,0,0,0,0,0,0,0,0,0,0
 648,Astrid Grime,Norwegian Customs,Norway,,0,0,0,0,0,0,0,0,0,0,0,0,0
 649,Atle Sander,Norwegian Customs,Norway,,0,0,0,0,0,0,0,0,0,0,0,0,0
 650,Shunya Kawabata,National Institute of Advanced Industrial Science and Technology (AIST),Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
 651,Zachary B. Ratliff,Texas A&M University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 652,Kishor S. Trivedi,Duke University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-653,Marco Radavelli,University of Bergamo,Italy,,0,0,0,0,0,0,0,0,0,0,0,0,2
+653,Marco Radavelli,University of Bergamo,Italy,,0,0,0,0,0,0,0,0,0,0,0,0,3
 654,Huayang Zhou,Southeast University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-655,Ludwig Kampel,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,4
+655,Ludwig Kampel,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,5
 656,Maria Spichkova,RMIT University,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0
 657,B.Narendra Kumar Rao,Sree Vidyanikethan Engineering College,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 658,M.L. Madhuri,Sree Vidyanikethan Engineering College,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 659,Sompong Nakornburi,Chulalongkorn University,Thailand,,0,0,0,0,0,0,0,0,0,0,0,0,0
 660,Taratip Suwannasart,Chulalongkorn University,Thailand,,0,0,0,0,0,0,0,0,0,0,0,0,0
-661,Hanefi Mercan,Sabanci University,Turkey,,2,0,0,1,0,0,0,0,0,0,1,0,2
+661,Hanefi Mercan,Sabanci University,Turkey,,2,0,0,1,0,0,0,0,0,0,1,0,3
 662,Ruizhi Gao,University of Texas at Dallas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-663,Linghuan Hu,University of Texas at Dallas,United States,,0,0,1,0,0,0,0,0,0,0,0,0,0
-664,W. Eric Wong,University of Texas at Dallas,United States,,0,0,1,0,0,0,0,0,0,0,0,0,0
+663,Linghuan Hu,University of Texas at Dallas,United States,,0,0,2,0,0,0,0,0,0,0,0,0,0
+664,W. Eric Wong,University of Texas at Dallas,United States,,0,0,2,0,0,0,0,0,0,0,0,0,0
 665,Han-Lin Lu,National Chiao Tung University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 666,Shih-Kun Huang,National Chiao Tung University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 667,Xuelin Li,University of Texas at Dallas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 668,Chunhui Yang,Fifth Electronics Research Institute of Ministry of Industry and Information Technology (CEPREI),China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 669,Dong Li,Fifth Electronics Research Institute of Ministry of Industry and Information Technology (CEPREI),China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-670,Kristoffer Kleine,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,1,1
-671,Wei Zheng,Northwestern Polytechnical University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-672,Xiaoxue Wu,Northwestern Polytechnical University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-673,Desheng Hu,Northwestern Polytechnical University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-674,Qihai Zhu,Northwestern Polytechnical University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
+670,Kristoffer Kleine,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,1,2
+671,Wei Zheng,Northwestern Polytechnical University,China,,0,0,0,0,0,0,0,1,0,0,0,0,0
+672,Xiaoxue Wu,Northwestern Polytechnical University,China,,0,0,0,0,0,0,0,1,0,0,0,0,0
+673,Desheng Hu,Northwestern Polytechnical University,China,,0,0,0,0,0,0,0,1,0,0,0,0,0
+674,Qihai Zhu,Northwestern Polytechnical University,China,,0,0,0,0,0,0,0,1,0,0,0,0,0
 675,Junqiang Mao,Southeast University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 676,Mouayad A. Sahib,Salahaddin University,Iraq,,0,0,0,0,0,0,0,0,0,0,0,0,0
-677,Luca M. Gambardella,Swiss AI Lab (IDSIA),Switzerland,,0,0,0,0,0,0,0,0,0,0,0,0,0
-678,Wasif Afzal,Malardalen University,Sweden,,0,0,0,0,1,0,0,0,0,0,0,0,0
+677,Luca M. Gambardella,Swiss AI Lab (IDSIA),Switzerland,,0,0,0,0,1,0,0,0,0,0,0,0,0
+678,Wasif Afzal,Malardalen University,Sweden,,0,0,0,0,1,0,0,0,0,0,0,0,1
 679,Yasmeen Akhtar,Indian Institute of Science Education and Research,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 680,Reshma C. Chandrasekharan,Indian Institute of Science Education and Research,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
 681,Arturo Rodriguez-Cristerna,CINVESTAV-Tamaulipas,Mexico,,0,0,0,0,0,0,0,0,0,0,0,0,0
-682,Alexander Pretschner,ETH Zurich,Switzerland,,0,0,0,0,0,0,0,0,0,0,0,0,0
-683,Tejeddine Mouelhi,IT-TELECOM Bretagne,France,,0,0,0,0,0,0,0,0,0,0,0,0,0
-684,Hermann Felbinger,Graz University of Technology,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,2
-685,Mihai Nica,AVL List,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,3
-686,Francisco Ruiz Romero,University of Castilla-La Mancha,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
-687,Rosana Rodriguez-Bobada Aranda,University of Castilla-La Mancha,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
-688,Ignacio Garcia Rodriguez,University of Castilla-La Mancha,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
-689,Chang Rao,Southwest Jiaotong University,China,,1,0,0,0,0,0,0,0,0,0,0,0,2
-690,Jin Guo,Southwest Jiaotong University,China,,1,0,0,0,0,0,0,0,0,0,0,0,2
-691,Yadong Zhang,Southwest Jiaotong University,China,,1,0,0,0,0,0,0,0,0,0,0,0,1
-692,Yao Li,Southwest Jiaotong University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-693,Yaxin Cao,Southwest Jiaotong University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-694,Murat Ozcan,Siemens Industry Inc.,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
-695,Henning Bergstrom,Malardalen University,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
-696,Eduard Paul Enoiu,Malardalen University,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
-697,Tatsuya Konishi,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-698,Saritha Route,IBM India,India,,0,0,0,0,0,0,0,0,0,0,0,0,1
-699,Milind B.,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
-700,Medhini S. Narayan,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,0
-701,Sery Khoury,Technion,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,0
-702,Amir Schwartz,University of Haifa,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,0
-703,Huadong Feng,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-704,Xi Deng,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
-705,Tianyong Wu,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
-706,Shaojiang Wang,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-707,Yuan Yao,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-708,Beihong Jin,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-709,Liping Ding,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
+682,Alexander Pretschner,ETH Zurich,Switzerland,,0,0,0,0,0,0,0,0,0,0,0,1,0
+683,Tejeddine Mouelhi,IT-TELECOM Bretagne,France,,0,0,0,0,0,0,0,0,0,0,0,1,0
+684,Hermann Felbinger,Graz University of Technology,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,3
+685,Mihai Nica,AVL List,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,4
+686,Francisco Ruiz Romero,University of Castilla-La Mancha,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,1
+687,Rosana Rodriguez-Bobada Aranda,University of Castilla-La Mancha,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,1
+688,Ignacio Garcia Rodriguez,University of Castilla-La Mancha,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,1
+689,Chang Rao,Southwest Jiaotong University,China,,1,0,0,0,0,0,0,0,0,0,0,0,3
+690,Jin Guo,Southwest Jiaotong University,China,,1,0,0,0,0,0,0,0,0,0,0,0,3
+691,Yadong Zhang,Southwest Jiaotong University,China,,1,0,0,0,0,0,0,0,0,0,0,0,2
+692,Yao Li,Southwest Jiaotong University,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
+693,Yaxin Cao,Southwest Jiaotong University,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
+694,Murat Ozcan,Siemens Industry Inc.,United States,,0,0,0,0,0,0,0,0,0,0,0,0,2
+695,Henning Bergstrom,Malardalen University,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,1
+696,Eduard Paul Enoiu,Malardalen University,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,1
+697,Tatsuya Konishi,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,1
+698,Saritha Route,IBM India,India,,0,0,0,0,0,0,0,0,0,0,0,0,2
+699,Milind B.,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,1
+700,Medhini S. Narayan,Dayananda Sagar College of Engineering,India,,0,0,0,0,0,0,0,0,0,0,0,0,1
+701,Sery Khoury,Technion,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,1
+702,Amir Schwartz,University of Haifa,Israel,,0,0,0,0,0,0,0,0,0,0,0,0,1
+703,Huadong Feng,University of Texas at Arlington,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
+704,Xi Deng,Chinese Academy of Sciences,China,,0,0,0,1,0,0,0,0,0,0,0,0,1
+705,Tianyong Wu,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,2
+706,Shaojiang Wang,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
+707,Yuan Yao,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
+708,Beihong Jin,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
+709,Liping Ding,Chinese Academy of Sciences,China,,0,0,0,0,0,0,0,0,0,0,0,0,1
 710,Aparna Alluri,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 711,M.S. Raunak,Loyola University of Maryland,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-712,Miroslav Bures,Czech Technical University,Czech Republic,,0,0,0,0,0,0,0,0,0,0,0,0,0
-713,Kamer Kaya,Sabanci University,Turkey,,0,0,0,0,0,0,0,0,0,0,0,0,1
+712,Miroslav Bures,Czech Technical University,Czech Republic,,0,0,0,0,0,0,0,0,0,0,0,0,1
+713,Kamer Kaya,Sabanci University,Turkey,,1,0,0,0,0,0,0,0,0,0,0,0,1
 714,Jiabin Wang,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 715,Nam Le Thai,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 716,Junhua Ding,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 717,Peter Charbachi,Malardalen University,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
 718,Linus Eklund,Malardalen University,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
-719,Eduard Enoiu,Malardalen University,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,0
+719,Eduard Enoiu,Malardalen University,Sweden,,0,0,0,0,0,0,0,0,0,0,0,0,1
 720,Yongming Yao,Nanjing University of Posts and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 721,Yiyang Yan,Nanjing University of Posts and Telecommunications,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 722,Chen Liu,Nanjing University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -733,15 +733,15 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 732,Giulio Antoniol,Polytechnique Montreal,Canada,,0,0,0,0,0,0,0,0,0,0,0,0,0
 733,Bhargava Rohit Sagi,Rochester Institute of Technology,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 734,Rachel Silvestrini,Rochester Institute of Technology,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-735,Hiroshi Ukai,Rakuten Inc.,Japan,,0,0,0,0,0,0,0,0,0,0,0,1,0
+735,Hiroshi Ukai,Rakuten Inc.,Japan,,0,0,0,0,0,0,0,0,0,0,0,1,1
 736,Teru Ohashi,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-737,Tsuyoshi Fujiwara,Kyoto Institute of Technology,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
+737,Tsuyoshi Fujiwara,Kyoto Institute of Technology,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,1
 738,Mary Frances Moore,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 739,Katherine Marszalkowski,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 740,Chauncey Perry,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 741,Swetha Mahendrakar,East Carolina University,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 742,Lukas Linsbauer,Johannes Kepler University Linz,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,0
-743,Sebastian Krieter,University of Magdeburg,Germany,,0,1,0,0,0,0,0,0,0,0,0,0,0
+743,Sebastian Krieter,University of Magdeburg,Germany,,0,1,0,0,0,0,0,0,0,0,0,1,0
 744,Yunlong Sheng,Harbin Institute of Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 745,Changan Wei,Harbin Institute of Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 746,Shouda Jiang,Harbin Institute of Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -756,8 +756,8 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 755,Leire Etxeberria,Mondragon Unibertsitatea,Spain,,0,0,0,0,0,0,0,0,0,0,0,0,0
 756,Justyna Zander,NVIDIA,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 757,Toru Nanba,Osaka University,Japan,,0,0,0,0,0,0,0,0,0,0,0,0,0
-758,Sajad Esfandyari,Arak University,Iran,,0,0,0,0,0,0,0,0,0,0,0,0,0
-759,Vahid Rafe,Arak University,Iran,,0,0,0,0,0,0,0,0,0,0,0,0,0
+758,Sajad Esfandyari,Arak University,Iran,,0,0,0,0,1,0,0,0,0,0,0,0,0
+759,Vahid Rafe,Arak University,Iran,,0,0,0,0,1,0,0,0,0,0,0,0,0
 760,Yin Li,Jiangsu Institute of Automation,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 761,Zhi-an Sun,Jiangsu Institute of Automation,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 762,Jian-Yong Fang,Jiangsu Institute of Automation,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -778,34 +778,34 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 777,Yang Zhang,East China University of Science and Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 778,Lizhi Cai,East China University of Science and Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 779,Weijia Ji,East China University of Science and Technology,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-780,David Adamo,University of North Texas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-781,Dmitry Nurmuradov,University of North Texas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
-782,Shraddha Piparia,University of North Texas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
+780,David Adamo,University of North Texas,United States,,0,0,0,0,1,0,0,0,0,0,0,0,0
+781,Dmitry Nurmuradov,University of North Texas,United States,,0,0,0,0,1,0,0,0,0,0,0,0,0
+782,Shraddha Piparia,University of North Texas,United States,,0,0,0,0,1,0,0,0,0,0,0,0,0
 783,Yuexing Wang,Tsinghua University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 784,Min Zhou,Tsinghua University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
-785,Xiaoyu Song,Portland State University,Poland,,0,0,0,0,0,0,0,0,0,0,0,0,0
+785,Xiaoyu Song,Portland State University,Poland,,1,0,0,0,0,0,0,0,0,0,0,0,0
 786,Ming Gu,Tsinghua University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 787,Jiaguang Sun,Tsinghua University,China,,0,0,0,0,0,0,0,0,0,0,0,0,0
 788,Barrett Bryant,University of North Texas,United States,,0,0,0,0,0,0,0,0,0,0,0,0,0
 789,Arash Sabbaghi,Islamic Azad University,Iran,,0,0,0,0,0,0,0,0,0,0,0,0,0
 790,Mohammad Reza Keyvanpour,Islamic Azad University,Iran,,0,0,0,0,0,0,0,0,0,0,0,0,0
 791,Brenda Acevedo-Juarez,Universidad de Guadalajara,Mexico,792,0,0,0,0,0,0,0,0,0,0,0,0,0
-792,Yihao Li,,,,0,0,0,0,1,0,0,0,0,0,0,0,2
-793,Jianbo Tao,,,,0,0,0,0,1,0,0,0,0,0,0,0,1
-794,Pierre Martou,,,,0,0,0,0,0,0,0,0,0,0,0,1,1
-795,Benoît Duhoux,,,,0,0,0,0,0,0,0,0,0,0,0,1,1
-796,Kim Mens,,,,0,0,0,0,0,0,0,0,0,0,0,1,1
-797,Axel Legay,UCLouvain,Belgium,,2,0,0,0,0,1,1,0,0,0,0,1,1
-798,Manuel Leithner,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,9
+792,Yihao Li,,,,0,0,0,0,1,0,0,0,0,0,0,0,3
+793,Jianbo Tao,,,,0,0,0,0,1,0,0,0,0,0,0,0,2
+794,Pierre Martou,,,,0,0,0,1,0,0,0,0,0,0,0,1,1
+795,Benoît Duhoux,,,,0,0,0,1,0,0,0,0,0,0,0,1,1
+796,Kim Mens,,,,0,0,0,1,0,0,0,0,0,0,0,1,1
+797,Axel Legay,UCLouvain,Belgium,,2,0,0,1,0,1,1,0,0,0,0,1,1
+798,Manuel Leithner,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,10
 799,Berina Celic,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 800,Ceren Çulha,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-801,Irene Hiess,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-802,Klaus Kieseberg,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+801,Irene Hiess,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+802,Klaus Kieseberg,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 803,Marlene Koelbing,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-804,Dominik-Philip Schreiber,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-805,Michael Wagner,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,4
+804,Dominik-Philip Schreiber,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+805,Michael Wagner,SBA Research,Austria,,0,0,0,0,0,0,0,0,0,0,0,0,5
 806,Christoph Wech,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-807,Jovan Zivanovic,,,,0,0,0,0,0,0,0,0,0,0,0,0,3
+807,Jovan Zivanovic,,,,0,0,0,0,0,0,0,0,0,0,0,0,4
 808,Zong-Yuan Wu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 809,Chien-Hsing Wu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 810,Guan-Zhong Wang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -818,60 +818,60 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 817,Xiao Wang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 818,Po Zhang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 819,Ge Yu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-820,Jiwei Yan,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-821,Shixin Zhang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+820,Jiwei Yan,,,,0,0,0,1,0,0,0,0,0,0,0,0,0
+821,Shixin Zhang,,,,0,0,0,1,0,0,0,0,0,0,0,0,0
 822,Jingyi Chen,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 823,Saihua Cai,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 824,Haibo Chen,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 825,Chi Zhang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 826,Sylvain Hallé,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-827,Achiya Elyasaf,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-828,Gera Weiss,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-829,Yeshayahu Weiss,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-830,Xu Guo,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-831,Jiantao Zhou,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-832,Feiyu Wang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-833,Kecheng Tang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+827,Achiya Elyasaf,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
+828,Gera Weiss,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
+829,Yeshayahu Weiss,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
+830,Xu Guo,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
+831,Jiantao Zhou,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
+832,Feiyu Wang,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
+833,Kecheng Tang,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
 834,Sangharatna Godboley,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-835,Simon Diemert,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-836,Adam Casey,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-837,Jeremiah Robertson,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-838,Rick Kuhn,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
-839,Jeffrey M. Voas,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+835,Simon Diemert,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+836,Adam Casey,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+837,Jeremiah Robertson,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+838,Rick Kuhn,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
+839,Jeffrey M. Voas,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 840,Raghu Kacker,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-841,Krishna Khadka,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
-842,Gang Qin,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-843,Junjun Zheng,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-844,Michael Pitzer,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-845,Peter J. Slanina,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+841,Krishna Khadka,,,,0,0,0,0,0,0,0,1,0,0,0,0,2
+842,Gang Qin,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+843,Junjun Zheng,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+844,Michael Pitzer,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+845,Peter J. Slanina,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 846,Yavuz Köroglu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 847,Xinyi Wang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 848,Tao Yue,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 849,Shanna Li,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 850,Ahmet Cetinkaya,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-851,Andrea Bombarda,University of Bergamo,Italy,,0,0,0,1,0,0,0,0,0,0,0,0,6
-852,Florian Klück,,,,0,0,0,0,1,0,0,0,0,0,0,0,0
-853,Shuangyu Lyu,,,,0,0,0,0,0,0,0,0,1,0,0,0,0
-854,Qiyuan Zhao,,,,0,0,0,0,0,0,2,0,1,0,0,0,0
-855,Wei Wu,Central South University,China,,0,0,0,0,0,1,1,0,1,0,0,0,0
-856,Hongyu Zhang,Chongqing University,China,https://sites.google.com/site/hongyujohn/,0,1,0,0,0,1,4,0,1,0,0,0,0
-857,Chunming Hu,Beihang University,China,https://huchunming.github.io/,0,1,0,0,0,0,2,0,1,0,0,0,0
+851,Andrea Bombarda,University of Bergamo,Italy,,0,0,0,1,0,0,0,0,0,0,0,0,7
+852,Florian Klück,,,,0,0,0,0,1,0,0,0,0,0,0,0,1
+853,Shuangyu Lyu,,,,0,0,0,0,0,1,0,0,1,0,0,0,0
+854,Qiyuan Zhao,,,,0,1,0,0,0,0,2,0,1,0,0,0,0
+855,Wei Wu,Central South University,China,,0,0,0,0,0,2,1,0,1,0,0,0,0
+856,Hongyu Zhang,Chongqing University,China,https://sites.google.com/site/hongyujohn/,0,1,0,0,0,2,4,0,1,0,0,0,0
+857,Chunming Hu,Beihang University,China,https://huchunming.github.io/,0,1,0,0,0,1,2,0,1,0,0,0,0
 858,Aminu Aminu Muazu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 859,Ahmad Sobri Hashim,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 860,Umar Ismaila Audi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 861,Umar Danjuma Maiwada,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-862,Hao Jin,,,,0,0,0,1,1,0,0,0,0,0,0,0,1
-863,Ce Shi,,,,0,0,0,0,1,0,0,0,0,0,0,0,0
-864,Dominik Schreiber,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-865,Reinhard Kugler,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+862,Hao Jin,,,,0,0,0,1,1,0,0,0,0,0,0,0,2
+863,Ce Shi,,,,0,0,0,0,1,0,0,0,0,0,0,0,1
+864,Dominik Schreiber,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+865,Reinhard Kugler,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 866,Siyuan Wang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 867,Zhiwei Cui,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 868,Jie Xu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 869,Baojiang Cui,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-870,Swaroopa Dola,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-871,Rory McDaniel,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-872,Mary Lou Soffa,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-873,Silvia Bonfanti,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+870,Swaroopa Dola,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+871,Rory McDaniel,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+872,Mary Lou Soffa,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+873,Silvia Bonfanti,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 874,Ryan E. Dougherty,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 875,Aliza Sarlan,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 876,Mujaheed Abdullahi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -882,10 +882,10 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 881,Jesus Ojeda,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 882,Josep M. Salvia,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 883,Eduard Torres,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-884,Shuo Li,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-885,Rui Huang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-886,Xiaoyin Wang,University of Texas at San Antonio,United States,,5,0,0,0,0,0,0,0,0,0,0,0,0
-887,Lixin Xu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+884,Shuo Li,,,,0,0,1,0,0,0,0,0,0,0,0,0,0
+885,Rui Huang,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+886,Xiaoyin Wang,University of Texas at San Antonio,United States,,5,0,0,0,1,0,0,0,0,0,0,0,0
+887,Lixin Xu,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
 888,Muhammad Nouman Zafar,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 889,Marcel Maehren,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 890,Philipp Nieting,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -894,18 +894,18 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 893,Juraj Somorovsky,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 894,Jörg Schwenk,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 895,Ilias S. Kotsireas,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-896,Giray Coskun,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
-897,Cankut Coskun,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-898,Naoko Okubo,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-899,Shoma Takatsuki,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-900,Yasushi Ueda,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+896,Giray Coskun,,,,0,0,0,1,0,0,0,0,0,0,0,0,1
+897,Cankut Coskun,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+898,Naoko Okubo,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+899,Shoma Takatsuki,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+900,Yasushi Ueda,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 901,Masakazu Jimbo,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-902,Tyler Cody,National Security Institute,United States,,0,0,0,0,0,0,0,0,0,0,0,0,1
-903,Erin Lanus,Virginia Tech,United States,,0,0,0,0,0,0,0,0,0,0,0,0,4
-904,Daniel D. Doyle,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-905,Laura J. Freeman,National Security Institute,United States,,0,0,0,0,0,0,0,0,0,0,0,0,4
-906,Yan Wang,Nanjing Xiaozhuang University,China,,2,0,0,0,1,0,0,0,0,0,0,0,1
-907,Jiaxi Xu,Nanjing Xiaozhuang University,China,,2,0,0,0,1,0,0,0,0,0,0,0,1
+902,Tyler Cody,National Security Institute,United States,,0,0,0,0,0,0,0,0,0,0,0,0,2
+903,Erin Lanus,Virginia Tech,United States,,0,0,0,0,0,0,0,0,0,0,0,0,6
+904,Daniel D. Doyle,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+905,Laura J. Freeman,National Security Institute,United States,,0,0,0,0,0,0,0,0,0,0,0,0,6
+906,Yan Wang,Nanjing Xiaozhuang University,China,,2,0,0,0,2,0,0,0,0,0,0,0,1
+907,Jiaxi Xu,Nanjing Xiaozhuang University,China,,2,0,0,0,2,0,0,0,0,0,0,0,1
 908,Daniel Osvaldo Ramirez-Acuna,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 909,Brenda Acevedo-Juárez,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 910,Silvia P. Boumova,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -917,20 +917,20 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 916,Kangjie Lu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 917,Jinwei Shen,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 918,Robert M. Hierons,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-919,Atakan Aytar,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-920,Dilara Müstecep,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-921,Gülsüm Uzer,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-922,Bing He,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
-923,Yingjie Fu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-924,Qingwei Lin,,,,0,0,0,0,0,1,2,0,0,0,0,0,0
+919,Atakan Aytar,,,,0,0,0,1,0,0,0,0,0,0,0,0,0
+920,Dilara Müstecep,,,,0,0,0,1,0,0,0,0,0,0,0,0,0
+921,Gülsüm Uzer,,,,0,0,0,1,0,0,0,0,0,0,0,0,0
+922,Bing He,,,,0,0,0,0,0,2,0,0,0,0,0,0,0
+923,Yingjie Fu,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+924,Qingwei Lin,,,,0,0,0,0,0,2,2,0,0,0,0,0,0
 925,Frano Skopljanac-Macina,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 926,Ivona Zakarija,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 927,Bruno Blaskovic,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-928,Xin Chen,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-929,Bo Qiao,,,,0,0,0,0,0,0,1,0,0,0,0,0,0
-930,Pu Zhao,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-931,Saravanakumar Rajmohan,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-932,Dongmei Zhang,,,,0,0,0,0,0,0,1,0,0,0,0,0,0
+928,Xin Chen,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+929,Bo Qiao,,,,0,0,0,0,0,1,1,0,0,0,0,0,0
+930,Pu Zhao,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+931,Saravanakumar Rajmohan,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+932,Dongmei Zhang,,,,0,0,0,0,0,1,1,0,0,0,0,0,0
 933,Yanliang Zhang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 934,Peng Gao,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 935,Shiyong Shuang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -942,19 +942,19 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 941,Eda Marchetti,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 942,Chuangfei Huang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 943,Cheng Zong,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-944,Eduard Baranov,,,,1,0,0,0,0,1,1,0,0,0,0,0,0
-945,Kuldeep S. Meel,,,,1,0,0,0,0,1,1,0,0,0,0,0,0
-946,Jan Richter,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-947,Cleber R. Rosa Junior,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+944,Eduard Baranov,,,,2,0,0,0,0,1,1,0,0,0,0,0,0
+945,Kuldeep S. Meel,,,,2,0,0,0,0,1,1,0,0,0,0,0,0
+946,Jan Richter,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+947,Cleber R. Rosa Junior,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 948,Hamsa Naji Nsaif Al-Sammarraie,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 949,Dayang N. A. Jawawi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-951,Horst Lichter,RWTH Aachen University,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,4
-952,Kohei Nishino,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-953,Tomoji Kishi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+951,Horst Lichter,RWTH Aachen University,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,5
+952,Kohei Nishino,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+953,Tomoji Kishi,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 954,Ali Hassan,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 955,Salwani Abdullah,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 956,Rozilawati Razali,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-957,Torben Friedrichs,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+957,Torben Friedrichs,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 958,Christoph Gladisch,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 959,Christian Heinzemann,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 960,Martin Herrmann,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1000,51 +1000,51 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1000,Natsuko Noda,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1001,Jihyun Lee,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1002,Sunmyung Hwang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1003,Lei Ma,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1004,Felix Juefei Xu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1005,Minhui Xue,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1006,Bo Li,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1007,Li Li,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1008,Yang Liu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1009,Jianjun Zhao,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1011,Yifei Lu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1012,Minxue Pan,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1013,Juan Zhai,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1014,Tian Zhang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1015,Xuandong Li,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1003,Lei Ma,,,,0,0,0,0,0,0,0,0,0,1,0,0,0
+1004,Felix Juefei Xu,,,,0,0,0,0,0,0,0,0,0,1,0,0,0
+1005,Minhui Xue,,,,0,0,0,0,0,0,0,0,0,1,0,0,0
+1006,Bo Li,,,,0,0,0,0,0,0,0,0,0,1,0,0,0
+1007,Li Li,,,,0,0,0,0,0,0,0,0,0,1,0,0,0
+1008,Yang Liu,,,,0,0,0,0,0,0,0,0,0,1,0,0,0
+1009,Jianjun Zhao,,,,0,0,0,0,0,0,0,0,0,1,0,0,0
+1011,Yifei Lu,,,,0,0,0,0,0,0,1,0,0,0,0,0,0
+1012,Minxue Pan,,,,0,0,0,0,0,0,1,0,0,0,0,0,0
+1013,Juan Zhai,,,,0,0,0,0,0,0,1,0,0,0,0,0,0
+1014,Tian Zhang,,,,0,0,0,0,0,0,1,0,0,0,0,0,0
+1015,Xuandong Li,,,,0,0,0,0,0,0,1,0,0,0,0,0,0
 1016,Daniel J. Ragsdale,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1017,Caleb King,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1018,Joseph Morgan,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1019,Ryan Lekivetz,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1020,Yanshan Chen,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1021,Dong Wang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1022,Chunrong Fang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1023,Andrew Hicks,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1024,Ryan Rawlins,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1025,Miraldi Fifo,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1026,Joshua Bonn,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1027,Riley Smith,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
-1028,Darryl C. Jarman,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
-1029,Jared Bellows,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1030,Clovis Eberhart,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1031,Fuyuki Ishikawa,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1032,Nian-Ze Lee,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1033,Christian Eitner,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1034,Gabe Gosney,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1020,Yanshan Chen,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1021,Dong Wang,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1022,Chunrong Fang,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1023,Andrew Hicks,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1024,Ryan Rawlins,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1025,Miraldi Fifo,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1026,Joshua Bonn,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1027,Riley Smith,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
+1028,Darryl C. Jarman,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
+1029,Jared Bellows,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1030,Clovis Eberhart,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1031,Fuyuki Ishikawa,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1032,Nian-Ze Lee,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1033,Christian Eitner,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1034,Gabe Gosney,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 1035,Amador Pahim,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1037,Violet R. Syrotiuk,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1038,Artur Andrzejak,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
-1039,Thomas Bach,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
-1040,Jing Zhao,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1041,Gao-Rong Ning,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1042,HL Lu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1043,YB Wang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1044,Yan Cai,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1045,Axel Halin,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1046,Alexandre Nuttinck,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1047,Xavier Devroey,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1038,Artur Andrzejak,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
+1039,Thomas Bach,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
+1040,Jing Zhao,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+1041,Gao-Rong Ning,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+1042,HL Lu,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+1043,YB Wang,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+1044,Yan Cai,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+1045,Axel Halin,,,,0,0,1,0,0,0,0,0,0,0,0,0,0
+1046,Alexandre Nuttinck,,,,0,0,1,0,0,0,0,0,0,0,0,0,0
+1047,Xavier Devroey,,,,0,0,1,0,0,0,0,0,0,0,0,0,0
 1048,Ammar K Alazzawi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1049,Quanjun Zhang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1049,Quanjun Zhang,,,,0,0,0,1,0,0,0,0,0,0,0,0,0
 1050,James Hamlyn-Harris,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1051,AbdulRahman A. Alsewari,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1052,Deepa Gupta,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1056,21 +1056,21 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1058,Claudio de la Riva,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1059,Javier Tuya,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1060,Jian-tao Zhou,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1061,Orna Raz,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1062,Marcel Zalmanovici,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1063,Weifeng Sun,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1061,Orna Raz,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+1062,Marcel Zalmanovici,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
+1063,Weifeng Sun,,,,0,0,0,1,0,0,0,0,0,0,0,0,0
 1064,Lampros Pyrgas,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1065,Robert Binder,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1066,Sudheer Pendela,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1067,Chek Pin Yang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1068,James Marco,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1069,Paul Jennings,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1065,Robert Binder,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1066,Sudheer Pendela,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1067,Chek Pin Yang,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1068,James Marco,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1069,Paul Jennings,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 1070,Peng Sun,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1071,Xiaochuang Tang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1072,Liang Luo,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1073,Yuper Lay Myint,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1074,Hideyuki Kanuka,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1075,Hiroki Ohbayashi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1073,Yuper Lay Myint,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1074,Hideyuki Kanuka,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1075,Hiroki Ohbayashi,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 1076,Min Yu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1077,Feiyan She,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1078,Zhiqin Zhu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1096,8 +1096,8 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1099,Chunfeng Hu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1100,Siqi Liu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1101,Sarthak Arora,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1102,Violet R Syrotiuk,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1103,Erik Rogstad,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1102,Violet R Syrotiuk,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1103,Erik Rogstad,,,,0,0,0,1,0,0,0,0,0,0,0,0,0
 1104,Juliana Marino Balera,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1105,Valdivino Alexandre de Santiago Junior,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1106,Khandakar Rabbi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1136,8 +1136,8 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1139,Gary Bazdell,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1140,Nor Ashidi Mat Isa,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1141,N.A. Mat Isa,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1142,Sébastien Ville,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1143,Elodie Rose,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1142,Sébastien Ville,,,,0,0,0,0,0,0,0,1,0,0,0,0,0
+1143,Elodie Rose,,,,0,0,0,0,0,0,0,1,0,0,0,0,0
 1144,Jangbok Kim,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1145,Kyunghee Choi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1146,Daniel M. Hoffman,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1145,11 +1145,11 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1148,Siti Norbaya Azizan,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1149,Alan Hartman,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1150,Leonid Raskin,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1151,Yanjie Sun,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1152,Gang Li,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1151,Yanjie Sun,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
+1152,Gang Li,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
 1153,Zhenjiang Zhao,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1154,Takahisa Toda,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1155,Ankita Ramjibhai Patel,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1155,Ankita Ramjibhai Patel,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
 1156,Calanna Salvatore,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1157,Riccardo Torrisi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1158,Hendrik Bernd Petersen,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1161,14 +1161,14 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1164,Johanna Ahmad,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1165,Hyunsook Do,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1166,Barrett R. Bryant,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1167,Konrad Fögen,RWTH Aachen University,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,4
+1167,Konrad Fögen,RWTH Aachen University,Germany,,0,0,0,0,0,0,0,0,0,0,0,0,5
 1168,Hong Shu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1169,Haoran Lv,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1170,Kang Liu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1171,Kang Yuan,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1172,Xiaolin Tang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1173,Laleh Shikh Gholamhossein Ghandehari,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1174,David Chenho Kung,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1173,Laleh Shikh Gholamhossein Ghandehari,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
+1174,David Chenho Kung,,,,1,0,0,0,0,0,0,0,0,0,0,0,0
 1175,Huynh Quyet Thang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1176,Duc-Man Nguyen,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1177,Nhu-Hang Ha,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1179,7 +1179,7 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1182,Filip Niksic,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1183,Behailu Getachew Wolde,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1184,Abiot Sinamo Boltana,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1185,Robert V. Binder,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1185,Robert V. Binder,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 1186,Andreas H. Ronneseth,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1187,Yang Li,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1188,Lijun Ji,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1201,10 +1201,10 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1204,Carmen Baumann,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1205,Léna Bamouh,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1206,Erwan Bousse,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1207,Jianping Song,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1207,Jianping Song,,,,0,1,0,0,0,0,0,0,0,0,0,0,0
 1208,Yibei Li,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1209,Megan M. Olsen,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1210,M. S. Raunak,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1210,M. S. Raunak,,,,0,0,0,0,0,0,0,0,0,0,0,0,4
 1211,Fei-Yue Wang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1212,Zhuowei Wang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1213,Enrico Iurlano,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1291,10 +1291,10 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1294,Wei Zhang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1295,Einollah Pira,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1296,Mohammad Khodizadeh-Nahari,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1297,C. M. Hicks Andrew,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1298,Deborah Ann Furman,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
-1299,Ryan Thomas Rawlins,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
-1300,Michael Edward Gildein,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1297,C. M. Hicks Andrew,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1298,Deborah Ann Furman,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
+1299,Ryan Thomas Rawlins,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
+1300,Michael Edward Gildein,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
 1301,Abdul Rahman A. Alsewari,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1302,Robin Poston,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1303,Mohammed Balfaqih,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1308,12 +1308,12 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1311,Chang-Yu Chiu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1312,Kai-Wen Chen,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1313,Chen-Hua Lee,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1314,Saurabh Sinha,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1315,Antonio Abu Nassar,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1316,Victoria Goldin,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1317,Haim Kermany,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1314,Saurabh Sinha,,,,0,0,0,0,0,0,0,0,0,0,0,1,0
+1315,Antonio Abu Nassar,,,,0,0,0,0,0,0,0,0,0,0,0,1,0
+1316,Victoria Goldin,,,,0,0,0,0,0,0,0,0,0,0,0,1,0
+1317,Haim Kermany,,,,0,0,0,0,0,0,0,0,0,0,0,1,0
 1318,Ram Gouda,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1319,Edoardo Crippa,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1319,Edoardo Crippa,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 1320,Zhengwei Luo,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1321,Jidong Lv,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1322,Tao Tang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1335,45 +1335,45 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1338,Ming Huang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1339,Xuan Jiao,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1340,Chih-Hung Chang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1341,Kambiz Nezami Balouchi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1342,Julien Mercier,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1343,Shengyou Hu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1341,Kambiz Nezami Balouchi,,,,0,0,0,1,0,0,0,0,0,0,0,0,0
+1342,Julien Mercier,,,,0,0,0,1,0,0,0,0,0,0,0,0,0
+1343,Shengyou Hu,,,,0,0,0,0,0,0,0,0,0,0,1,0,0
 1344,Lei Yu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1345,Sunny Shree,,,,0,0,0,0,0,0,0,1,0,0,0,0,1
+1345,Sunny Shree,,,,0,0,0,0,0,0,0,1,0,0,0,0,2
 1346,Puxka Acosta-Domínguez,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1347,Ángel Juan Sánchez-García,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1348,Candy Obdulia Sosa-Jiménez,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1349,Tobias Pett,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1350,Thomas Thüm,,,,0,1,0,0,0,0,0,0,0,0,0,0,0
+1349,Tobias Pett,,,,0,0,0,0,0,0,0,0,0,0,0,1,0
+1350,Thomas Thüm,,,,0,1,0,0,0,0,0,0,0,0,0,1,0
 1351,Ina Schaefer,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1352,Sourav Chakraborty,,,,1,0,0,0,0,1,0,0,0,0,0,0,0
-1353,N. Variyam Vinodchandran,,,,1,0,0,0,0,1,0,0,0,0,0,0,0
+1352,Sourav Chakraborty,,,,2,0,0,0,0,1,0,0,0,0,0,0,0
+1353,N. Variyam Vinodchandran,,,,2,0,0,0,0,1,0,0,0,0,0,0,0
 1354,Tobias Heß,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1355,Tim Jannik Schmidt,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1355,Tim Jannik Schmidt,,,,0,0,0,0,0,0,0,0,0,0,0,1,0
 1356,Lukas Ostheimer,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1357,Binqi Sun,,,,0,0,0,0,0,0,1,0,0,0,0,0,0
-1358,Junjie Chen,,,,0,0,0,0,0,0,1,0,0,0,0,0,0
+1357,Binqi Sun,,,,0,1,0,0,0,0,1,0,0,0,0,0,0
+1358,Junjie Chen,,,,0,1,0,0,0,0,1,0,0,0,0,0,0
 1359,Jeho Oh,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1360,Paul Gazzillo,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1361,Don S. Batory,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1362,Dominik Krupke,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1363,Ahmad Moradi,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1364,Michael Perk,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1365,Phillip Keldenich,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1366,Gabriel Gehrke,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1367,Sándor P. Fekete,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1368,Brian Lee,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1369,Luis Pol,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1370,Daniel Sobien,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1371,Justin Kauffman,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1372,Dino Dodig,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1373,David Kaufmann,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1374,Kenya Takemura,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1375,Charles B. Prado,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1376,Vinay C. Patil,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1377,Brian Elgaard Bennett,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1378,Omer Korkmaz,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1379,Daniel Sebastian Lang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1362,Dominik Krupke,,,,0,1,0,0,0,0,0,0,0,0,0,0,0
+1363,Ahmad Moradi,,,,0,1,0,0,0,0,0,0,0,0,0,0,0
+1364,Michael Perk,,,,0,1,0,0,0,0,0,0,0,0,0,0,0
+1365,Phillip Keldenich,,,,0,1,0,0,0,0,0,0,0,0,0,0,0
+1366,Gabriel Gehrke,,,,0,1,0,0,0,0,0,0,0,0,0,0,0
+1367,Sándor P. Fekete,,,,0,1,0,0,0,0,0,0,0,0,0,0,0
+1368,Brian Lee,,,,0,0,0,0,0,0,0,0,0,0,0,0,2
+1369,Luis Pol,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1370,Daniel Sobien,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1371,Justin Kauffman,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1372,Dino Dodig,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1373,David Kaufmann,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1374,Kenya Takemura,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1375,Charles B. Prado,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1376,Vinay C. Patil,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1377,Brian Elgaard Bennett,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1378,Omer Korkmaz,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1379,Daniel Sebastian Lang,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
 1380,Jinwu Guo,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1381,Sai Prathyush Katragadda,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1382,Peter A. Beling,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1392,18 +1392,18 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1395,Prasath Nithiyanandam,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1396,Saradha Sekar,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1397,Sangeetha Shanmugam,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1398,Arjun Dahal,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1399,Ulrike Grömping,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1400,Andrew C. M. Hicks,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1401,Dianhui Chu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1398,Arjun Dahal,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1399,Ulrike Grömping,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1400,Andrew C. M. Hicks,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1401,Dianhui Chu,,,,0,0,0,0,0,1,0,0,0,0,0,0,0
 1402,Lukas Birkemeyer,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1403,Tobias Runge,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1404,Xuye Zhuang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1405,Jiancheng Yin,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1406,Bowen Zhang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1407,Siting Yang,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1408,Riddhi More,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1409,Sabrina Böhm,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1408,Riddhi More,,,,0,0,0,0,0,0,0,0,0,0,0,1,0
+1409,Sabrina Böhm,,,,0,0,0,0,0,0,0,0,0,0,0,1,0
 1410,Davar Giveki,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1411,Amir Rastegarnia,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1412,Ali Farzamnia,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1436,8 +1436,19 @@ id,name,institution,country,homepage,TSE,TOSEM,EMSE,JSS,IST,ICSE,FSE,ASE,ISSTA,S
 1439,Chuanqi Tao,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1440,Jian Xie,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
 1441,Jun Hu,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1442,Agustín Borda,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1443,Germán Regis,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1444,Nazareno Aguirre,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1445,Marcelo F. Frias,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
-1446,Pablo Ponzio,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+1442,Agustín Borda,,,,0,0,0,0,0,0,0,1,0,0,0,0,0
+1443,Germán Regis,,,,0,0,0,0,0,0,0,1,0,0,0,0,0
+1444,Nazareno Aguirre,,,,0,0,0,0,0,0,0,1,0,0,0,0,0
+1445,Marcelo F. Frias,,,,0,0,0,0,0,0,0,1,0,0,0,0,0
+1446,Pablo Ponzio,,,,0,0,0,0,0,0,0,1,0,0,0,0,0
+1447,Megan Olsen,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1448,Hans Van Lierop,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1449,Fenrir Badorf,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1450,Francis Durso,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1451,Konstantin Gerner,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1452,Wolfgang Czerni,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1453,Till Schallau,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1454,Dominik Schmid,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1455,Nick Pawlinorz,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1456,Stefan Naujokat,,,,0,0,0,0,0,0,0,0,0,0,0,0,1
+1457,Falk Howar,,,,0,0,0,0,0,0,0,0,0,0,0,0,1

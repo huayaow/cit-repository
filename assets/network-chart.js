@@ -76,6 +76,10 @@ var authors = [
   
   {id: 'Laura J. Freeman', name: 'Laura J. Freeman'},
   
+  {id: 'Brian Lee', name: 'Brian Lee'},
+  
+  {id: 'M. S. Raunak', name: 'M. S. Raunak'},
+  
   {id: 'Deborah Ann Furman', name: 'Deborah Ann Furman'},
   
   {id: 'Eitan Farchi', name: 'Eitan Farchi'},
@@ -83,6 +87,8 @@ var authors = [
   {id: 'Michael Edward Gildein', name: 'Michael Edward Gildein'},
   
   {id: 'Ryan Thomas Rawlins', name: 'Ryan Thomas Rawlins'},
+  
+  {id: 'Klaus Kieseberg', name: 'Klaus Kieseberg'},
   
   {id: 'Paolo Arcaini', name: 'Paolo Arcaini'},
   
@@ -193,8 +199,6 @@ var authors = [
   {id: 'Cemal Yilmaz', name: 'Cemal Yilmaz'},
   
   {id: 'Hanefi Mercan', name: 'Hanefi Mercan'},
-  
-  {id: 'M. S. Raunak', name: 'M. S. Raunak'},
   
   {id: 'Shaukat Ali', name: 'Shaukat Ali'},
   
@@ -702,15 +706,17 @@ var authors = [
 
 var pairs = [
   
-  {source: 'Bernhard Garn', target: 'Dimitris E. Simos', count: 24},
+  {source: 'Bernhard Garn', target: 'Dimitris E. Simos', count: 25},
   
   {source: 'Bernhard Garn', target: 'Manuel Leithner', count: 9},
   
   {source: 'Bernhard Garn', target: 'Rick Kuhn', count: 4},
   
-  {source: 'Bernhard Garn', target: 'D. Richard Kuhn', count: 3},
+  {source: 'Bernhard Garn', target: 'D. Richard Kuhn', count: 4},
   
-  {source: 'Bernhard Garn', target: 'Raghu N. Kacker', count: 6},
+  {source: 'Bernhard Garn', target: 'Klaus Kieseberg', count: 2},
+  
+  {source: 'Bernhard Garn', target: 'Raghu N. Kacker', count: 7},
   
   {source: 'Bernhard Garn', target: 'Dominik-Philip Schreiber', count: 3},
   
@@ -742,11 +748,13 @@ var pairs = [
   
   {source: 'Dimitris E. Simos', target: 'Reinhard Kugler', count: 2},
   
+  {source: 'Dimitris E. Simos', target: 'D. Richard Kuhn', count: 14},
+  
+  {source: 'Dimitris E. Simos', target: 'Klaus Kieseberg', count: 2},
+  
+  {source: 'Dimitris E. Simos', target: 'Raghu N. Kacker', count: 19},
+  
   {source: 'Dimitris E. Simos', target: 'Michael Wagner', count: 14},
-  
-  {source: 'Dimitris E. Simos', target: 'D. Richard Kuhn', count: 13},
-  
-  {source: 'Dimitris E. Simos', target: 'Raghu N. Kacker', count: 18},
   
   {source: 'Dimitris E. Simos', target: 'Christoph Wech', count: 2},
   
@@ -1116,15 +1124,19 @@ var pairs = [
   
   {source: 'Yu Lei', target: 'Kuo-Chung Tai', count: 2},
   
-  {source: 'D. Richard Kuhn', target: 'Raghu N. Kacker', count: 80},
+  {source: 'D. Richard Kuhn', target: 'Raghu N. Kacker', count: 82},
   
   {source: 'D. Richard Kuhn', target: 'Sunny Shree', count: 3},
   
+  {source: 'D. Richard Kuhn', target: 'Erin Lanus', count: 2},
+  
+  {source: 'D. Richard Kuhn', target: 'Jaganmohan Chandrasekaran', count: 8},
+  
+  {source: 'D. Richard Kuhn', target: 'Laura J. Freeman', count: 2},
+  
+  {source: 'D. Richard Kuhn', target: 'M. S. Raunak', count: 5},
+  
   {source: 'D. Richard Kuhn', target: 'Krishna Khadka', count: 3},
-  
-  {source: 'D. Richard Kuhn', target: 'Jaganmohan Chandrasekaran', count: 7},
-  
-  {source: 'D. Richard Kuhn', target: 'M. S. Raunak', count: 3},
   
   {source: 'D. Richard Kuhn', target: 'Chang Rao', count: 2},
   
@@ -1180,15 +1192,19 @@ var pairs = [
   
   {source: 'Raghu N. Kacker', target: 'Sunny Shree', count: 3},
   
-  {source: 'Raghu N. Kacker', target: 'Krishna Khadka', count: 3},
+  {source: 'Raghu N. Kacker', target: 'Erin Lanus', count: 2},
   
-  {source: 'Raghu N. Kacker', target: 'Jaganmohan Chandrasekaran', count: 7},
+  {source: 'Raghu N. Kacker', target: 'Jaganmohan Chandrasekaran', count: 8},
+  
+  {source: 'Raghu N. Kacker', target: 'Laura J. Freeman', count: 2},
+  
+  {source: 'Raghu N. Kacker', target: 'M. S. Raunak', count: 4},
+  
+  {source: 'Raghu N. Kacker', target: 'Krishna Khadka', count: 3},
   
   {source: 'Raghu N. Kacker', target: 'Dominik-Philip Schreiber', count: 2},
   
   {source: 'Raghu N. Kacker', target: 'Jeffrey M. Voas', count: 2},
-  
-  {source: 'Raghu N. Kacker', target: 'M. S. Raunak', count: 3},
   
   {source: 'Raghu N. Kacker', target: 'Chang Rao', count: 2},
   
@@ -1242,11 +1258,19 @@ var pairs = [
   
   {source: 'Ankita Ramjibhai Patel', target: 'Jaganmohan Chandrasekaran', count: 2},
   
-  {source: 'Erin Lanus', target: 'Laura J. Freeman', count: 4},
+  {source: 'Erin Lanus', target: 'Jaganmohan Chandrasekaran', count: 2},
+  
+  {source: 'Erin Lanus', target: 'Laura J. Freeman', count: 5},
+  
+  {source: 'Erin Lanus', target: 'Brian Lee', count: 2},
   
   {source: 'Erin Lanus', target: 'Charles J. Colbourn', count: 3},
   
+  {source: 'Jaganmohan Chandrasekaran', target: 'Laura J. Freeman', count: 2},
+  
   {source: 'Jaganmohan Chandrasekaran', target: 'Laleh Sh. Ghandehari', count: 2},
+  
+  {source: 'Laura J. Freeman', target: 'Brian Lee', count: 2},
   
   {source: 'Laura J. Freeman', target: 'Tyler Cody', count: 3},
   

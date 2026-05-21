@@ -92,9 +92,11 @@ class Librarian:
       # calculate number of authored papers (for target venues only)
       if row.abbr in self.target_venues:
         for name in names:
+          # the first occurrence of the name
           if name not in paper_count:
             paper_count[name] = {}
-          elif row.abbr not in paper_count[name]:
+          # initialize, or update the paper number
+          if row.abbr not in paper_count[name]:
             paper_count[name][row.abbr] = 1
           elif row.abbr in paper_count[name]:
             paper_count[name][row.abbr] += 1
