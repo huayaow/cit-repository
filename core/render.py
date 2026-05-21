@@ -64,6 +64,7 @@ class Render:
     self.render_statistic()
     self.render_rank()
     self.render_network()
+    self.render_contact()
 
   def render_index(self, update_date):
     """
@@ -157,6 +158,14 @@ class Render:
     self.render('network.j2.html', context, 'render/network.html')
     self.render('network-chart.j2.js', context, 'assets/network-chart.js')
     print('[Render] generate network.html')
+
+  def render_contact(self):
+    context = {
+      'static_url': '../',
+      'active_page': 'contact'
+    }
+    self.render('contact.j2.html', context, 'render/contact.html')
+    print('[Render] generate contact.html')
 
 if __name__ == '__main__':
   r = Render()
